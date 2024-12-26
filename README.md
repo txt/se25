@@ -1,4 +1,4 @@
-# 💡 :bulb: se25a
+#  :cyclone:  se25a
 
 
 video repo
