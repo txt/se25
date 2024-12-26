@@ -1,4 +1,5 @@
-#  :cyclone:  csc510: SE (spring'25)
+<img align=right width=400 src="/img/banner.png">
+<h1> :cyclone:  csc510: SE (spring'25)</h1>
 
 [home](home) | [syllabus](syllabus) | [groups](groups) | [moodle](moodle)
 
