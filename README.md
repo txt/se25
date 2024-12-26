@@ -1,5 +1,5 @@
 <a name=#top><p>&nbsp;<img align=right width=400 src="/img/banner.png">
-<h1> :cyclone:  csc510: Sofware Engineering<h1>
+<h1> :cyclone:  csc510: Sofware Engineering</h1>h1>
 <h2>nc state, spring'25</h2>
 
 [home](home) | [syllabus](syllabus) | [groups](groups) | [moodle](moodle)
