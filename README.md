@@ -12,7 +12,7 @@
 <table>
   <thead>
     <tr>
-      <th>📅 Monday Date</th>
+      <th>📅  Date</th>
       <th>🎓 Lecture</th>
       <th>🛠️ Tutorial</th>
       <th>📂 Project</th>
