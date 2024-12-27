@@ -64,7 +64,7 @@ via  <a href="https://creativecommons.org/licenses/by-sa/4.0/?ref=chooser-v1" ta
       <td></td>
       <td></td>
       <td>
-           Wed: <a href="docs/tut01.md">Make my day</a><br>
+           Wed: <a href="docs/hw01.md">Make my day</a><br>
       </td>
       <td></td>
       <td></td>
