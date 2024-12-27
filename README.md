@@ -29,8 +29,8 @@ via  <a href="https://creativecommons.org/licenses/by-sa/4.0/?ref=chooser-v1" ta
     <tr>
       <th>📅  Date</th>
       <th>🎓 Lecture</th>
-      <th>🛠️ Homework</th>
-      <th>📂 Project</th>
+      <th>🛠️ Homework submission</th>
+      <th>📂 Project submission</th>
       <th>✨ Other</th>
       <th>📝 Notes</th>
       <th>📊 Grade</th>
