@@ -137,20 +137,20 @@ via  <a href="https://creativecommons.org/licenses/by-sa/4.0/?ref=chooser-v1" ta
       <td></td>
       <td></td>
       <td>
-         Frid: <a href="docs/essay.md">ethics essay</a>
       </td>
       <td>
       </td>
-      <td>20:essay</td>
+      <td></td>
     </tr>
     <tr>
       <td>Mar17</td>
       <td></td>
       <td></td>
       <td></td>
+         Frid: <a href="docs/essay.md">ethics essay</a>
       <td></td>
       <td></td>
-      <td></td>
+      <td>20:essay</td>
     </tr>
     <tr>
       <td>Mar24</td>
