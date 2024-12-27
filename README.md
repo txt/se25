@@ -132,8 +132,7 @@ via  <a href="https://creativecommons.org/licenses/by-sa/4.0/?ref=chooser-v1" ta
     </tr>
     <tr>
       <td>Mar10</td>
-      <td>Mon: no class (spring break)<br>
-          Tues: no class</td>
+      <td>Mon,Wed: no class (spring break)
       <td></td>
       <td></td>
       <td>
@@ -191,8 +190,7 @@ via  <a href="https://creativecommons.org/licenses/by-sa/4.0/?ref=chooser-v1" ta
     </tr>
     <tr>
       <td>Apr21</td>
-      <td>Mon: no lecture<br>
-          Wed: no lecture</td>
+      <td>Mon, Wed: no class
       <td></td>
       <td></td>
       <td></td>
@@ -207,7 +205,8 @@ via  <a href="https://creativecommons.org/licenses/by-sa/4.0/?ref=chooser-v1" ta
       <td></td>
       <td></td>
       <td></td>
-      <td>Exam is optional. If taken, this  grade will replaces the mid-term grade.</td>
+      <td>Exam is optional. If taken, this  grade will replaces the mid-term grade.<br>
+          Grades will be posted to NC State, Friday May 2..</td>
       <td>25:exam</td>
     </tr>
   </tbody>
