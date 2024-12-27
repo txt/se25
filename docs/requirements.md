@@ -47,6 +47,7 @@ The RE process can be summarized as **Re-elicitation, Analysis, Negotiation, and
 - **Definition**: Evaluating requirements for feasibility, consistency, and potential conflicts.
 - **Goal**: Identify missing, conflicting, or ambiguous requirements.
 - **Techniques**:
+  - [Postit notes](/img/story.jpeg)
   - Data Flow Diagrams (DFD)
   - Dependency Analysis
   - Scenario Analysis
