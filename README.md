@@ -72,7 +72,7 @@ via  <a href="https://creativecommons.org/licenses/by-sa/4.0/?ref=chooser-v1" ta
       </td>
       <td></td>
       <td></td>
-      <td>1 (homework)<br>5 (project)</td>
+      <td>1:homework<br>5:project</td>
     </tr>
     <tr>
       <td>jan27</td>
@@ -99,7 +99,7 @@ via  <a href="https://creativecommons.org/licenses/by-sa/4.0/?ref=chooser-v1" ta
       <td></td>
       <td>Proj2: Extend old code</td>
       <td></td>
-      <td> 15 (project)</td>
+      <td>15:project</td>
     </tr>
     <tr>
       <td>feb17</td>
@@ -126,7 +126,7 @@ via  <a href="https://creativecommons.org/licenses/by-sa/4.0/?ref=chooser-v1" ta
       <td></td>
       <td></td>
       <td></td>
-      <td>20 (exam)</td>
+      <td>20(exam)</td>
     </tr>
     <tr>
       <td>mar10</td>
