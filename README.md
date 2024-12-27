@@ -128,7 +128,7 @@ via  <a href="https://creativecommons.org/licenses/by-sa/4.0/?ref=chooser-v1" ta
       <td>Wed. Proj2: <a href="docs/proj2.md">Extend old code</a></td>
       <td></td>
       <td></td>
-      <td>20:project</td>
+      <td>15:project</td>
     </tr>
     <tr>
       <td>Mar03</td>
@@ -195,7 +195,7 @@ via  <a href="https://creativecommons.org/licenses/by-sa/4.0/?ref=chooser-v1" ta
       <td>Wed. Proj3: <a href="docs/proj3.md">A great project</a></td>
       <td></td>
       <td></td>
-      <td>25:project</td>
+      <td>20:project</td>
     </tr>
     <tr>
       <td>Apr21</td>
