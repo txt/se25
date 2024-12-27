@@ -159,7 +159,7 @@ via  <a href="https://creativecommons.org/licenses/by-sa/4.0/?ref=chooser-v1" ta
          Frid: <a href="docs/essay.md">ethics essay</a>
       </td>
       <td></td>
-      <td>20:essay</td>
+      <td>22:essay</td>
     </tr>
     <tr>
       <td>Mar24</td>
@@ -195,7 +195,7 @@ via  <a href="https://creativecommons.org/licenses/by-sa/4.0/?ref=chooser-v1" ta
       <td>Wed. Proj3: <a href="docs/proj3.md">A great project</a></td>
       <td></td>
       <td></td>
-      <td>20:project</td>
+      <td>23:project</td>
     </tr>
     <tr>
       <td>Apr21</td>
