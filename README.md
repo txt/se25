@@ -37,7 +37,7 @@ via  <a href="https://creativecommons.org/licenses/by-sa/4.0/?ref=chooser-v1" ta
     </tr>
   </thead>
   <tbody>
-    <tr>
+    <tr submission>
       <td>jan06</td>
       <td></td>
       <td></td>
@@ -121,12 +121,12 @@ via  <a href="https://creativecommons.org/licenses/by-sa/4.0/?ref=chooser-v1" ta
     </tr>
     <tr>
       <td>mar03</td>
-      <td>Wed: no class</td>
+      <td>Wed: Mid-term exam</td>
       <td></td>
       <td></td>
       <td></td>
       <td></td>
-      <td></td>
+      <td>Mid-term: 20 marks</td>
     </tr>
     <tr>
       <td>mar10</td>
