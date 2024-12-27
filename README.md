@@ -97,7 +97,7 @@ via  <a href="https://creativecommons.org/licenses/by-sa/4.0/?ref=chooser-v1" ta
       <td></td>
       <td></td>
       <td></td>
-      <td>Proj2: Extend old code</td>
+      <td></td>
       <td></td>
       <td>15:project</td>
     </tr>
@@ -105,7 +105,7 @@ via  <a href="https://creativecommons.org/licenses/by-sa/4.0/?ref=chooser-v1" ta
       <td>feb17</td>
       <td></td>
       <td></td>
-      <td></td>
+      <td>Proj2: Extend old code</td>
       <td></td>
       <td></td>
       <td></td>
