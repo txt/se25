@@ -9,7 +9,7 @@ help : Makefile ## print help
            "  \033[36m%-25s\033[0m %s\n","make " $$1,$$2}'  $< \
 	| grep -v awk
 
-ONE=cat $< | awk 'BEGIN {FS="\n";RS=""} {print $$0 "\n"; exit}' | awk '{print "  " $$0} END{print("\n\n")}' 
+ONE=cat $< | awk 'BEGIN {FS="\n";RS=""} {print $$0 ; exit}' 
 TWOPLUS=cat $@ | awk 'BEGIN {FS="\n";RS=""} NR==1 { print("\n\n"); next} {print $$0 "\n\n"}'
 
 all: ## save all to Github
