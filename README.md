@@ -66,7 +66,7 @@ via  <a href="https://creativecommons.org/licenses/by-sa/4.0/?ref=chooser-v1" ta
            Mon: no class (MLK  day)<br>
       </td>
       <td>
-           Wed: <a href="docs/hw01.md">HW1:  Make my day</a>
+           Wed: <a href="docs/hw01.md">HW1:share code</a>
       </td>
       <td>
       </td>
@@ -78,7 +78,7 @@ via  <a href="https://creativecommons.org/licenses/by-sa/4.0/?ref=chooser-v1" ta
       <td>Jan27</td>
       <td></td>
       <td>
-           Wed: <a href="docs/hw02.md">HW2:  Share code</a>
+           Wed: <a href="docs/hw02.md">HW2: debugging</a>
       </td>
       <td>
            Mon: <a href="docs/proj1.md">Proj1: Goal setting</a>
@@ -104,7 +104,7 @@ via  <a href="https://creativecommons.org/licenses/by-sa/4.0/?ref=chooser-v1" ta
       <td>Feb10</td>
       <td></td>
       <td>
-           Wed: <a href="docs/hw04.md">HW4: Scropt wizardy</a>
+           Wed: <a href="docs/hw04.md">HW4: Make my day</a>
       </td>
       <td>
       </td>
@@ -116,7 +116,7 @@ via  <a href="https://creativecommons.org/licenses/by-sa/4.0/?ref=chooser-v1" ta
       <td>Feb17</td>
       <td></td>
       <td></td>
-      <td></td>
+      <td>Wed. Proj2: <a href="docs/hw04.md">Extend old code</a></td>
       <td></td>
       <td></td>
       <td></td>
