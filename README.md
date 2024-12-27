@@ -80,6 +80,7 @@ via  <a href="https://creativecommons.org/licenses/by-sa/4.0/?ref=chooser-v1" ta
       <td></td>
            Fri: <a href="docs/proj1.md">Proj1: Goal setting</a>
       <td></td>
+      <td></td>
       <td>5:project</td>
     </tr>
     <tr>
