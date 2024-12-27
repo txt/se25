@@ -68,10 +68,11 @@ via  <a href="https://creativecommons.org/licenses/by-sa/4.0/?ref=chooser-v1" ta
            Wed: <a href="docs/hw01.md">Make my day</a>
       </td>
       <td>
+           Fri: <a href="docs/proj1.md">Goal setting</a>
       </td>
       <td></td>
       <td></td>
-      <td></td>
+      <td>HW1: 1 mark<br>Proj1: 5 marks</td>
     </tr>
     <tr>
       <td>jan27</td>
