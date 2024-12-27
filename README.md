@@ -68,20 +68,19 @@ via  <a href="https://creativecommons.org/licenses/by-sa/4.0/?ref=chooser-v1" ta
            Wed: <a href="docs/hw01.md">HW1:  Make my day</a>
       </td>
       <td>
-           Fri: <a href="docs/proj1.md">Proj1: Goal setting</a>
       </td>
       <td></td>
       <td></td>
-      <td>1:homework<br>5:project</td>
+      <td>1:homework</td>
     </tr>
     <tr>
       <td>jan27</td>
       <td></td>
       <td></td>
       <td></td>
+           Fri: <a href="docs/proj1.md">Proj1: Goal setting</a>
       <td></td>
-      <td></td>
-      <td></td>
+      <td>5:project</td>
     </tr>
     <tr>
       <td>feb03</td>
