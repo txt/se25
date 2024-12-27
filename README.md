@@ -63,9 +63,10 @@ via  <a href="https://creativecommons.org/licenses/by-sa/4.0/?ref=chooser-v1" ta
       <td>jan20</td>
       <td>
            Mon: no class (MLK  day)<br>
+      </td>
+      <td>
            Wed: <a href="docs/hw01.md">Make my day</a>
       </td>
-      <td></td>
       <td>
       </td>
       <td></td>
