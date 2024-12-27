@@ -205,8 +205,8 @@ via  <a href="https://creativecommons.org/licenses/by-sa/4.0/?ref=chooser-v1" ta
       <td></td>
       <td></td>
       <td></td>
-      <td>Exam is optional. If taken, this  grade will replaces the mid-term grade.<br>
-          Grades will be posted to NC State, Friday May 2..</td>
+      <td><p>Exam is optional. If taken, this  grade will replaces the mid-term grade.</p>
+          <p>Grades will be posted to NC State, Friday May 2..</p></td>
       <td>25:exam</td>
     </tr>
   </tbody>
