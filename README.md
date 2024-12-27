@@ -64,7 +64,8 @@ via  <a href="https://creativecommons.org/licenses/by-sa/4.0/?ref=chooser-v1" ta
       <td></td>
       <td></td>
       <td>
-           Wed: <a href="docs/hw01.md">Make my day</a><br>
+           Mon: no class (MLK  day)<br>
+           Wed: <a href="docs/hw01.md">Make my day</a>
       </td>
       <td></td>
       <td></td>
@@ -117,7 +118,7 @@ via  <a href="https://creativecommons.org/licenses/by-sa/4.0/?ref=chooser-v1" ta
     </tr>
     <tr>
       <td>mar03</td>
-      <td></td>
+      <td>Wed: no class</td>
       <td></td>
       <td></td>
       <td></td>
@@ -126,7 +127,7 @@ via  <a href="https://creativecommons.org/licenses/by-sa/4.0/?ref=chooser-v1" ta
     </tr>
     <tr>
       <td>mar10</td>
-      <td></td>
+      <td>No class (Spring break)</td>
       <td></td>
       <td></td>
       <td></td>
@@ -180,7 +181,7 @@ via  <a href="https://creativecommons.org/licenses/by-sa/4.0/?ref=chooser-v1" ta
     </tr>
     <tr>
       <td>apr21</td>
-      <td></td>
+      <td>Mon: no lecture</td>
       <td></td>
       <td></td>
       <td></td>
