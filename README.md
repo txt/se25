@@ -48,7 +48,7 @@
       <td>jan13</td>
       <td>
 
-           Wed: [Process](https://softengbook.org/chapter2)
+           Wed: <a href="https://softengbook.org/chapter2">Process</a>
 
       </td>
       <td></td>
