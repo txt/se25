@@ -80,25 +80,31 @@ via  <a href="https://creativecommons.org/licenses/by-sa/4.0/?ref=chooser-v1" ta
       <td></td>
       <td>
            Mon: <a href="docs/proj1.md">Proj1: Goal setting</a>
+           Wed: <a href="docs/hw02.md">HW2:  Share code</a>
       </td>
       <td></td>
       <td></td>
-      <td>5:project</td>
+      <td>1:homework<br>
+          5:project</td>
     </tr>
     <tr>
       <td>Feb03</td>
       <td></td>
       <td></td>
+      <td>
+           Wed: <a href="docs/hw03.md">HW3: Script wizards</a>
+      </td>
       <td></td>
       <td></td>
-      <td></td>
-      <td></td>
+      <td>1:Homework</td>
     </tr>
     <tr>
       <td>Feb10</td>
       <td></td>
       <td></td>
-      <td></td>
+      <td>
+           Wed: <a href="docs/hw04.md">HW4: Scropt wizardy</a>
+      </td>
       <td></td>
       <td></td>
       <td></td>
