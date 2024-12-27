@@ -9,6 +9,16 @@
 **About**
 >  SE is about teams. Teams of people you know that build your software. Teams you dont know that bult the software you are using. Other teams who use and fix your code.  So, its time to learn about teams; about being a team player; about communicating within your team and to other teams;  about being a follower and (when needed) a leader; and about creating and meeting team expectations. Enjoy!
 
+**Testbook**
+<pre>
+@book{softengbook,
+  title     = "[Software Engineering: A Modern Approach](https://softengbook.org/)",
+  author    = "Marco Tulio Valente",
+  editor    = "Self-published",
+  isbn      = "978-65-01-26467-7",
+  year      = 2024
+}
+</pre>
 
 <br clear=all>
 
