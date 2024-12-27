@@ -1,7 +1,9 @@
 <a name=#top><p>&nbsp;</a><img align=right width=400 src="/img/banner.png">
 <h1> :cyclone:  csc510: Software Engineering<br>NC State, Spring'25</h1>
+     
+[home](homes) | [syllabus](syllabus) | [groups](groups) | [moodle](moodle) | [discord](discrod)
+   
 
-[home](home) | [syllabus](syllabus) | [groups](groups) | [moodle](moodle) | [discord](discrod)
 
 **About**
 >  SE is about teams. Teams of people you know that build your software. Teams you dont know that bult the software you are using. Other teams who use and fix your code.  So, its time to learn about teams; about being a team player; about communicating within your team and to other teams;  about being a follower and (when needed) a leader; and about creating and meeting team expectations. Enjoy!
