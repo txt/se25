@@ -11,7 +11,7 @@ via  <a href="https://creativecommons.org/licenses/by-sa/4.0/?ref=chooser-v1" ta
 **About**
 >  SE is about teams. Teams of people you know that build your software. Teams you dont know that bult the software you are using. Other teams who use and fix your code.  So, its time to learn about teams; about being a team player; about communicating within your team and to other teams;  about being a follower and (when needed) a leader; and about creating and meeting team expectations. Enjoy!
 
-**Textbook**
+**Textbook** (freeware, on-line)
 <a href="https://softengbook.org"><pre>
 @book{softengbook,
   title     = "[Software Engineering: A Modern Approach](https://softengbook.org/)",
@@ -49,9 +49,11 @@ via  <a href="https://creativecommons.org/licenses/by-sa/4.0/?ref=chooser-v1" ta
     <tr>
       <td>jan13</td>
       <td>
-           Mon: <a href="https://softengbook.org/chapter2">Process</a><br>
+           Mon: <a href="https://softengbook.org/chapter2">Process1</a><br>
       </td>
-      <td></td>
+      <td>
+           Wed: <a href="https://medium.com/inthepipeline/how-to-use-a-makefile-to-speed-up-your-dbt-project-workflow-fb36eb676910">Data-oriented coding</a><br>
+      </td>
       <td></td>
       <td></td>
       <td></td>
@@ -61,7 +63,9 @@ via  <a href="https://creativecommons.org/licenses/by-sa/4.0/?ref=chooser-v1" ta
       <td>jan20</td>
       <td></td>
       <td></td>
-      <td></td>
+      <td>
+           Wed: <a href="docs/tut01.md">Make my day</a><br>
+      </td>
       <td></td>
       <td></td>
       <td></td>
