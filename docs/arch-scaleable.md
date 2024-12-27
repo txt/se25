@@ -21,6 +21,7 @@
 ## Overview  
 Scalability isn't just about writing good code – it's about anticipating and solving problems before they impact performance. This guide covers eight major system design challenges and solutions to address scaling issues.  
 
+Source: [https://www.youtube.com/watch?v=BTjxUS_PylA](https://www.youtube.com/watch?v=BTjxUS_PylA)
 
 ---  
 ## 1. **Handling High Read Volumes**  
