@@ -46,7 +46,11 @@
     </tr>
     <tr>
       <td>jan13</td>
-      <td></td>
+      <td>
+
+           Wed: [Process](https://softengbook.org/chapter2)
+
+      </td>
       <td></td>
       <td></td>
       <td></td>
