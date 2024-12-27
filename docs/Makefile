@@ -12,8 +12,8 @@ help : Makefile ## print help
 ONE=cat $< | awk 'BEGIN {FS="\n";RS=""} {print $$0 "\n"; exit}' | awk '{print "  " $$0} END{print("\n\n")}' 
 TWOPLUS=cat $@ | awk 'BEGIN {FS="\n";RS=""} NR==1 { print("\n\n"); next} {print $$0 "\n\n"}'
 
-pub: ## save all to Github
-	$(MAKE) *.md push
+all: ## save all to Github
+	$(MAKE) ../LICENSE.md *.md push
 
 ../LICENSE.md: ../README.md Makefile ## update license
 	 @echo "$@ ... " ; ($(ONE);  $(TWOPLUS)) > .tmp; mv .tmp $@

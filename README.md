@@ -2,7 +2,8 @@
 <h1> :cyclone:  csc510: Software Engineering<br>NC State, Spring'25</h1>
      
 [home](homes) | [syllabus](syllabus) | [groups](groups) | [moodle](moodle) | [discord](discrod)
-   
+    
+<hr>   
 
 
 **About**
