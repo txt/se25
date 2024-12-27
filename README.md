@@ -79,7 +79,7 @@ via  <a href="https://creativecommons.org/licenses/by-sa/4.0/?ref=chooser-v1" ta
       <td></td>
       <td></td>
       <td>
-           Fri: <a href="docs/proj1.md">Proj1: Goal setting</a>
+           Mon: <a href="docs/proj1.md">Proj1: Goal setting</a>
       </td>
       <td></td>
       <td></td>
@@ -136,9 +136,12 @@ via  <a href="https://creativecommons.org/licenses/by-sa/4.0/?ref=chooser-v1" ta
           Tues: no class</td>
       <td></td>
       <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <td>
+         Frid: [ethics essay](docs/essay.md)
+      </td>
+      <td>
+      </td>
+      <td>20:essay</td>
     </tr>
     <tr>
       <td>Mar17</td>
