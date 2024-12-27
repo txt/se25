@@ -127,7 +127,7 @@ via  <a href="https://creativecommons.org/licenses/by-sa/4.0/?ref=chooser-v1" ta
       <td></td>
       <td></td>
       <td></td>
-      <td>20:exam</td>
+      <td>25:exam</td>
     </tr>
     <tr>
       <td>mar10</td>
@@ -196,12 +196,13 @@ via  <a href="https://creativecommons.org/licenses/by-sa/4.0/?ref=chooser-v1" ta
     </tr>
     <tr>
       <td>apr28</td>
+      <td>
+         Wed,apr30 exam (noon to 2:30)</td>
       <td></td>
       <td></td>
       <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <td>Exam is optional. If taken, this  grade will replaces the mid-term grade.</td>
+      <td>25:exam</td>
     </tr>
   </tbody>
 </table>
