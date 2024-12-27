@@ -65,14 +65,14 @@ via  <a href="https://creativecommons.org/licenses/by-sa/4.0/?ref=chooser-v1" ta
            Mon: no class (MLK  day)<br>
       </td>
       <td>
-           Wed: <a href="docs/hw01.md">Make my day</a>
+           Wed: <a href="docs/hw01.md">HW1:  Make my day</a>
       </td>
       <td>
-           Fri: <a href="docs/proj1.md">Goal setting</a>
+           Fri: <a href="docs/proj1.md">Proj1: Goal setting</a>
       </td>
       <td></td>
       <td></td>
-      <td>HW1: 1 mark<br>Proj1: 5 marks</td>
+      <td>1 (homework)<br>5 (project)</td>
     </tr>
     <tr>
       <td>jan27</td>
@@ -97,9 +97,9 @@ via  <a href="https://creativecommons.org/licenses/by-sa/4.0/?ref=chooser-v1" ta
       <td></td>
       <td></td>
       <td></td>
+      <td>Proj2: Extend old code</td>
       <td></td>
-      <td></td>
-      <td></td>
+      <td> 15 (project)</td>
     </tr>
     <tr>
       <td>feb17</td>
@@ -126,7 +126,7 @@ via  <a href="https://creativecommons.org/licenses/by-sa/4.0/?ref=chooser-v1" ta
       <td></td>
       <td></td>
       <td></td>
-      <td>Mid-term: 20 marks</td>
+      <td>20 (exam)</td>
     </tr>
     <tr>
       <td>mar10</td>
