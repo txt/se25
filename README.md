@@ -184,8 +184,8 @@ via  <a href="https://creativecommons.org/licenses/by-sa/4.0/?ref=chooser-v1" ta
       <td>Apr14</td>
       <td></td>
       <td></td>
-      <td></td>
       <td>Proj3: <a href="docs/proj3.md">A great project</a></td>
+      <td></td>
       <td></td>
       <td></td>
     </tr>
