@@ -137,7 +137,7 @@ via  <a href="https://creativecommons.org/licenses/by-sa/4.0/?ref=chooser-v1" ta
       <td></td>
       <td></td>
       <td>
-         Frid: [ethics essay](docs/essay.md)
+         Frid: <a href="docs/essay.md">ethics essay</a>
       </td>
       <td>
       </td>
