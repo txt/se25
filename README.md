@@ -126,7 +126,7 @@ via  <a href="https://creativecommons.org/licenses/by-sa/4.0/?ref=chooser-v1" ta
       <td></td>
       <td></td>
       <td></td>
-      <td>20(exam)</td>
+      <td>20:exam</td>
     </tr>
     <tr>
       <td>mar10</td>
