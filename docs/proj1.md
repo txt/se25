@@ -1,14 +1,13 @@
-  <h1> :cyclone:  csc510: Software Engineering<br>NC State, Spring'25</h1>
-  <a name=#top><p>&nbsp;</a><img align=right width=300 src="/img/banner.png">
-  &copy;2025 <a rel="cc:attributionURL dct:creator" property="cc:attributionName" href="http://timm.fyi">Tim Menzies</a> 
-  via  <a href="https://creativecommons.org/licenses/by-sa/4.0/?ref=chooser-v1" target="_blank" rel="license noopener noreferrer" 
-            style="display:inline-block;">CC BY-SA 4.0 <img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/cc.svg?ref=chooser-v1" alt=""><img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/by.svg?ref=chooser-v1" alt=""><img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/sa.svg?ref=chooser-v1" alt=""></a></p>
-  <hr>
-          
-  [home](/README.md#top) | [syllabus](docs/syllabus.md) | [groups](groups) | [moodle](moodle) | [discord](discrod)
-     
-  <hr>
-  
+<h1> :cyclone:  csc510: Software Engineering<br>NC State, Spring'25</h1>
+<a name=#top><p>&nbsp;</a><img align=right width=300 src="/img/banner.png">
+&copy;2025 <a rel="cc:attributionURL dct:creator" property="cc:attributionName" href="http://timm.fyi">Tim Menzies</a> 
+via  <a href="https://creativecommons.org/licenses/by-sa/4.0/?ref=chooser-v1" target="_blank" rel="license noopener noreferrer" 
+          style="display:inline-block;">CC BY-SA 4.0 <img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/cc.svg?ref=chooser-v1" alt=""><img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/by.svg?ref=chooser-v1" alt=""><img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/sa.svg?ref=chooser-v1" alt=""></a></p>
+<hr>
+        
+[home](/README.md#top) | [syllabus](docs/syllabus.md) | [groups](groups) | [moodle](moodle) | [discord](discrod)
+   
+<hr>
 
 
 
@@ -17,16 +16,22 @@
 
 % Project1
 
+
 <br clear=all>
+
 
 Your task: look at the past, sell a possible future.
 
+
 What to hand-in: two posters from two projects.
+
 
 Where to find projects: look at our 
 [corpus](https://docs.google.com/spreadsheets/d/17AdVB6rGsKSf8Ut6gG5RD01IngOLjQvVxFdkSS76cYY/edit?usp=sharing)
 
+
 Note:
+
 
 - for 25% of the teams, you will be assigned one of your two projects for project2. 
   - so choose wisely
@@ -36,11 +41,15 @@ Note:
 - If you explore our [corpus](https://docs.google.com/spreadsheets/d/17AdVB6rGsKSf8Ut6gG5RD01IngOLjQvVxFdkSS76cYY/edit?usp=sharing) you will find several projects for which is it not
 possible to do the following.
 
+
 <br clear=both>
+
 
 ## Rubric for posters
 
+
 Each poster:
+
 
 - Is a standard page size
 - Uses very small fonts ( text may be as small as 4 to 6 point)
@@ -58,7 +67,9 @@ Each poster:
   - Perhaps some milestones will be explored in parallel.
 - Boasts your number of test cases (one group listed 130+, which is really cool since that means you can  make new changes to the system while checking if the old stuff still works)
 
+
 ## Ways to lose points:
+
 
 - Your poster does not have the above features.
 - Your poster fails to sell. Specifically:
@@ -66,14 +77,20 @@ Each poster:
   - the  poster does not  make a case that this technology stack is interesting (e.g. "select this project so you can
     learn about kubernetes")
 
+
 ## How to fail at this project
+
 
 - Start late, looking at the corpus.
 - Write posters for dull projects
 
+
 ## For samples of posters from prior classes...
 
-Please see [here](/docs/posters.pdf)
 
-Those posters scored well, using a prior version of this document 
-(so they would not do so well with this updated rubric).
+-  [1](/docs/posters1.pdf)
+-  [2](/docs/posters2.pdf)
+-  [3](/docs/posters3.pdf)
+-  [4](/docs/posters4.pdf)
+
+
