@@ -76,7 +76,9 @@ via  <a href="https://creativecommons.org/licenses/by-sa/4.0/?ref=chooser-v1" ta
     </tr>
     <tr>
       <td>Jan27</td>
-      <td></td>
+      <td>
+      <a href="https://softengbook.org/chapter3">Requirements1</a>
+      </td>
       <td>
            Wed: <a href="docs/hw02.md">Hw2: share code</a>
       </td>
@@ -90,7 +92,7 @@ via  <a href="https://creativecommons.org/licenses/by-sa/4.0/?ref=chooser-v1" ta
     </tr>
     <tr>
       <td>Feb03</td>
-      <td></td>
+      <td><a href="https://softengbook.org/chapter4">Models1</a></td>
       <td>
            Wed: <a href="docs/hw03.md">Hw3: debugging</a>
       </td>
@@ -102,7 +104,7 @@ via  <a href="https://creativecommons.org/licenses/by-sa/4.0/?ref=chooser-v1" ta
     </tr>
     <tr>
       <td>Feb10</td>
-      <td></td>
+      <td><a href="https://softengbook.org/chapter5">Design1</a></td>
       <td>
            Wed: <a href="docs/hw04.md">Hw4: Script wizard</a>
       </td>
@@ -114,7 +116,7 @@ via  <a href="https://creativecommons.org/licenses/by-sa/4.0/?ref=chooser-v1" ta
     </tr>
     <tr>
       <td>Feb17</td>
-      <td></td>
+        <td><a href="https://softengbook.org/chapter6">Patterns1</a></td>
       <td>Wed. <a href="docs/hw05.md">Hw5: Make my day</a></td>
       <td></td>
       <td></td>
@@ -123,7 +125,7 @@ via  <a href="https://creativecommons.org/licenses/by-sa/4.0/?ref=chooser-v1" ta
     </tr>
     <tr>
       <td>Feb24</td>
-      <td></td>
+       <td><a href="/docs/ethics.md">Ethics</a></td>
       <td></td>
       <td>Wed. Proj2: <a href="docs/proj2.md">Extend old code</a></td>
       <td></td>
@@ -151,9 +153,8 @@ via  <a href="https://creativecommons.org/licenses/by-sa/4.0/?ref=chooser-v1" ta
       <td></td>
     </tr>
     <tr>
-      <td>Mar17</td>
-      <td></td>
-      <td></td>
+      <td>Mar17</td>        
+       <td><a href="https://softengbook.org/chapter7">Architecture1</a></td>
       <td></td>
       <td>
          Frid: <a href="docs/essay.md">ethics essay</a>
@@ -163,7 +164,7 @@ via  <a href="https://creativecommons.org/licenses/by-sa/4.0/?ref=chooser-v1" ta
     </tr>
     <tr>
       <td>Mar24</td>
-      <td></td>
+        <td><a href="https://softengbook.org/chapter8">Testing1</a></td>
       <td></td>
       <td></td>
       <td></td>
@@ -171,9 +172,8 @@ via  <a href="https://creativecommons.org/licenses/by-sa/4.0/?ref=chooser-v1" ta
       <td></td>
     </tr>
     <tr>
-      <td>Mar31</td>
-      <td></td>
-      <td></td>
+      <td>Mar31</td>  
+        <td><a href="https://softengbook.org/chapter9">Refactor1</a></td>
       <td></td>
       <td></td>
       <td></td>
@@ -181,7 +181,7 @@ via  <a href="https://creativecommons.org/licenses/by-sa/4.0/?ref=chooser-v1" ta
     </tr>
     <tr>
       <td>Apr07</td>
-      <td></td>
+      <td><a href="https://softengbook.org/chapter10">Devop1</a></td>
       <td></td>
       <td></td>
       <td></td>
@@ -190,7 +190,7 @@ via  <a href="https://creativecommons.org/licenses/by-sa/4.0/?ref=chooser-v1" ta
     </tr>
     <tr>
       <td>Apr14</td>
-      <td></td>
+      <td>TBD</td>
       <td></td>
       <td>Wed. Proj3: <a href="docs/proj3.md">A great project</a></td>
       <td></td>
