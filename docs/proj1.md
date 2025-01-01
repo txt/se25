@@ -77,8 +77,8 @@ Each poster:
 ## Where to find old projects (and their posters)
 
 
--  [1](/docs/posters1.pdf)
--  [2](/docs/posters2.pdf)
--  [3](/docs/posters3.pdf)
--  [4](/docs/posters4.pdf)
+-  [1](/img/posters1.pdf)
+-  [2](/img/posters2.pdf)
+-  [3](/img/posters3.pdf)
+-  [4](/img/posters4.pdf)
 
