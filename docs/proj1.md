@@ -14,7 +14,6 @@ via  <a href="https://creativecommons.org/licenses/by-sa/4.0/?ref=chooser-v1" ta
 # Project1: Set Goals for Project2
 
 
-% Project1
 
 
 <br clear=all>
@@ -23,26 +22,16 @@ via  <a href="https://creativecommons.org/licenses/by-sa/4.0/?ref=chooser-v1" ta
 Your task: look at the past, sell a possible future.
 
 
-What to hand-in: two posters from two projects.
+What to hand-in: two posters from two projects that describe
 
+- what was done before
+- what could be done to extend that
 
-Where to find projects: look at our 
-[corpus](https://docs.google.com/spreadsheets/d/17AdVB6rGsKSf8Ut6gG5RD01IngOLjQvVxFdkSS76cYY/edit?usp=sharing)
+Improtant:
 
-
-Note:
-
-
-- for 25% of the teams, you will be assigned one of your two projects for project2. 
-  - so choose wisely
-  - study several projects before you settle on your two projects.
-  - Be critical. Many prior projects are less than perfect (poor install instructions, packages that no longer install, dull goals)
-  - I  is estimated that you will have to look at 10 projects before you can do the following.
-- If you explore our [corpus](https://docs.google.com/spreadsheets/d/17AdVB6rGsKSf8Ut6gG5RD01IngOLjQvVxFdkSS76cYY/edit?usp=sharing) you will find several projects for which is it not
-possible to do the following.
-
-
-<br clear=both>
+- look at 10+ projects before picking two
+- cause you have a 25% chance of acually having to do one of these posters for project2.
+- So be critical. Many prior projects are less than perfect (poor install instructions, packages that no longer install, dull goals)
 
 
 ## Rubric for posters
@@ -85,12 +74,11 @@ Each poster:
 - Write posters for dull projects
 
 
-## For samples of posters from prior classes...
+## Where to find old projects (and their posters)
 
 
 -  [1](/docs/posters1.pdf)
 -  [2](/docs/posters2.pdf)
 -  [3](/docs/posters3.pdf)
 -  [4](/docs/posters4.pdf)
-
 
