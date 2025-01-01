@@ -66,7 +66,7 @@ via  <a href="https://creativecommons.org/licenses/by-sa/4.0/?ref=chooser-v1" ta
            Mon: no class (MLK  day)<br>
       </td>
       <td>
-           Wed: <a href="docs/hw01.md">Hw1: beautiful repos</a>
+           Wed: <a href="docs/hw1.md">Hw1: beautiful repos</a>
       </td>
       <td>
       </td>
