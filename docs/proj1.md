@@ -5,15 +5,13 @@ via  <a href="https://creativecommons.org/licenses/by-sa/4.0/?ref=chooser-v1" ta
           style="display:inline-block;">CC BY-SA 4.0 <img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/cc.svg?ref=chooser-v1" alt=""><img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/by.svg?ref=chooser-v1" alt=""><img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/sa.svg?ref=chooser-v1" alt=""></a></p>
 <hr>
         
-[home](/README.md#top) | [syllabus](docs/syllabus.md) | [groups](groups) | [moodle](moodle) | [discord](discrod)
+[home](/README.md#top) | [syllabus](/docs/syllabus.md) | [groups](groups) | [moodle](https://moodle-courses2425.wolfware.ncsu.edu/course/view.php?id=7150) | [discord](https://discord.gg/DkaZw4zM)
    
 <hr>
 
 
 
 # Project1: Set Goals for Project2
-
-
 
 
 <br clear=all>
@@ -24,10 +22,13 @@ Your task: look at the past, sell a possible future.
 
 What to hand-in: two posters from two projects that describe
 
+
 - what was done before
 - what could be done to extend that
 
+
 Improtant:
+
 
 - look at 10+ projects before picking two
 - cause you have a 25% chance of acually having to do one of these posters for project2.
@@ -81,4 +82,5 @@ Each poster:
 -  [2](/img/posters2.pdf)
 -  [3](/img/posters3.pdf)
 -  [4](/img/posters4.pdf)
+
 
