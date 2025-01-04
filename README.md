@@ -128,7 +128,7 @@ via  <a href="https://creativecommons.org/licenses/by-sa/4.0/?ref=chooser-v1" ta
       <td>Feb24</td>
        <td><a href="/docs/ethics.md">Ethics</a></td>
       <td></td>
-      <td>Wed. Proj2: <a href="docs/proj2.md">Extend old code</a></td>
+      <td>Wed. Proj2: <a href="docs/proj23.md">Extend old code</a></td>
       <td></td>
       <td></td>
       <td>15:project</td>
@@ -193,7 +193,7 @@ via  <a href="https://creativecommons.org/licenses/by-sa/4.0/?ref=chooser-v1" ta
       <td>Apr14</td>
       <td>TBD</td>
       <td></td>
-      <td>Tuesday. Proj3: <a href="docs/proj3.md">A great project</a></td>
+      <td>Tuesday. Proj3: <a href="docs/proj23.md">A great project</a></td>
       <td></td>
       <td></td>
       <td>23:project</td>
