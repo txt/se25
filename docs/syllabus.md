@@ -52,8 +52,6 @@ via  <a href="https://creativecommons.org/licenses/by-sa/4.0/?ref=chooser-v1" ta
 - Be sure to use your NC State email account, and sign in with your name and Student ID number.
  
 
-**Catalog Description**
-A
 
 ## Details
 
@@ -165,6 +163,7 @@ For masters students, some evidence must be generated that you are actively enga
 - Attendance is not mandatory, but highly recommended. 
 
 
+
 If, for a quiz, you must be absence for a reason sanction by the university, contact the lecturer before time and other arrangements will be made.
 Those sanctioned events are:
 
@@ -175,7 +174,10 @@ Those sanctioned events are:
 - Required military duty as certified by the student’s commanding officer.
 - Unanticipated Absences.  Excuses for unanticipated absences must be reported to the instructor as soon as possible, but not more than one week after the return to class.  Examples of unanticipated absences are:
   - Short-term illness or injury affecting the ability to attend or to be productive academically while in class, or that could jeopardize the health of the individual or the health of the classmates attending.  Students must notify instructors prior to the class absence, if possible, that they are temporarily unable to attend class or complete assignments on time.
-  - Death or serious illnesses in the family when documented appropriately.  An attempt to verify deaths or serious illness will be made by the Division of Academic and Student Affairs (go.ncsu.edu/absence).
+  - Death or serious illnesses in the family when documented appropriately.   
+
+
+Absence Verification: The [Absence Verification office](https://dasa.ncsu.edu/support-and-advocacy/find-help/absence-notification/) will provide student absence verifications for deaths, legal obligations, military duty, and serious illnesses like surgery and hospitalizations.  
 
 
 Sometimes, the lecturer/tutor will require you to attend  mandatory office hours session.

@@ -193,7 +193,7 @@ via  <a href="https://creativecommons.org/licenses/by-sa/4.0/?ref=chooser-v1" ta
       <td>Apr14</td>
       <td>TBD</td>
       <td></td>
-      <td>Wed. Proj3: <a href="docs/proj3.md">A great project</a></td>
+      <td>Tuesday. Proj3: <a href="docs/proj3.md">A great project</a></td>
       <td></td>
       <td></td>
       <td>23:project</td>
