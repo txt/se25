@@ -40,7 +40,7 @@ via  <a href="https://creativecommons.org/licenses/by-sa/4.0/?ref=chooser-v1" ta
   <tbody>
     <tr submission>
       <td>Jan06</td>
-      <td><a href="/docs/syllabus.md">Syllabus</a></td>
+      <td>Mon: no class.<br>Wed: <a href="/docs/syllabus.md">Syllabus</a></td>
       <td></td>
       <td></td>
       <td></td>
