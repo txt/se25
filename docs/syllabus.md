@@ -17,9 +17,9 @@ via  <a href="https://creativecommons.org/licenses/by-sa/4.0/?ref=chooser-v1" ta
 |Details      | Notes                           |
 |:------------|:--------------------------------|
 |When         | Mon Wed 11:45AM - 1:00PM           |
-|Where        | 01103 James B Hunt Jr Centennial|
+|Where        | rm 01011  Engineering Building I |
 |Who          | Tim Menzies, timm@ieee.org      |
-|Office hours | 2pm to 4pm Wedneday, in my office ([by appointment](https://calendar.app.google/NwfqMMibHwU62W9d8)<br>Room: 3304:EB2<br>Phone: 304 376 2859 (\*)<br>(\*) Use only for dire circumstances  (e.g. car crash on way to exam).|
+|Office hours | 2pm to 4pm Monday, in my office ([by appointment](https://calendar.app.google/GwzbUmsiCSvGQ27dA)) <br>Room: 3304:EB2|
 
 
 ## Details
@@ -28,8 +28,8 @@ via  <a href="https://creativecommons.org/licenses/by-sa/4.0/?ref=chooser-v1" ta
 |What               | Notes |
 |:------------------|:------|
 |Course Credit Hours| 3     |
-|Course website     | [https://txt.github.io/se24fall/](https://txt.github.io/se24fall/) |
-|Textbook           | none  |
+|Course website     | [https://github.com/txt/se25](https://github.com/txt/se25) |
+|Textbook           | [Software Engineering: A Modern Approach](https://softengbook.org/)  |
 |Structure          | The majority of this course is synchronous, delivered through real-time, face-to-face class sessions. |
 |Instructions       | Learning activities in this course will include  five homeworks, 2 exams, three projects.|
 |Tool used          | All grades will be recorded in Moodle.<br> All student work will be in Github (public GH, not the NCSU version).|
@@ -56,9 +56,8 @@ CSC 316 and CSC 226 (or equivalent)
 
 ### Textbook
 - Optional, purchase not necessary
-  - [Software Engineering: A Practitioner's Approach](https://www.amazon.com/Software-Engineering-Ian-Sommerville/dp/0137053460/ref=tmm_pap_swatch_0?_encoding=UTF8&qid=&sr=)
-    9th International edition by Roger Pressman
-- Available in paperback for $4.65 (the shipping costs are actually more than the book).
+  - [Software Engineering: A Modern Approach](https://softengbook.org/)  
+- Available, free, on-line.
 
 
 ### Learning Outcomes
@@ -75,8 +74,8 @@ CSC 316 and CSC 226 (or equivalent)
 
 
 ### Class Discord Group
-It is each student's responsibility to join the class Discord group "se24fall". 
-Till Friday week1, the link to join there is [here](https://discord.gg/auBPXMnc).
+It is each student's responsibility to join the class Discord group "SE spring'25".
+Till Friday week1, the link to join there is [here](https://discord.gg/DkaZw4zM)
 
 
 All class communication from staff to students will be via this Discord group.
@@ -94,9 +93,10 @@ Grades come from
 - 1 mid-session exam
 - 5 homeworks (testing software guru skills)
 - 1 final exam (for those that want to replace the mark on one of their mid-term and homework).
-- 1 essay (due Dec4) on SE ethics. You will have all the materials for this exam by 
-  mid-semester. Feel free to submit early.
+- 1 essay  on SE ethics. 
 - Exams and essays are done individually. Everything else is done in groups of 3.
+  - Important note: while homeworks are done in groups of 3, you will be examined individually
+    about that content. So make sure you understand **all** the homework material.
 
 
 Projects comprise large maintenance tasks where you have to extend someone else'e code 
@@ -110,27 +110,37 @@ Each project will generate "brag" documents that sell the project work in versio
 for those who want to work in _i+1_.
 
 
-- At the end of the semester, if group1 complete work boasted by another group2,
-then group2 will receive one bonus mark.
-- Project1: you review five projects done previsously in this subjects, 
-select one, then boast of its accomplishments.
-- Project2: you will switch projects and significantly extend some project
-- Projects3: you will swtich to someone else's project2 code 
+- Project1: 
+  - You review ten projects done previsously in this subjects, 
+    select two, then boast of its accomplishments.
+  - Select wisely. You have a 25% chance that, in project2, you will have to work on your Project1
+    selections.
+- Project2: 
+  - You will switch projects and significantly extend some project
+- Projects3: 
+  - You will swtich to someone else's project2 code 
 
 
 ### Grades
 
 
-|group	|mark|	notes|
-|-------|----|-------|
-|essay (solo)	|         20 | 3 bonus	for ethical brilliance|
-|homework (5\*3)|       15| |
-|mid-term exam (solo)	| 20| |
-|project (group)|	      10+15+20	|project1,2,3|
+|group	|mark|
+|-------|----|
+|essay (solo)	|         22 |
+|homework (5\*1)|       5|
+|mid-term exam (solo)	| 25|
+|project (group)|	      10+15+23	|
 
 
-Students are marked 0,1,2,3 for homeworks. If you get anything less than 3, you can resubmit (within 1 week)
-and the new submission's mark will cancel out the first version).
+Students are marked -1,0,1 for homeworks:
+
+
+- -1 = no submission
+-  0 = needs fixing
+-  1 = passed
+
+
+Homeworks can be resubmitted twice, for up to 3 weeks after the first submission.
 
 
 Also, there is an optional final exam which students can attend if they want to replace 
@@ -151,13 +161,7 @@ With the final grades, the following grade scale will be used:
 ### Late Marks
 
 
-For the report, students will lose 2 marks per day for late submissions (weekend = 2 day).
-
-
-For the homeworks, students will lose 1 marks per day for late submissions (weekend = 1 day).
-
-
-Groups must post the homeworks each  week, even if it is incomplete, OR THEY WILL LOSE ONE MARK.  Those lost marks are never returned.
+Submissions score one late mark per day (but only -1 for the weekend).
 
 
 ## Policies
@@ -247,37 +251,25 @@ and [REG 02.20.01 Academic Accommodations for Students with Disabilities](https:
 ### Non-Discrimination Policy
 
 
-North Carolina State University (NC State) is a diverse community committed to being welcoming, inclusive and supportive for all people. 
+All students at North Carolina State University (“NC State” or the “University”) are
+responsible for conducting themselves in a manner that helps enhance an environment
+of learning in which the rights, dignity, worth, and freedom of each member of the
+academic community are respected.
 
 
-NC State provides equal opportunity and affirmative action efforts,
-and prohibits Discrimination and Harassment based upon the following,
-which is considered by NC State to be a “Protected Status”:
+NC State prohibits unlawful discrimination and harassment based on a person’s protected status in University programs and activities. NC State also prohibits retaliation for any protected activity.
 
 
-- race
-- color
-- religion (including belief and non-belief)
-- sex, including but not limited to
-  - (i) pregnancy, childbirth, or related medical condition,
-  - (ii) parenting; and
-  - (iii) sexual harassment;
-- sexual orientation;
-- actual or perceived gender identity;
-- age;
-- national origin;
-- disability;
-- veteran status; or
--  genetic information.
+“Protected Status” is defined as an individual’s actual or perceived:
 
 
-NC State's policies and
-regulations covering discrimination, harassment, and retaliation
-may be accessed at https://policies.ncsu.edu/policy/pol-04-25-05/.
-Any person who feels that he or she
-has been the subject of prohibited discrimination, harassment, or
-retaliation should follow the procedures at
-https://policies.ncsu.edu/regulation/reg-04-25-02/.
+- race, color, or national origin, including shared ancestry or ethnic characteristics,
+- sex, including sexual orientation, gender identity, and pregnancy or related conditions,
+- age,
+- disability,
+- genetic information,
+- religion, and
+- veteran’s status.
 
 
 + Note that, as a lecturer, I am legally required to
@@ -288,6 +280,8 @@ https://policies.ncsu.edu/regulation/reg-04-25-02/.
 The NC State Code of Student Conduct outlines expectations for behavior in the classroom (whether virtual or physical) and the
 consequences for students who violate these expectations. Any behavior that impacts other students’ ability to learn and succeed will be addressed, but expressing diverse viewpoints and interpretations of course content is welcome.
 Community guidelines for this course include:
+
+
 - Use a respectful tone in all forms of communication (email, messages, written, oral, visual)
 - Maintain professionalism (avoid slang, poor grammar, etc.) in your written communication.
 - Respect regional dialects and culturally embedded ways of oral communication.
@@ -297,50 +291,17 @@ Community guidelines for this course include:
 - Respect cultural differences that may influence communication styles and needs.]
 
 
-Any remark you make
-in some on-line comment tracking system like Github
-is a public document.
-So take heed of the following cautionary tale.
-One year, a student was joking around with
-his buddy in a Github issue report. Then he was
-rude enough and stupid enough to 
-add a remark about how the rest of the
-team was just so
-&#9632;&#9632;&#9632;&#9632;
-&#9632;&#9632;&#9632;&#9632;&#9632;&#9632;&#9632;&#9632;.
-Needless to say,
-the rest of the team took great
-offense at this remark and invoked the University's
-non-discrimination policies. As a result, everyone
-lost much time that semester, as well as grades. 
-
-
-### Expected Workload
-This is an _advanced graduate_ class at  R1 institution 
-(an R1 institution is classified as a doctoral university with very high research activity). 
-
-
- Students must be
-prepared to dedicate AT LEAST 5-8 working hours a
-week to this class (excluding the time spent in the
-lecture meeting). Laboratory instruction is not included
-in this subject.
-
-
 ### Academic Integrity
 
 
 Students are required to comply with the university policy on academic integrity found in the i
-[Code of Student Conduct 11.35.01 sections 8 and 9](http://policies.ncsu.edu/policy/pol-11-35-01). 
-Therefore, students are required to uphold the Pack Pledge: “I have neither given nor received unauthorized aid on this test or assignment.” i
-Violations of academic integrity will be handled in accordance with the 
-[Student Discipline Procedures](https://policies.ncsu.edu/regulation/reg-11-35-02/).
+[What is Academic Misconduct?](https://studentconduct.dasa.ncsu.edu/academic-integrity-overview/).
+Therefore, students are required to uphold the Pack Pledge: 
+" “I have neither given nor received unauthorized aid on this test or assignment,” on all syllabi, assignments, examinations, or other academic evaluations is encouraged."
 
 
-Please refer to the [Academic Integrity web page](https://studentconduct.dasa.ncsu.edu/academic-integrity-overview/) for a detailed explanation of the University’s policies on academic integrity and some of the common understandings related to those policies.
-
-
-Cheating will be punished to the full extent permitted. Cheating
+Cheating will be punished to [the full extent possible](https://studentconduct.dasa.ncsu.edu/academic-misconduct/). 
+Cheating
 includes plagiarism of other people's work. All students will be working
 on public code repositories and **informed reuse** is encouraged where
 someone else's product is:
@@ -362,37 +323,12 @@ and marks will be deducted if the person who is doing the reuse:
 + Does not significantly extend the product.
 
 
-### Privacy
-
-
 #### Student Privacy
 
 
 - In-class sessions are recorded in such a way that might also record students in this course.
 - These recordings MAY be used beyond the current semester or in any other setting outside of the course.
 - Contact your instructor if you have concerns.
-
-
-#### Class Privacy
-
-
-Student information in this course may be accessible to persons
-beyond the instructor and students in the course. This course may
-involve electronic sharing or posting of personally identifiable
-student work or other information with persons not taking or
-administering the course. 
-
-
-### Policy on Incomplete Grades
-
-
-Information on incomplete grades can be found at 
-[REG 02.50.03 – Grades and Grade Point Average](https://policies.ncsu.edu/regulation/reg-02-50-03/). 
-If you encounter a serious disruption to your work not caused by you and you would have otherwise successfully completed the course, contact your instructor as soon as you can to discuss the possibility of earning an incomplete in the course for the semester, including an agreement on when the remaining work must be done in order to change the grade to the appropriate letter grade.
-
-
-If your  must withdraw from a course or from the University due to hardship beyond your control, see 
-[Withdrawal Process and Timeline | Student Services Center](https://studentservices.ncsu.edu/your-classes/withdrawal/process/) for information and instructions.
 
 
 ### Syllabus Modification Statement
