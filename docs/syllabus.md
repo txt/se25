@@ -19,11 +19,7 @@ via  <a href="https://creativecommons.org/licenses/by-sa/4.0/?ref=chooser-v1" ta
 |When         | Mon Wed 11:45AM - 1:00PM           |
 |Where        | rm 01011  Engineering Building I |
 | Prerequisites |CSC 316 and CSC 226 (or equivalent |
-
-Instructor:
-
-|Who          | Tim Menzies      |
-|:------------|:--------------------|
+|Instructor       | Tim Menzies      |
 |Office hours | 2pm to 4pm Monday, in my office ([by appointment](https://calendar.app.google/GwzbUmsiCSvGQ27dA)) |
 |Office       | Room: 3304:EB2|
 |Email        | timm@ieee.org|
@@ -114,7 +110,7 @@ for those who want to work in _i+1_.
 
 
 - Project1: 
-  - You review ten projects done previsously in this subjects, elect two, then boast of its accomplishments.
+  - You review ten projects done previously in this subjects elect two, then boast of its accomplishments.
   - Select wisely. You have a 25% chance that, in project2, you will have to work on your Project1 selections.
 - Project2: 
   - You will switch projects and significantly extend some project
