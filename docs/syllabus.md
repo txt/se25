@@ -125,26 +125,13 @@ for those who want to work in _i+1_.
 ### Grades
 
 
-|group	|mark|
-|-------|----|
-|essay (solo)	|         22 |
-|homework (5\*1)|       5|
-|mid-term exam (solo)	| 25|
-|project (group)|	      10+15+23	|
-
-
-Students are marked -1,0,1 for homeworks:
-
-
-- -1 = no submission
--  0 = needs fixing
--  1 = passed
-
-
-Homeworks can be resubmitted twice, for up to 3 weeks after the first submission.
-
-
-Also, there is an optional final exam which students can attend if they want to replace  their mid-term mark. Please note that if you get a lower mark on this final then your  lowest mid-term mark will then decrease. Caveat Emptor.
+|group	|mark|notes|
+|-------|----|-----|
+|essay (solo)	|         22 |  |
+|homework (5\*1)|       5| Students are marked -1,0,1 for homeworks: -1 = no submission;  0 = needs fixing; 1 = passed. <br> Homeworks can be resubmitted twice, for up to 3 weeks after the first submission.  | 
+|mid-term exam (solo)	| 25|  |
+|3  projects (group)|	      10+15+23	| |
+| final exam (optional) | 25| Also, there is an optional final exam which students can attend if they want to replace  their mid-term mark.<br> Please note that if you get a lower mark on this final then your  lowest mid-term mark will then decrease. <br>Caveat Emptor.|
 
 
 With the final grades, the following grade scale will be used: 
@@ -162,17 +149,6 @@ With the final grades, the following grade scale will be used:
 
 Submissions score one late mark per day (but only -1 for the weekend).
 
-
-## Policies
-
-
- 
-
-
-
-  
- 
-
 ### Expectations for learner participation and interaction
 
 
@@ -188,11 +164,9 @@ For masters students, some evidence must be generated that you are actively enga
 ### Attendance
 
 
-Lectures are twice a week. 
-Lectures will be recorded.
-
-
-Attendance is not mandatory, but highly recommended. 
+- Lectures are twice a week. 
+- Lectures will be recorded.
+- Attendance is not mandatory, but highly recommended. 
 
 
 If, for a quiz, you must be absence for a reason sanction by the university, contact the lecturer before time and other arrangements will be made.
