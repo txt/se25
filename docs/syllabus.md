@@ -18,9 +18,46 @@ via  <a href="https://creativecommons.org/licenses/by-sa/4.0/?ref=chooser-v1" ta
 |:------------|:--------------------------------|
 |When         | Mon Wed 11:45AM - 1:00PM           |
 |Where        | rm 01011  Engineering Building I |
-|Who          | Tim Menzies, timm@ieee.org      |
-|Office hours | 2pm to 4pm Monday, in my office ([by appointment](https://calendar.app.google/GwzbUmsiCSvGQ27dA)) <br>Room: 3304:EB2|
+| Prerequisites |CSC 316 and CSC 226 (or equivalent |
 
+Instructor:
+
+|Who          | Tim Menzies      |
+|:------------|:--------------------|
+|Office hours | 2pm to 4pm Monday, in my office ([by appointment](https://calendar.app.google/GwzbUmsiCSvGQ27dA)) |
+|Office       | Room: 3304:EB2|
+|Email        | timm@ieee.org|
+
+
+
+**Preferred method of communication and Response Times:**
+
+- For private queries, use the above  email
+- But or most queries, use the discord server 
+- IMPORTANT: If you receive a subject-related message outside of   office hours (e.g. 2am Saturday mornng), do
+  not feel required to answer this till the next working day (e.g. Monday morning). Exception: just before deadlines of exams.
+
+
+**Asking questions about the course:**
+
+- It is each student's responsibility to join the class Discord group "SE spring'25".
+  - Till Friday week1, the link to join there is [here](https://discord.gg/DkaZw4zM)
+- Use the Discord server
+- All class communication from staff to students will be via this Discord group.
+- Students are strongly encouraged to contribute their questions and answers to that shared resource. 
+  - You should expect to receive a response within two business days (i.e. not over the weekend). 
+  - If I email/message you directly, please strive to respond within two business days.
+
+
+**Email guidelines:**
+
+- Always include a descriptive, specific but concise subject. 
+- Include your course number and section in your email, and provide adequate context for your question in order to ensure full understanding of your email. 
+- Be sure to use your NC State email account, and sign in with your name and Student ID number.
+ 
+
+**Catalog Description**
+A
 
 ## Details
 
@@ -29,6 +66,7 @@ via  <a href="https://creativecommons.org/licenses/by-sa/4.0/?ref=chooser-v1" ta
 |:------------------|:------|
 |Course Credit Hours| 3     |
 |Course website     | [https://github.com/txt/se25](https://github.com/txt/se25) |
+|Catalog Description| An introduction to software life cycle models; size estimation; cost and schedule estimation; project management; risk management; formal technical reviews; analysis, design, coding and testing methods; configuration management and change control; and software reliability estimation. Emphasis on large development projects. A group project is required following good software engineering practices throughout the semester. |
 |Textbook           | [Software Engineering: A Modern Approach](https://softengbook.org/)  |
 |Structure          | The majority of this course is synchronous, delivered through real-time, face-to-face class sessions. |
 |Instructions       | Learning activities in this course will include  five homeworks, 2 exams, three projects.|
@@ -37,58 +75,23 @@ via  <a href="https://creativecommons.org/licenses/by-sa/4.0/?ref=chooser-v1" ta
 |Attendance         | not mandatory |
 |Technical requirements | A laptop computer is required for students taking this course.  NC State’s Online and Distance Education provides technology requirements and recommendations for computer hardware, and NC State’s Office of Information Technology provides recommendations for your computer . But as a rule-of-thumb, your computer is adequate if you can edit and run code using the  Github codespaces environment.|
 
-
-### Description
-
-
-An introduction to software life cycle models; size estimation;
-cost and schedule estimation; project management; risk management;
-formal technical reviews; analysis, design, coding and testing
-methods; configuration management and change control; and software
-reliability estimation. Emphasis on large development projects. An
-individual project required following good software engineering
-practices throughout the semester.
+ 
 
 
-### Prerequisites
-CSC 316 and CSC 226 (or equivalent)
-
-
-### Textbook
-- Optional, purchase not necessary
-  - [Software Engineering: A Modern Approach](https://softengbook.org/)  
-- Available, free, on-line.
-
+ 
 
 ### Learning Outcomes
 
 
-- Students will achieve a high level of expertise in  SE,
-  mastery of the knowledge in that fields and the ability to apply this 
-  knowledge and graduate school experiences to critical research problems
-- Students will apply sound development methods/tools to problems in  SE
-  and describe the methods/tools effectively
-- Students will analyze/interpret/implemeent software requirements
-- Students will communicate their work clearly and professionally in both 
-  written and oral forms appropriate to “SE"
-
-
-### Class Discord Group
-It is each student's responsibility to join the class Discord group "SE spring'25".
-Till Friday week1, the link to join there is [here](https://discord.gg/DkaZw4zM)
-
-
-All class communication from staff to students will be via this Discord group.
-
-
-Students are strongly encouraged to contribute their questions and answers to that shared resource.
-Note that, for communication of a more private nature, contact the lecturer on the email shown below.
+- Students will achieve a high level of expertise in  SE, mastery of the knowledge in that fields and the ability to apply this knowledge and graduate school experiences to critical research problems
+- Students will apply sound development methods/tools to problems in  SE and describe the methods/tools effectively
+- Students will analyze/interpret/implement software requirements
+- Students will communicate their work clearly and professionally in both written and oral forms appropriate to “SE"
+ 
 
 
 ### Assessment
-Grades come from
-
-
+ 
 - 3 projects
 - 1 mid-session exam
 - 5 homeworks (testing software guru skills)
@@ -98,9 +101,9 @@ Grades come from
   - Important note: while homeworks are done in groups of 3, you will be examined individually
     about that content. So make sure you understand **all** the homework material.
 
+ 
 
-Projects comprise large maintenance tasks where you have to extend someone else'e code 
-(groups of 3 people, working in public Github repos-- not NCSU GH): 
+Projects comprise large maintenance tasks where you have to extend someone else'e code (groups of 3 people, working in public Github repos-- not NCSU GH): 
 
 
 - This will demonstrate the important of documentation, design purity, regression tests, etc.
@@ -111,10 +114,8 @@ for those who want to work in _i+1_.
 
 
 - Project1: 
-  - You review ten projects done previsously in this subjects, 
-    select two, then boast of its accomplishments.
-  - Select wisely. You have a 25% chance that, in project2, you will have to work on your Project1
-    selections.
+  - You review ten projects done previsously in this subjects, elect two, then boast of its accomplishments.
+  - Select wisely. You have a 25% chance that, in project2, you will have to work on your Project1 selections.
 - Project2: 
   - You will switch projects and significantly extend some project
 - Projects3: 
@@ -143,9 +144,7 @@ Students are marked -1,0,1 for homeworks:
 Homeworks can be resubmitted twice, for up to 3 weeks after the first submission.
 
 
-Also, there is an optional final exam which students can attend if they want to replace 
-their mid-term mark. Please note that if you get a lower mark on this final then your 
-lowest mid-term mark will then decrease. Caveat Emptor.
+Also, there is an optional final exam which students can attend if they want to replace  their mid-term mark. Please note that if you get a lower mark on this final then your  lowest mid-term mark will then decrease. Caveat Emptor.
 
 
 With the final grades, the following grade scale will be used: 
@@ -167,28 +166,12 @@ Submissions score one late mark per day (but only -1 for the weekend).
 ## Policies
 
 
-### Preferred Method of Communication & Response Time
+ 
 
 
-Nearly all the class communication from staff to students will be via this Discord group.
 
-
-You should expect to receive a response within two business days (i.e. not over the weekend). 
-- If I email/message you directly, please strive to respond within two business days.
-- It is recommended that you check your NC State email at least once a day to stay on top of course communications.
-
-
-If you have a question about the course or its content, you can email me or post your question on our discord
-group. You can expect to receive a response within two business days (i.e. not over the weekend)
-
-
-If you need to contact me directly, my preferred method of communication is
-the discord group. However, for private matters, feel free to contact me via email.  
-If emailing then:
-- Always include a descriptive, specific but concise subject.
-- Include your course number your email, and provide adequate context for your question in order to ensure full understanding of your email.
-- Be sure to use your NC State email account, and sign in with your name and Student ID number.
-
+  
+ 
 
 ### Expectations for learner participation and interaction
 
@@ -198,11 +181,8 @@ For masters students, some evidence must be generated that you are actively enga
 
 
 - The project repo MUST have a branch called "MAIN". Groups will be assessed via their commit history (seen under "Insights") in MAIN.
-    Projects were all group members are not active doing commits will lose marks
-    (or the offending student will be expelled from that group).
-- Groups need to maintain an active discussion in the channel within the subject's Discord channel.
-    Projects were all group members are not active in discussions  will either lose marks
-    (or the offending student will be expelled from that group).
+    Projects were all group members are not active doing commits will lose marks (or the offending student will be expelled from that group).
+- Groups need to maintain an active discussion in the channel within the subject's Discord channel. Projects were all group members are not active in discussions  will either lose marks    (or the offending student will be expelled from that group).
 
 
 ### Attendance
@@ -228,12 +208,8 @@ Those sanctioned events are:
   - Death or serious illnesses in the family when documented appropriately.  An attempt to verify deaths or serious illness will be made by the Division of Academic and Student Affairs (go.ncsu.edu/absence).
 
 
-Sometimes, the lecturer/tutor will require you to
-attend  mandatory office hours session.
-There, students may be asked to review code,
-concepts, or comment on the structure of the
-course. Those sessions are mandatory and failure to
-attend will result in marks being deducted.
+Sometimes, the lecturer/tutor will require you to attend  mandatory office hours session.
+There, students may be asked to review code, concepts, or comment on the structure of the course. Those sessions are mandatory and failure to attend will result in marks being deducted.
 
 
 ### Disabilities
