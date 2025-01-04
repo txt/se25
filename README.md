@@ -210,13 +210,13 @@ via  <a href="https://creativecommons.org/licenses/by-sa/4.0/?ref=chooser-v1" ta
     <tr>
       <td>Apr28</td>
       <td>
-         Wed,Apr30 exam (noon to 2:30)
+         Wed,Apr30 Final exam (noon to 2:30)
       </td>
       <td></td>
       <td></td>
       <td></td>
-      <td><p>Exam is optional. If taken, this  grade will replaces the mid-term grade.</p>
-          <p>Grades will be posted to NC State, Friday May 2..</p></td>
+      <td><p>Final exam is optional. If taken, this  grade will replaces the mid-term grade.</p>
+          <p>Grades for the subjection will be finalized  Friday May 2 (no extensions).</p></td>
       <td>25:exam</td>
     </tr>
   </tbody>

@@ -25,8 +25,8 @@ via  <a href="https://creativecommons.org/licenses/by-sa/4.0/?ref=chooser-v1" ta
 |Email        | timm@ieee.org|
 
 
-
 **Preferred method of communication and Response Times:**
+
 
 - For private queries, use the above  email
 - But or most queries, use the discord server 
@@ -35,6 +35,7 @@ via  <a href="https://creativecommons.org/licenses/by-sa/4.0/?ref=chooser-v1" ta
 
 
 **Asking questions about the course:**
+
 
 - It is each student's responsibility to join the class Discord group "SE spring'25".
   - Till Friday week1, the link to join there is [here](https://discord.gg/DkaZw4zM)
@@ -46,6 +47,7 @@ via  <a href="https://creativecommons.org/licenses/by-sa/4.0/?ref=chooser-v1" ta
 
 
 **Email guidelines:**
+
 
 - Always include a descriptive, specific but concise subject. 
 - Include your course number and section in your email, and provide adequate context for your question in order to ensure full understanding of your email. 
@@ -69,10 +71,12 @@ via  <a href="https://creativecommons.org/licenses/by-sa/4.0/?ref=chooser-v1" ta
 |Attendance         | not mandatory |
 |Technical requirements | A laptop computer is required for students taking this course.  NC State’s Online and Distance Education provides technology requirements and recommendations for computer hardware, and NC State’s Office of Information Technology provides recommendations for your computer . But as a rule-of-thumb, your computer is adequate if you can edit and run code using the  Github codespaces environment.|
 
+
  
 
 
  
+
 
 ### Learning Outcomes
 
@@ -95,7 +99,9 @@ via  <a href="https://creativecommons.org/licenses/by-sa/4.0/?ref=chooser-v1" ta
   - Important note: while homeworks are done in groups of 3, you will be examined individually
     about that content. So make sure you understand **all** the homework material.
 
+
  
+
 
 Projects comprise large maintenance tasks where you have to extend someone else'e code (groups of 3 people, working in public Github repos-- not NCSU GH): 
 
@@ -143,6 +149,7 @@ With the final grades, the following grade scale will be used:
 
 Submissions score one late mark per day (but only -1 for the weekend).
 
+
 ### Expectations for learner participation and interaction
 
 
@@ -161,7 +168,6 @@ For masters students, some evidence must be generated that you are actively enga
 - Lectures are twice a week. 
 - Lectures will be recorded.
 - Attendance is not mandatory, but highly recommended. 
-
 
 
 If, for a quiz, you must be absence for a reason sanction by the university, contact the lecturer before time and other arrangements will be made.
