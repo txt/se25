@@ -70,6 +70,6 @@ window so we can see you can see the code and error at the same time.
 11. Look up how to do a Python workflows. https://docs.github.com/en/actions/use-cases-and-examples/building-and-testing/building-and-testing-python#testing-with-pytest-and-pytest-cov
 12. Make your code auto test each time you commit (using the workflows)
 13. Add a badge showing if your tests pass or fail. See https://docs.github.com/en/actions/monitoring-and-troubleshooting-workflows/monitoring-workflows/adding-a-workflow-status-badge
-14. Add in all the "HW1" entries in the table fro [
+14. Add in all the entries ticked in "HW1" of [the project description](https://github.com/txt/se25/blob/main/docs/proj23.md#rubric-for-repo].
 
 

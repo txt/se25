@@ -11,7 +11,7 @@ via  <a href="https://creativecommons.org/licenses/by-sa/4.0/?ref=chooser-v1" ta
 
 
 
-# Projec2, Project3 
+# Project2, Project3 
 
 
 ## Your task
@@ -55,14 +55,25 @@ One pdf with
 ## Grading
 
 
-Projec2:
+Note that project2 and project3 start with some prior poster boasting that you can do XYZ.
+
+
+You do not have to do XYZ, just as long as, when asked, you a well-founded reason for (e.g.)  doing A not X.
+
+
+Project2:
 
 
 - demo: 5 marks
-- rubric: 8 marks
+- rubric: 8 marks (see below)
 - poster: 2 marks
-- 
-Projec3: 
+
+
+Project3
+
+
+- demo: 21 marks 
+- poster: 2 marks
 
 
 ## Rubric for Repo
@@ -106,7 +117,7 @@ but nevertheless, here is a track record that everyone is contributing a lot)|ev
 |Badges showing your style checkers |config files in GH showing your config, badges in README|:heavy_check_mark:|
 |Badges showing your code formatters. |config files in GH showing your this formatter's  config, badges in README|:heavy_check_mark:|
 |Badges showing your syntax checkers. |config files iin  GH showing this checker's config, badges in README  |:heavy_check_mark:|
-|Badges showing your code coverage tools|config files in GH, badges in README|:heavy_check_mark:|
+|Badges showing your code coverage tools|config files in GH, badges in README| |
 |Badges showing any other Other automated analysis tools|config files in GH, badges in README|:heavy_check_mark:|
 
 
