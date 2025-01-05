@@ -1,5 +1,5 @@
 <p><a name=top> </a>&nbsp;</p>
-<img align="right" width="300" src="/img/banner.png"> 
+<img src="/img/banner2.png"> 
 <h1> :cyclone:&nbsp;CSC510: Software&nbsp;Engineering<br>NC&nbsp;State, Spring&nbsp;'25</h1>
 <p>
     <a 
