@@ -4,15 +4,15 @@
 <p>
     <a 
     href="/README.md#top"><img 
-    src="https://img.shields.io/badge/Home-%230077b5?style=for-the-badge&logo=home&logoColor=white"></a><a 
+    src="https://img.shields.io/badge/Home-%23ff5733?style=for-the-badge&logo=home&logoColor=white"></a><a 
     href="/docs/syllabus.md#top"><img 
-    src="https://img.shields.io/badge/Syllabus-%23f1c40f?style=for-the-badge&logo=openai&logoColor=white"></a><a 
+    src="https://img.shields.io/badge/Syllabus-%230055ff?style=for-the-badge&logo=openai&logoColor=white"></a><a 
     href="groups"><img 
-    src="https://img.shields.io/badge/Groups-%232ecc71?style=for-the-badge&logo=users&logoColor=white"></a><a 
+    src="https://img.shields.io/badge/Groups-%23ffd700?style=for-the-badge&logo=users&logoColor=white"></a><a 
     href="https://moodle-courses2425.wolfware.ncsu.edu/course/view.php?id=7150"><img 
-    src="https://img.shields.io/badge/Moodle-%23959595?style=for-the-badge&logo=moodle&logoColor=white"></a><a 
+    src="https://img.shields.io/badge/Moodle-%23dc143c?style=for-the-badge&logo=moodle&logoColor=white"></a><a 
     href="https://discord.gg/DkaZw4zM"><img 
-    src="https://img.shields.io/badge/Discord-%23f47fff?style=for-the-badge&logo=discord&logoColor=white"></a>
+    src="https://img.shields.io/badge/Discord-%23008080?style=for-the-badge&logo=discord&logoColor=white"></a>
 </p>
 <p>
 &copy;2025 <a href="http://timm.fyi" rel="cc:attributionURL dct:creator" property="cc:attributionName">Tim Menzies</a> 
