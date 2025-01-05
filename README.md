@@ -16,7 +16,7 @@
     <br>
 <img width=200 src="/img/banner2.png">
 </p>
-<center><h1>:cyclone:&nbsp;CSC510: Software&nbsp;Engineering<br>NC&nbsp;State, Spring&nbsp;'25</h1></center>
+<center><h1 align="center">:cyclone:&nbsp;CSC510: Software&nbsp;Engineering<br>NC&nbsp;State, Spring&nbsp;'25</h1></center>
       
 
 **About**
