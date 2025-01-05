@@ -1,20 +1,14 @@
-<p><a name=top></a>&nbsp</p>
+<p><a name=top> </a>&nbsp</p>
 <img align="right" width="300" src="/img/banner.png"> 
 <h1> :cyclone: CSC510: Software Engineering<br>NC State, Spring '25</h1>
 <p>
     <a href="/README.md#top" style="text-decoration: none;">
-        <img src="https://img.shields.io/badge/Home-%230077b5?style=for-the-badge&logo=home&logoColor=white">
-    </a>
-    <a href="/docs/syllabus.md#top" style="text-decoration: none;">
-        <img src="https://img.shields.io/badge/Syllabus-%23f1c40f?style=for-the-badge&logo=openai&logoColor=white">
-    </a>
-    <a href="groups" style="text-decoration: none;">
+        <img src="https://img.shields.io/badge/Home-%230077b5?style=for-the-badge&logo=home&logoColor=white"></a><a href="/docs/syllabus.md#top" style="text-decoration: none;"><img src="https://img.shields.io/badge/Syllabus-%23f1c40f?style=for-the-badge&logo=openai&logoColor=white">
+    </a> <a href="groups" style="text-decoration: none;">
         <img src="https://img.shields.io/badge/Groups-%232ecc71?style=for-the-badge&logo=users&logoColor=white">
-    </a>
-    <a href="https://moodle-courses2425.wolfware.ncsu.edu/course/view.php?id=7150" style="text-decoration: none;">
+    </a><a href="https://moodle-courses2425.wolfware.ncsu.edu/course/view.php?id=7150" style="text-decoration: none;">
         <img src="https://img.shields.io/badge/Moodle-%23959595?style=for-the-badge&logo=moodle&logoColor=white">
-    </a>
-    <a href="https://discord.gg/DkaZw4zM" style="text-decoration: none;">
+    </a><a href="https://discord.gg/DkaZw4zM" style="text-decoration: none;">
         <img src="https://img.shields.io/badge/Discord-%23f47fff?style=for-the-badge&logo=discord&logoColor=white">
     </a>
 </p>
