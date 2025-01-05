@@ -1,5 +1,6 @@
 <p><a name=top> </a>&nbsp;</p>
-<p>
+<center>
+<p align=center>
     <a 
     href="/README.md#top"><img 
     src="https://img.shields.io/badge/Home-%23ff5733?style=for-the-badge&logo=home&logoColor=white"></a><a 
@@ -14,8 +15,8 @@
     href="/LICENSE.md"><img 
     src="https://img.shields.io/badge/(c)%20Tim%20Menzies,%202025-%234b4b4b?style=for-the-badge&logoColor=white"></a>
 </p>
-<img width=200 src="/img/banner2.png">
-<h1>:cyclone:&nbsp;CSC510: Software&nbsp;Engineering<br>NC&nbsp;State, Spring&nbsp;'25</h1>
+<h1 align="center">:cyclone:&nbsp;CSC510: Software Engineering<br>NC&nbsp;State, Spring&nbsp;'25</h1>
+<img width=200 src="/img/banner2.png"></center>
       
 
 
