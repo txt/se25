@@ -1,24 +1,33 @@
+
+<p><a name=top> </a>&nbsp</p>
+<img align="right" width="300" src="/img/banner.png"> 
 <h1> :cyclone: CSC510: Software Engineering<br>NC State, Spring '25</h1>
-<a name=#top></a>
-<p>&nbsp;</p>
-<img align="right" width="300" src="/img/banner.png">
+<p>
+    <a 
+    href="/README.md#top"><img 
+    src="https://img.shields.io/badge/Home-%23ff5733?style=for-the-badge&logo=home&logoColor=white"></a><a 
+    href="/docs/syllabus.md#top"><img 
+    src="https://img.shields.io/badge/Syllabus-%230055ff?style=for-the-badge&logo=openai&logoColor=white"></a><a 
+    href="groups"><img 
+    src="https://img.shields.io/badge/Groups-%23ffd700?style=for-the-badge&logo=users&logoColor=white"></a><a 
+    href="https://moodle-courses2425.wolfware.ncsu.edu/course/view.php?id=7150"><img 
+    src="https://img.shields.io/badge/Moodle-%23dc143c?style=for-the-badge&logo=moodle&logoColor=white"></a><a 
+    href="https://discord.gg/DkaZw4zM"><img 
+    src="https://img.shields.io/badge/Discord-%23008080?style=for-the-badge&logo=discord&logoColor=white"></a>
+</p>
+<p>
 &copy;2025 <a href="http://timm.fyi" rel="cc:attributionURL dct:creator" property="cc:attributionName">Tim Menzies</a> 
-via <a href="https://creativecommons.org/licenses/by-sa/4.0/?ref=chooser-v1" target="_blank" rel="license noopener noreferrer" style="display:inline-block;">CC BY-SA 4.0 
+<br> <a href="https://creativecommons.org/licenses/by-sa/4.0/?ref=chooser-v1" target="_blank" rel="license noopener noreferrer" style="display:inline-block;">CC BY-SA 4.0</a>
 <img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/cc.svg?ref=chooser-v1" alt="">
 <img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/by.svg?ref=chooser-v1" alt="">
-<img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/sa.svg?ref=chooser-v1" alt=""></a></p>
+<img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/sa.svg?ref=chooser-v1" alt=""></p>
+<br clear=all>
 
-<hr>
-
-[home](/README.md#top) | [syllabus](/docs/syllabus.md) | [groups](groups) | [moodle](https://moodle-courses2425.wolfware.ncsu.edu/course/view.php?id=7150) | [discord](https://discord.gg/DkaZw4zM)
-
-<hr>
 
 # HW1: A Beautiful Repo
 
 Your repo is your resume. Does it look professional?
 
----
 
 ## How to Submit Assignment:
 - Only **one group member** submits the work.
@@ -28,23 +37,25 @@ Your repo is your resume. Does it look professional?
   - **Repo URL**
   - A **screenshot** as specified in Task 6.
 
----
+
 
 ## What to Hand In:
 - A **one-page PDF** with a **screenshot** from Task 6.
 - On that page, also write the **repo URL** created below. (where we can look at all your wonderful badges).
 
----
 
 ## Notes:
 - Tasks **1–9** are straightforward.
 - Tasks **10–13** require additional troubleshooting with web resources.
-- Task **14** is **optional** but encouraged.
+- Task **14** is **optional** but encouraged. All these task 14 will be required for Project2 so
+  if you want to check you can get **all** your Project2 marks, try these now. Sure, some of these will require researching on the web but you've got time (its still jsut
+  start of semester) and you've got a good team. So why not go for it?
+
 
 **Ensure equal contribution among group members.**
 
 
----
+
 
 ## Todo
 
@@ -120,7 +131,7 @@ For 7 and 8 tasks, it is recommended that a terminal be used.
     - Follow instructions [here](https://docs.github.com/en/actions/monitoring-and-troubleshooting-workflows/monitoring-workflows/adding-a-workflow-status-badge).
    
 14. **Optional**
-    - Add in all the entries ticked in "HW1" of [the project description](https://github.com/txt/se25/blob/main/docs/proj23.md#rubric-for-repo).
+    - Add in all the entries ticked in "HW1" of [the project description](https://github.com/txt/se25/blob/main/docs/proj23.md#rubric-for-repo). 
 
 
 
