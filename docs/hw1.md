@@ -19,8 +19,7 @@ via <a href="https://creativecommons.org/licenses/by-sa/4.0/?ref=chooser-v1" tar
 # HW1: A beautiful repo
 
 
-Your repo is your resume. Does it look professional?
-
+Your repo is your resume. Does it look professional
 
  
 

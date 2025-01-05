@@ -1,18 +1,21 @@
+<p><a name=top>&nbsp;</a></p>
+<img align="right" width="300" src="/img/banner.png"> 
 <h1> :cyclone: CSC510: Software Engineering<br>NC State, Spring '25</h1>
-<a name=#top></a>
-<p>&nbsp;</p>
-<img align="right" width="300" src="/img/banner.png">
+<p>
+    <a href="/README.md#top"><img src="https://img.shields.io/badge/Home-blue"></a>
+    <a href="/docs/syllabus.md#top"><img src="https://img.shields.io/badge/Syllabus-yellow"></a>
+    <a href="groups"><img src="https://img.shields.io/badge/Groups-green"></a>
+    <a href="https://moodle-courses2425.wolfware.ncsu.edu/course/view.php?id=7150"><img src="https://img.shields.io/badge/Moodle-gray"></a>
+    <a href="https://discord.gg/DkaZw4zM"><img src="https://img.shields.io/badge/Discord-pink"></a>
+</p>
+<p>
 &copy;2025 <a href="http://timm.fyi" rel="cc:attributionURL dct:creator" property="cc:attributionName">Tim Menzies</a> 
 via <a href="https://creativecommons.org/licenses/by-sa/4.0/?ref=chooser-v1" target="_blank" rel="license noopener noreferrer" style="display:inline-block;">CC BY-SA 4.0 
 <img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/cc.svg?ref=chooser-v1" alt="">
 <img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/by.svg?ref=chooser-v1" alt="">
 <img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/sa.svg?ref=chooser-v1" alt=""></a></p>
-       
-<hr>
-        
-[home](/README.md#top) | [syllabus](/docs/syllabus.md) | [groups](groups) | [moodle](https://moodle-courses2425.wolfware.ncsu.edu/course/view.php?id=7150) | [discord](https://discord.gg/DkaZw4zM)
-   
-<hr>
+<br clear=all>
+      
 
 **About**
 >  SE is about **teams**. Teams of people you know that build your software. Teams you dont know that bult the software you are using. Other teams who use and fix your code.  So, its time to learn about teams; about being a team player; about communicating within your team and to other teams;  about being a follower and (when needed) a leader; and about creating and meeting team expectations. Enjoy!
