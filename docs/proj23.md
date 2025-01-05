@@ -1,4 +1,4 @@
-<p><a name=top> </a>&nbsp</p>
+<p><a name=top> </a>&nbsp;</p>
 <img align="right" width="300" src="/img/banner.png"> 
 <h1> :cyclone: CSC510: Software Engineering<br>NC State, Spring '25</h1>
 <p>
@@ -131,7 +131,7 @@ but nevertheless, here is a track record that everyone is contributing a lot)|ev
 |Badges showing your style checkers |config files in GH showing your config, badges in README|:heavy_check_mark:|
 |Badges showing your code formatters. |config files in GH showing your this formatter's  config, badges in README|:heavy_check_mark:|
 |Badges showing your syntax checkers. |config files iin  GH showing this checker's config, badges in README  |:heavy_check_mark:|
-|Badges showing your code coverage tools|config files in GH, badges in README| |
+|Badges showing your code coverage tools|config files in GH, badges in README| :heavy_check_mark:|
 |Badges showing any other Other automated analysis tools|config files in GH, badges in README|:heavy_check_mark:|
 
 

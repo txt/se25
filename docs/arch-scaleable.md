@@ -1,4 +1,4 @@
-<p><a name=top> </a>&nbsp</p>
+<p><a name=top> </a>&nbsp;</p>
 <img align="right" width="300" src="/img/banner.png"> 
 <h1> :cyclone: CSC510: Software Engineering<br>NC State, Spring '25</h1>
 <p>
