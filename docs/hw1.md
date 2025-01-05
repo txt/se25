@@ -1,78 +1,126 @@
-<h1> :cyclone:  csc510: Software Engineering<br>NC State, Spring'25</h1>
-<a name=#top><p>&nbsp;</a><img align=right width=300 src="/img/banner.png">
-&copy;2025 <a rel="cc:attributionURL dct:creator" property="cc:attributionName" href="http://timm.fyi">Tim Menzies</a> 
-via  <a href="https://creativecommons.org/licenses/by-sa/4.0/?ref=chooser-v1" target="_blank" rel="license noopener noreferrer" 
-          style="display:inline-block;">CC BY-SA 4.0 <img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/cc.svg?ref=chooser-v1" alt=""><img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/by.svg?ref=chooser-v1" alt=""><img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/sa.svg?ref=chooser-v1" alt=""></a></p>
+<h1> :cyclone: CSC510: Software Engineering<br>NC State, Spring '25</h1>
+<a name=#top></a>
+<p>&nbsp;</p>
+<img align="right" width="300" src="/img/banner.png">
+&copy;2025 <a href="http://timm.fyi" rel="cc:attributionURL dct:creator" property="cc:attributionName">Tim Menzies</a> 
+via <a href="https://creativecommons.org/licenses/by-sa/4.0/?ref=chooser-v1" target="_blank" rel="license noopener noreferrer" style="display:inline-block;">CC BY-SA 4.0 
+<img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/cc.svg?ref=chooser-v1" alt="">
+<img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/by.svg?ref=chooser-v1" alt="">
+<img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/sa.svg?ref=chooser-v1" alt=""></a></p>
+
 <hr>
-        
+
 [home](/README.md#top) | [syllabus](/docs/syllabus.md) | [groups](groups) | [moodle](https://moodle-courses2425.wolfware.ncsu.edu/course/view.php?id=7150) | [discord](https://discord.gg/DkaZw4zM)
-   
+
 <hr>
 
-
-
-# HW1: A beautiful repo
-
+# HW1: A Beautiful Repo
 
 Your repo is your resume. Does it look professional?
 
+---
 
- 
+## How to Submit Assignment:
+- Only **one group member** submits the work.
+- Include:
+  - **Group number**
+  - **Names of all participants**
+  - **Repo URL**
+  - A **screenshot** as specified in Task 6.
+
+---
+
+## What to Hand In:
+- A **one-page PDF** with a **screenshot** from Task 6.
+- On that page, also write the **repo URL** created below. (where we can look at all your wonderful badges).
+
+---
+
+## Notes:
+- Tasks **1–9** are straightforward.
+- Tasks **10–13** require additional troubleshooting with web resources.
+- Task **14** is **optional** but encouraged.
+
+**Ensure equal contribution among group members.**
 
 
-## What to hand in:
+---
 
+## Todo
 
-- A one page pdf with a screen snap from point6 
-- On that page, also write the  url to the repo crated below.  (where we can look at all your wonderful badges).
+1. Your team should create an organization on Github.
+   - Do not use NCSU GitHub.
+  
+2. Create a repo in that organization. Make it public.
 
+3. Find the big green  `CODE` button. Create a new workshop on the main.
 
-Note:
+4. **Check you have the latest Python (3.13)**
+   - If not, then in the terminal, install  python3.13 by running the following command (it is all on one line).
+     ```bash
+     sudo apt update -y; sudo  apt upgrade -y; sudo apt install software-properties-common -y; sudo add-apt-repository ppa:deadsnakes/ppa -y ; sudo apt update -y ; sudo apt install python3.13 -y
 
+     ```
+     Then check you have python3.13.
 
-- Points 1..9 are easy.
-- Points 10,11,12,13 will require much messing around with web-based help files. Go work it out.
-- Point 14 is optional.
+     ```bash
+     python3.13 -B --version
+     ```
 
+5. Write a short Python program (10 lines) and add an error.
+- From the command line,  run that file.
 
-## Todo 
+     ```bash
+     python3 myfile.py
+     ```
+     
+- You should see errors on the command line.
+- VSCode should now be asking if you want Python support installed. Do it.
 
+  
+6. Run the code again. Take your mouse and point to one of the errors on the screen. Observe how it highlights like a hyperlink.
 
-1. Your team should create an organization on Github
-2. Crate a repo in that organization. Make it public.
-3. Find the  big green CODE button. Create a new workshop on main.
-4. Check you have the latest python (3.13). If not, then in the terminal, install  python3.13 by running the following command (it is all on one line).
-Then check you have python3.13.
-```sh
-sudo apt update -y; sudo  apt upgrade -y; sudo apt install software-properties-common -y; sudo add-apt-repository ppa:deadsnakes/ppa -y ; sudo apt update -y ; sudo apt install python3.13 -y
-```
-```sh
-python3.13 -B --version
-```
-5. Now write a short python program (10 lines) and add an error.
-   From the command line,  run that file.
-You should see errors on the command line.
-VSCode should now be asking if you want Python support installed. Do it.
-```sh
-python3 myfile.py
-```
-6. Run the code again. Take you mouse and point to one of the errors on the screen. Observe
-how it highlights like a hyperlink. Take a screen snap of you point to that error. Include the whole
-window so we can see you can see the code and error at the same time.
-7.  Go to https://choosealicense.com/licenses/ and find text for your license of choice.
-    Change  /workspaces/LICENSE.md to have that content.
-8. Goto  to https://github.com/github/gitignore and find the VisualStudio.gitignore and the Python.gitignore.
-   Add all that content to /worskspaces/.gitignore
-9. Go to http://shields.io and https://dev.to/envoy_/150-badges-for-github-pnk and work out how to add a bade to a markdown file.
-  Go to /workspaces/README.md. Delete its contents.  Add badges to the top for 
-  - language python
-  - license bsd-2   (or what ever you selected)
-  - platform linux
-10. Look up "pytest". Add a test engine to you code. Add two tests: one that fails, one that passes.
-    - Important: make the tests in a SEPARATE file to your code file.
-11. Look up how to do a Python workflows. https://docs.github.com/en/actions/use-cases-and-examples/building-and-testing/building-and-testing-python#testing-with-pytest-and-pytest-cov
-12. Make your code auto test each time you commit (using the workflows)
-13. Add a badge showing if your tests pass or fail. See https://docs.github.com/en/actions/monitoring-and-troubleshooting-workflows/monitoring-workflows/adding-a-workflow-status-badge
-14. Add in all the entries ticked in "HW1" of [the project description](https://github.com/txt/se25/blob/main/docs/proj23.md#rubric-for-repo).
+- Take a screenshot of you and point to that error. Include the whole window so we can see you can see the code and error at the same time. (Only one screenshot is needed and only for task 6).
+
+For 7 and 8 tasks, it is recommended that a terminal be used. 
+
+7. **Add License**
+   - Go to [Choose a License](https://choosealicense.com/licenses/) and find the text for your license of choice.
+   - Add your chosen license text to `LICENSE.md`. Change  /workspaces/LICENSE.md to have that content. The `LICENSE.md` document should be on your repository root.
+
+8. **Add `.gitignore`**
+   - Use [GitHub Gitignore](https://github.com/github/gitignore).
+   - Find and include:
+     - Visual Studio `.gitignore`
+     - Python `.gitignore`
+
+9. **Add Badges**
+   - Go to [Shields.io](https://shields.io) and [dev.to](https://dev.to/envoy_/150-badges-for-github-pnk) and work out how to add a badge to a markdown file.
+   - Go to /workspaces/README.md. Delete its contents. Add badges to the top for:
+     - **Language**: Python
+     - **License**: BSD-2 (or your choice)
+     - **Platform**: Linux
+
+10. **Add Tests**
+-  Look up "pytest". Add a test engine to your code.
+-  Write two tests:
+     - One test should pass.
+     - One test should fail.
+- Important: Make the tests in a SEPARATE file for your code file.
+- It should show "fail". Thereby showing your code is working.
+
+11. **Set Up GitHub Actions**
+    - Look up how to do Python workflows [here](https://docs.github.com/en/actions/use-cases-and-examples/building-and-testing/building-and-testing-python#testing-with-pytest-and-pytest-cov).  
+    - Automate tests to run on every commit.
+   
+12. Make your code auto-test each time you commit (using the workflows). GitHub actions are run on push. Ideally, you push after every commit to ensure what broke your code.
+
+13. **Add a Status Badge**
+    - Add a badge showing if your tests pass or fail.
+    - Follow instructions [here](https://docs.github.com/en/actions/monitoring-and-troubleshooting-workflows/monitoring-workflows/adding-a-workflow-status-badge).
+   
+14. **Optional**
+    - Add in all the entries ticked in "HW1" of [the project description](https://github.com/txt/se25/blob/main/docs/proj23.md#rubric-for-repo).
+
 
 
