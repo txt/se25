@@ -100,6 +100,12 @@
 
 ### Assessment
  
+- Multiple mini-review questions on Moodle
+  - 2-3 questions about the lectures that week
+  - Posted every Wednesday, due Friday 9am.
+  - Zero marks for getting them right or wrong
+  - Minus 1 mark for not attempting them
+    - "Attempt" = a few lines for each question.
 - 3 projects
 - 1 mid-session exam
 - 5 homeworks (testing software guru skills)
@@ -130,6 +136,9 @@ for those who want to work in _i+1_.
   - You will switch projects and significantly extend some project
 - Projects3: 
   - You will swtich to someone else's project2 code 
+
+
+> **IMPORTANT** : Projects 2 and 3 will be assessed in live demo sessions with the tutor. These sessions will occur the weeks of Mar3 and Apr21.  We ask for students for their help in  scheduling all these demo sessions. Our graders/tutors are students with their own exams and assignment to complete.   Hence, they might  suggest demo times outside of normal working hours (evenings, weekends).  Please do them the  courtesy of considering those times. That said, if those times are inconvenient, **you can, should, and must ask for other times**.
 
 
 ### Grades

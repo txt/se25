@@ -13,7 +13,8 @@ ONE=cat $< | awk 'BEGIN {FS="\n";RS=""} {print $$0 ; exit}'
 TWOPLUS=cat $@ | awk 'BEGIN {FS="\n";RS=""} NR==1 { print("\n\n"); next} {print $$0 "\n\n"}'
 
 all: ## save all to Github
-	$(MAKE) ../LICENSE.md *.md push
+	$(MAKE) ../LICENSE.md *.md 
+	$(MAKE) push
 
 ../LICENSE.md: ../README.md Makefile ## update license
 	 @echo "$@ ... " ; ($(ONE);  $(TWOPLUS)) > .tmp; mv .tmp $@
