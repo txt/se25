@@ -27,65 +27,78 @@
 <p align=center><img width=500 src="https://ee-schools.org/wp-content/uploads/Under-Construction-Sign.png"></p>
 
 
+## Your Task
+
+**Look at the past, sell a possible future.**
+
+### What to Hand In
+Two posters and two demos from two projects that describe:
+1. **What was done before**
+2. **What could be done to extend that**
  
+### Important
 
+- Review **10+ projects** before selecting two.
+- You have a **25% chance** of having to create one of these posters for Project2, so choose carefully.
+- Many previous projects may have issues (e.g., poor installation instructions, outdated packages, dull goals). Be critical in your selection.
 
-Your task: look at the past, sell a possible future.
+---
 
+## Rubric for Posters
 
-What to hand-in: two posters from two projects that describe
+### Each demo:
+1. Be no more than **5 minutes long**.
+2. Include the following:
+   - A **running program** with demonstrated functionality.
+   - An explanation of **why you want to work on this project**.
+   - A discussion of **what changes or updates** could be made.
+  
+### Each poster must:
 
+1. Be a **standard page size** (e.g., letter or A4).
+2. Use **small fonts** (text may be as small as 4 to 6 points).
+3. Be submitted as a **PDF file**.
+4. Avoid vast amounts of **white space**.
 
-- what was done before
-- what could be done to extend that
+#### Include the Following:
 
-
-Improtant:
-
-
-- look at 10+ projects before picking two
-- cause you have a 25% chance of acually having to do one of these posters for project2.
-- So be critical. Many prior projects are less than perfect (poor install instructions, packages that no longer install, dull goals)
-
-
-## Rubric for posters
-
-
-Each poster:
-
-
-- Is a standard page size
-- Uses very small fonts ( text may be as small as 4 to 6 point)
-- Is a pdf file
-- Does  not have vast amounts of white space
-- Has 
-  - a screen snaps of the running system; 
-  - has a  url/QR code to the repo; 
-  - optionally (but preferred) has a url/QR code to a live demo (and how you host that demo is up to you).
-- Sells the software:
-  - i.e. up to  5  ways that this software (Version i) is better than what was true BEFORE this software was written
-- Proposes a better version for version i+1
-  - 3 to five implementation milestones, each of which  takes version i+1 to a better place
+- **Screenshots** of the running system.
+- **URLs/QR codes**:
+  - To the repository.
+  - To a live demo (how you host the demo is up to you).
+- **Sell the software**:
+  - Highlight **up to 5 ways** Version *i* is better than what was true BEFORE this software was written.
+- **Propose a better version (Version i+1)**:
+  - Include **3–5 implementation milestones** to improve Version i+1.
   - Note that these milestones have to demonstrate a possible implementation plan, with clear goals.
   - Perhaps some milestones will be explored in parallel.
-- Boasts your number of test cases (one group listed 130+, which is really cool since that means you can  make new changes to the system while checking if the old stuff still works)
+- **Boast your test cases**:
+  - E.g., "One group listed 130+ test cases, showcasing their ability to make changes while maintaining old functionality."
+
+---
+
+## Grading
+
+- **Demo1:** 2.5 marks
+- **Poster1:** 2.5 marks
+- **Demo2:** 2.5 marks
+- **Poster2:** 2.5 marks
 
 
 ## Ways to lose points:
 
-
-- Your poster does not have the above features.
-- Your poster fails to sell. Specifically:
+- Your poster or demo does not have the above features.
+- Your poster fails to effectively **sell** the project. Specifically:
   - in the first 15 seconds or reading, the poster offers  does not  very clear understanding of what was going on (so good intro sentence)
   - the  poster does not  make a case that this technology stack is interesting (e.g. "select this project so you can
     learn about kubernetes")
+---
 
 
 ## How to fail at this project
 
-
-- Start late, looking at the corpus.
-- Write posters for dull projects
+- Starting late when reviewing the project corpus.
+- Choosing dull projects for your posters.
 
 
 ## Where to find old projects (and their posters)
@@ -96,4 +109,16 @@ Each poster:
 -  [3](/img/posters3.pdf)
 -  [4](/img/posters4.pdf)
 
+### Instructions:
+1. **Review All Posters:**
+   - Log through all the posters from the links provided above.
+   - Ensure you review every page.  
+     - **Note:** There are more than 5 posters on each page. Use the "More pages" button to view all available posters.
 
+2. **Utilize Provided Resources:**
+   - Use **QR codes** and **links** to navigate to project repositories for additional details.
+
+3. **Analyze and Document:**
+   - Make **notes** on:
+     - What you liked about the posters.
+     - What aspects you think should be avoided or improved in future projects.
