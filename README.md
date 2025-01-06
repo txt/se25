@@ -41,7 +41,7 @@
       <th>📅  Week of...</th>
       <th>🎓 Lecture</th>
       <th>🛠️ Homework submission<br>(due 11:25am)</th>
-      <th>📂 Project submission<br>(due 11:25am)/th>
+      <th>📂 Project submission<br>(due 11:25am)</th>
       <th>✨ Other</th>
       <th>📝 Notes</th>
       <th>📊 Grade</th>
