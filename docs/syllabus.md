@@ -31,7 +31,8 @@
 | Prerequisites |CSC 316 and CSC 226 (or equivalent |
 
 
-Lecturer: Prof. Tim Menzies (Dr.Timm)
+Lecturer: Prof. Tim Menzies (Dr.Timm)<br>
+<img src="/img/tim.png">
 
 
 |Details      | Notes                           |
@@ -41,7 +42,8 @@ Lecturer: Prof. Tim Menzies (Dr.Timm)
 |Email        | timm@ieee.org|
 
 
-Tutor: Katerina Vilkomir 
+Tutor: Katerina Vilkomir<br>
+<img src="/img/katerina.png">
 
 
 |Details      | Notes                           |
