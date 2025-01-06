@@ -1,16 +1,40 @@
-ay rubbish
+<p><a name=top> </a>&nbsp;</p>
+<p align=center>
+    <a 
+    href="/README.md#top"><img 
+    src="https://img.shields.io/badge/Home-%23ff5733?style=for-the-badge&logo=home&logoColor=white"></a> <a 
+    href="/docs/syllabus.md#top"><img 
+    src="https://img.shields.io/badge/Syllabus-%230055ff?style=for-the-badge&logo=openai&logoColor=white"></a> <a 
+    href="groups"><img 
+    src="https://img.shields.io/badge/Groups-%23ffd700?style=for-the-badge&logo=users&logoColor=white"></a> <a 
+    href="https://moodle-courses2425.wolfware.ncsu.edu/course/view.php?id=7150"><img 
+    src="https://img.shields.io/badge/Moodle-%23dc143c?style=for-the-badge&logo=moodle&logoColor=white"></a> <a 
+    href="https://discord.gg/DkaZw4zM"><img 
+    src="https://img.shields.io/badge/Discord-%23008080?style=for-the-badge&logo=discord&logoColor=white"></a> <a 
+    href="/LICENSE.md"><img 
+    src="https://img.shields.io/badge/(c)%20Tim%20Menzies,%202025-%234b4b4b?style=for-the-badge&logoColor=white"> </a>
+    <br>&nbsp;<br>
+    <img width=200 src="/img/banner2.png">
+</p>
+ <h1 align="center">:cyclone:&nbsp;CSC510: Software Engineering<br>NC&nbsp;State, Spring&nbsp;'25</h1>
+      
+
 
 
 # Git
 
+
 ## What is Git?
 Git is a free and open source distributed version control system used for handel everything of projects during software development. It is often used to control source code by programmers collaboratively developing software.
+
 
 ### Git data structure 
 Git has two data structures: a mutable index (also called stage or cache) that caches information about the working directory and the next revision to be committed; and an object database that stores immutable objects. The index serves as a connection point between the object database and the working tree.<br />
 In Git terminology, a file is called a **blob**, and it’s just a bunch of bytes. A directory is called a **tree**, and it maps names to blobs or trees (so directories can contain other directories). 
 
+
 ## Main Concepts
+
 
 ### Repository
 A repository (or repo) is a storage space for files, directories, historical records, commits, and heads. It can be local (on your computer) or remote (on a server like GitHub).
@@ -18,27 +42,34 @@ A repository (or repo) is a storage space for files, directories, historical rec
 <br />
 Some components of the repository:<br />
 
+
 * .git Directory: contains all the configurations, logs, branches, HEAD, and more
 * Working Tree: the directories and files in your repository
 * Index: is the staging area in git. It’s basically a layer that separates your working tree from the Git repository.
 * HEAD and head: HEAD is a pointer that points to the current branch. A repository only has 1 **active** HEAD. head is a pointer that points to any commit. A repository can have any number of heads.
 
+
 ### Commit
 A commit is a snapshot of a set of changes. For example, if you added 5 files, and removed 2 others, these changes will be contained in a commit. Each commit has a unique ID.
 
+
 ### Branch
 A branch is a parallel version of your project. By default, Git creates a `main` (or `master`) branch. Branches allow you to develop features independently from the main codebase.
+
 
 ### Stages of Git
 * Modified: Changes have been made to a file but file has not been committed to Git Database yet
 * Staged: Marks a modified file to go into your next commit snapshot
 * Committed: Files have been committed to the Git Database
 
+
 ### Merge
 Merging is the process of combining changes from different branches. It integrates the work from one branch into another.
 
+
 ### Clone
 Cloning is copying a repository from a remote server to your local machine.
+
 
 ### Pull and Push
 - **Pull**: Fetches changes from a remote repository and merges them into your local branch.
@@ -47,16 +78,20 @@ Cloning is copying a repository from a remote server to your local machine.
 
 ## Basic Commands
 
+
 ```sh
 #Create an empty Git repository.
 git init
+
 
 # Set & Print Some Basic Config Variables (Global)
 $ git config --global user.email "MyEmail@ncsu.com"
 $ git config --global user.name "My Name"
 
+
 # Quickly check available commands
 $ git help
+
 
 #To intentionally untrack file(s) & folder(s) from git. Based on different languages, 
 echo "temp/" >> .gitignore
@@ -67,12 +102,15 @@ https://github.com/github/gitignore. For example, Python developers might
 consider
 using [https://github.com/github/gitignore/blob/main/Python.gitignore](https://github.com/github/gitignore/blob/main/Python.gitignore).
 
+
 ```sh
 # Clone a repository
 git clone <repository-url>
 
+
 # Check the status of your files. Will display the branch, untracked files, changes and other differences
 git status
+
 
 # list existing branches & remotes
 git branch -a
@@ -83,17 +121,22 @@ git branch -d <myBranch>
 # rename a branch
 git branch -m <myBranchName> <myNewBranchName>
 
+
 # Add files to staging area
 git add <file>
+
 
 # Commit your changes
 git commit -m "Commit message"
 
+
 # By default, git push will push and merge changes from the current branch to its remote-tracking branch
 git push
 
+
 # By default, git pull will update your current branch
 git pull
+
 
 # Create a new branch
 git checkout -b <branch-name>
@@ -109,24 +152,32 @@ git checkout <commit-hash>
 git merge <branch-name>
 ```
 
+
 ## Special situation
+
 
 ### Stash
 You’ve been doing some work in your git repo, but you want to pull from the remote. Since you have uncommitted changes to some files, you are not able to run git pull. Instead, you can run git stash to save your changes onto a stack!
 
+
 ```sh
 git stash
 
+
 git pull
+
 
 git status #checking if everything is okay
 
+
 git stash list
+
 
 git stash pop
 #or
 git stash apply
 ```
+
 
 ### Fix merge conflix
 When we merge current branch to main branch, some conflicts might happen, like:
@@ -135,6 +186,7 @@ Auto-merging filename.txt
 CONFLICT (content): Merge conflict in filename.txt
 Automatic merge failed; fix conflicts and then commit the result.
 ```
+
 
 This means that Git has identified conflicting changes in "filename" that need to be resolved.<br />
 Open the files with conflicts in your text editor or IDE. Conflicts sections shows your current branch, named "**HEAD**", and the branch you try to merge, named "branch-name".<br />
@@ -145,8 +197,10 @@ This is a different line on main branch.
 This is the modified line on current branch.
 >>>>>>> feature
 
+
 ```
 **Step:**<br />
+
 
 * Resolve the Conflict: Edit the file to resolve the conflict by choosing the right changes to keep.
 * Stage the Resolved Files: Once you have resolved the conflicts, you need to stage the changes.
@@ -155,9 +209,12 @@ This is the modified line on current branch.
 There are some good visual tools to help with dealing conlicts like VSCodes, IntelliJ. To minimize the chance of conflicts, pull changes from the upstream branches regularly and resolve smaller conflicts incrementally.
 When working in a team, communicate about major changes or rebase regularly to reduce the chances of conflicts. <br />
 
+
 ### Reverse
 
+
 In Git, "reverse" typically refers to undoing changes or reverting a commit. There are several ways to reverse changes in Git:
+
 
 * **Revert a Commit:**
 Creates a new commit that undoes the changes made by a previous commit without rewriting history. This is useful when you want to keep the history intact and record the fact that a commit was reverted.<br />
@@ -165,7 +222,9 @@ Creates a new commit that undoes the changes made by a previous commit without r
     git revert <commit-hash>
     ```
 
+
     But if you have merged a branch into your main branch, but later realized that you need to undo this merge.
+
 
     ```sh
     #find the commit hash of the merge that you want to reverse
@@ -173,6 +232,7 @@ Creates a new commit that undoes the changes made by a previous commit without r
     #use "-m" option to specify the parent of the merge you want to keep. The "-m 1" option typically specifies that you want to keep the changes from the first parent (usually the main branch before the merge).
     git revert -m 1 <merge-commit-hash>
     ```
+
 
 * **Reset a Commit:**
 Moves the **HEAD** pointer and potentially the branch pointer to a previous commit, effectively "erasing" commits from the history. This can be destructive as it changes the commit history, making it as though certain commits never happened.<br />
@@ -209,13 +269,17 @@ If you accidentally use "git reset --hard" or otherwise lose commits, you can of
 YouTube video: [Learn git in 15 mins](https://www.youtube.com/watch?v=USjZcfj8yxE)<br />
 Interacting git learning website: [Learn Git Branch](https://learngitbranching.js.org/)
 
+
 ## In class exercises
 Try git comments in Learn Git Branch website. 
 
+
 ## Homework
+
 
 Note that for the homework, we will be looking for evidence that you completed
 these tasks in your [commit log](https://github.com/txt/se24fall/commits/main/).
+
 
 1. Initialize a new Git repository:
     * Create a new directory called git-homework.
