@@ -65,7 +65,7 @@
            <!--- Wed: <a href="https://medium.com/inthepipeline/how-to-use-a-makefile-to-speed-up-your-dbt-project-workflow-fb36eb676910">Data-oriented coding</a ---->
       </td>
       <td>
-           Wed: <a href="docs/hw0.md">Practice exam</a>
+           Wed: <a href="docs/hw0.md">Hw0: practice exam</a>
       </td>
       <td></td>
       <td></td>
