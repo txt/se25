@@ -46,7 +46,7 @@ Two posters and two "video demos" from two projects that describe:
 
 ## Rubric for Posters
 
-### Each demo:
+### Each "video demo":
 1. Be no more than **5 minutes long**.
 2. Include the following:
    - A **running program** with demonstrated functionality.
@@ -67,7 +67,7 @@ Two posters and two "video demos" from two projects that describe:
 - **Screenshots** of the running system.
 - **URLs/QR codes**:
   - To the repository.
-  - To a live demo (how you host the demo is up to you).
+  - To a "canned video" (how you host the demo is up to you).
 - **Sell the software**:
   - Highlight **up to 5 ways** Version *i* is better than what was true BEFORE this software was written.
 - **Propose a better version (Version i+1)**:
@@ -81,15 +81,15 @@ Two posters and two "video demos" from two projects that describe:
 
 ## Grading
 
-- **Demo1:** 2.5 marks
-- **Poster1:** 2.5 marks
-- **Demo2:** 2.5 marks
-- **Poster2:** 2.5 marks
+- **Video demo 1:** 2.5 marks
+- **Poster 1:** 2.5 marks
+- **Video demo 2:** 2.5 marks
+- **Poster 2:** 2.5 marks
 
 
 ## Ways to lose points:
 
-- Your poster or demo does not have the above features.
+- Your poster or "video demo" does not have the above features.
 - Your poster fails to effectively **sell** the project. Specifically:
   - in the first 15 seconds or reading, the poster offers  does not  very clear understanding of what was going on (so good intro sentence)
   - the  poster does not  make a case that this technology stack is interesting (e.g. "select this project so you can
