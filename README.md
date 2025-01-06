@@ -40,8 +40,8 @@
     <tr>
       <th>📅  Week of...</th>
       <th>🎓 Lecture</th>
-      <th>🛠️ Homework submission</th>
-      <th>📂 Project submission</th>
+      <th>🛠️ Homework submission<br>(due 11:25am)</th>
+      <th>📂 Project submission<br>(due 11:25am)/th>
       <th>✨ Other</th>
       <th>📝 Notes</th>
       <th>📊 Grade</th>
@@ -118,7 +118,7 @@
       <td>Feb10</td>
       <td><a href="https://softengbook.org/chapter5">Design1</a></td>
       <td>
-           Wed: <a href="docs/hw04.md">Hw4: Script wizard</a>
+           Thurs: <a href="docs/hw04.md">Hw4: Script wizard</a>
       </td>
       <td>
       </td>
