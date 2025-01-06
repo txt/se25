@@ -1,26 +1,22 @@
-<p><a name=top> </a>&nbsp</p>
-<img align="right" width="300" src="/img/banner.png"> 
-<h1> :cyclone: CSC510: Software Engineering<br>NC State, Spring '25</h1>
-<p>
+<p><a name=top> </a>&nbsp;</p>
+<p align=center>
     <a 
     href="/README.md#top"><img 
-    src="https://img.shields.io/badge/Home-%23ff5733?style=for-the-badge&logo=home&logoColor=white"></a><a 
+    src="https://img.shields.io/badge/Home-%23ff5733?style=for-the-badge&logo=home&logoColor=white"></a> <a 
     href="/docs/syllabus.md#top"><img 
-    src="https://img.shields.io/badge/Syllabus-%230055ff?style=for-the-badge&logo=openai&logoColor=white"></a><a 
+    src="https://img.shields.io/badge/Syllabus-%230055ff?style=for-the-badge&logo=openai&logoColor=white"></a> <a 
     href="groups"><img 
-    src="https://img.shields.io/badge/Groups-%23ffd700?style=for-the-badge&logo=users&logoColor=white"></a><a 
+    src="https://img.shields.io/badge/Groups-%23ffd700?style=for-the-badge&logo=users&logoColor=white"></a> <a 
     href="https://moodle-courses2425.wolfware.ncsu.edu/course/view.php?id=7150"><img 
-    src="https://img.shields.io/badge/Moodle-%23dc143c?style=for-the-badge&logo=moodle&logoColor=white"></a><a 
+    src="https://img.shields.io/badge/Moodle-%23dc143c?style=for-the-badge&logo=moodle&logoColor=white"></a> <a 
     href="https://discord.gg/DkaZw4zM"><img 
-    src="https://img.shields.io/badge/Discord-%23008080?style=for-the-badge&logo=discord&logoColor=white"></a>
+    src="https://img.shields.io/badge/Discord-%23008080?style=for-the-badge&logo=discord&logoColor=white"></a> <a 
+    href="/LICENSE.md"><img 
+    src="https://img.shields.io/badge/(c)%20Tim%20Menzies,%202025-%234b4b4b?style=for-the-badge&logoColor=white"> </a>
+    <br>&nbsp;<br>
+    <img width=200 src="/img/banner2.png">
 </p>
-<p>
-&copy;2025 <a href="http://timm.fyi" rel="cc:attributionURL dct:creator" property="cc:attributionName">Tim Menzies</a> 
-<br> <a href="https://creativecommons.org/licenses/by-sa/4.0/?ref=chooser-v1" target="_blank" rel="license noopener noreferrer" style="display:inline-block;">CC BY-SA 4.0</a>
-<img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/cc.svg?ref=chooser-v1" alt="">
-<img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/by.svg?ref=chooser-v1" alt="">
-<img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/sa.svg?ref=chooser-v1" alt=""></p>
-<br clear=all>
+ <h1 align="center">:cyclone:&nbsp;CSC510: Software Engineering<br>NC&nbsp;State, Spring&nbsp;'25</h1>
       
 
 
@@ -104,6 +100,12 @@
 
 ### Assessment
  
+- Multiple mini-review questions on Moodle
+  - 2-3 questions about the lectures that week
+  - Posted every Wednesday, due Friday 9am.
+  - Zero marks for getting them right or wrong
+  - Minus 1 mark for not attempting them
+    - "Attempt" = a few lines for each question.
 - 3 projects
 - 1 mid-session exam
 - 5 homeworks (testing software guru skills)
@@ -134,6 +136,9 @@ for those who want to work in _i+1_.
   - You will switch projects and significantly extend some project
 - Projects3: 
   - You will swtich to someone else's project2 code 
+
+
+>  :warning:  **IMPORTANT** : Projects 2 and 3 will be assessed in live demo sessions with the tutor/grader. These sessions will occur the weeks of Mar3 and Apr21.  We ask for students for their help in  scheduling all these demo sessions. Our graders/tutors are students with their own exams and assignment to complete.   Hence, they might  suggest demo times outside of normal working hours (evenings, weekends).  Please do them the  courtesy of considering those times. That said, if those proposed times are inconvenient, **you can, should, and must ask for other times**.
 
 
 ### Grades
