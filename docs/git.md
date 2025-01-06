@@ -26,6 +26,7 @@
 
 ## What is Git?
 Git is a free and open source distributed version control system used for handel everything of projects during software development. It is often used to control source code by programmers collaboratively developing software.
++
 
 
 ### Git data structure 
