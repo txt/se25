@@ -36,7 +36,7 @@ Lecturer: Prof. Tim Menzies (Dr.Timm)
 
 |Details      | Notes                           |
 |:------------|:--------------------------------|
-|Office hours | 2pm to 4pm Monday, in my office ([by appointment](https://calendar.app.google/GwzbUmsiCSvGQ27dA) |
+|Office hours | 2pm to 4pm Monday<br> in my office ([by appointment](https://calendar.app.google/GwzbUmsiCSvGQ27dA)) |
 |Office       | Room: 3304:EB2|
 |Email        | timm@ieee.org|
 
@@ -46,7 +46,7 @@ Tutor: Katerina Vilkomir
 
 |Details      | Notes                           |
 |:------------|:--------------------------------|
-|Office hours | 9:30 - 10:30,  Monday and Tuesday ([by appointment](https://calendar.app.google/CnF6PRCzPkkT4oiT7)
+|Office hours | 9:30 - 10:30<br>  Monday and Tuesday ([by appointment](https://calendar.app.google/CnF6PRCzPkkT4oiT7)) |
 |Email        | evilkom@ncsu.edu |
 
 
