@@ -24,7 +24,10 @@
 # Project1: Set Goals for Project2
 
 
-<br clear=all>
+<p align=center><img width=500 src="https://ee-schools.org/wp-content/uploads/Under-Construction-Sign.png"></p>
+
+
+ 
 
 
 Your task: look at the past, sell a possible future.
