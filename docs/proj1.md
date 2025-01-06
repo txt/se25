@@ -32,7 +32,7 @@
 **Look at the past, sell a possible future.**
 
 ### What to Hand In
-Two posters and two demos from two projects that describe:
+Two posters and two "video demos" from two projects that describe:
 1. **What was done before**
 2. **What could be done to extend that**
  
@@ -53,6 +53,8 @@ Two posters and two demos from two projects that describe:
    - An explanation of **why you want to work on this project**.
    - A discussion of **what changes or updates** could be made.
   
+**Please note:** You are required to record two videos and either attach the videos directly to Moodle or include links to them within the your PDF file. The tutor will review the submitted posters and videos independently, without interacting with the students during the review process.
+
 ### Each poster must:
 
 1. Be a **standard page size** (e.g., letter or A4).
