@@ -25,30 +25,29 @@
 
 
 |Details      | Notes                           |
-|:------------|:--------------------------------|
+|------------:|:--------------------------------|
 |When         | Mon Wed 11:45AM - 1:00PM           |
 |Where        | rm 01011  Engineering Building I |
 | Prerequisites |CSC 316 and CSC 226 (or equivalent |
 
 
-Lecturer: Prof. Tim Menzies (Dr.Timm)<br>
-<img src="/img/tim.png">
+ 
 
-
-|Details      | Notes                           |
-|:------------|:--------------------------------|
+|Lecturer      | About                           |
+|------------:|:--------------------------------|
+| Prof. Tim Menzies | <img   src="/img/tim.png">|
 |Office hours | 2pm to 4pm Monday<br> in my office ([by appointment](https://calendar.app.google/GwzbUmsiCSvGQ27dA)) |
 |Office       | Room: 3304:EB2|
 |Email        | timm@ieee.org|
 
 
-Tutor: Katerina Vilkomir<br>
-<img src="/img/katerina.png">
+ 
 
 
-|Details      | Notes                           |
-|:------------|:--------------------------------|
-|Office hours | 9:30 - 10:30<br>  Monday and Tuesday ([by appointment](https://calendar.app.google/CnF6PRCzPkkT4oiT7)) |
+|Tutor      | About                           |
+|------------:|:--------------------------------|
+|Katerina Vilkomir| <img  e src="/img/katerina.png"> |
+|Office hours | 9:30 - 10:30<br>  Monday and Tuesday<br> ([by appointment](https://calendar.app.google/CnF6PRCzPkkT4oiT7)) |
 |Email        | evilkom@ncsu.edu |
 
 
