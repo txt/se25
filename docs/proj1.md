@@ -27,7 +27,9 @@
 
 ## Your Task
 
+
 **Look at the past, sell a possible future.**
+
 
 ### What to Hand In
 Two posters and two "video demos" from two projects that describe:
@@ -36,13 +38,17 @@ Two posters and two "video demos" from two projects that describe:
  
 ### Important
 
+
 - Review **10+ projects** before selecting two.
 - You have a **25% chance** of having to create one of these posters for Project2, so choose carefully.
 - Many previous projects may have issues (e.g., poor installation instructions, outdated packages, dull goals). Be critical in your selection.
 
+
 ---
 
+
 ## Rubric 
+
 
 ### Each "video demo":
 1. Be no more than **5 minutes long**.
@@ -53,14 +59,18 @@ Two posters and two "video demos" from two projects that describe:
   
 **Please note:** You are required to record two videos and either attach the videos directly to Moodle or include links to them within the your PDF file. The tutor will review the submitted posters and videos independently, without interacting with the students during the review process.
 
+
 ### Each poster must:
+
 
 1. Be a **standard page size** (e.g., letter or A4).
 2. Use **small fonts** (text may be as small as 4 to 6 points).
 3. Be submitted as a **PDF file**.
 4. Avoid vast amounts of **white space**.
 
+
 #### Include the Following:
+
 
 - **Screenshots** of the running system.
 - **URLs/QR codes**:
@@ -75,9 +85,12 @@ Two posters and two "video demos" from two projects that describe:
 - **Boast your test cases**:
   - E.g., "One group listed 130+ test cases, showcasing their ability to make changes while maintaining old functionality."
 
+
 ---
 
+
 ## Grading
+
 
 - **Video demo 1:** 2.5 marks
 - **Poster 1:** 2.5 marks
@@ -86,6 +99,7 @@ Two posters and two "video demos" from two projects that describe:
 
 
 ## Ways to lose points:
+
 
 - Your poster or "video demo" does not have the above features.
 - Your poster fails to effectively **sell** the project. Specifically:
@@ -96,6 +110,7 @@ Two posters and two "video demos" from two projects that describe:
 
 
 ## How to fail at this project
+
 
 - Starting late when reviewing the project corpus.
 - Choosing dull projects for your posters.
@@ -109,16 +124,21 @@ Two posters and two "video demos" from two projects that describe:
 -  [3](/img/posters3.pdf)
 -  [4](/img/posters4.pdf)
 
+
 ### Instructions:
 1. **Review All Posters:**
    - Log through all the posters from the links provided above.
    - Ensure you review every page.  
      - **Note:** There are more than 5 posters on each page. Use the "More pages" button to view all available posters.
 
+
 2. **Utilize Provided Resources:**
    - Use **QR codes** and **links** to navigate to project repositories for additional details.
+
 
 3. **Analyze and Document:**
    - Make **notes** on:
      - What you liked about the posters.
      - What aspects you think should be avoided or improved in future projects.
+
+
