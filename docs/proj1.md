@@ -39,7 +39,7 @@ Two posters and two "video demos" from two projects that describe:
 ### Important
 
 
-- Review **10+ projects** before selecting two.
+- Review **9+ projects** before selecting two.
 - You have a **25% chance** of having to create one of these posters for Project2, so choose carefully.
 - Many previous projects may have issues (e.g., poor installation instructions, outdated packages, dull goals). Be critical in your selection.
 
