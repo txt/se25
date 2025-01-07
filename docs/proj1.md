@@ -44,7 +44,7 @@ Two posters and two "video demos" from two projects that describe:
 
 ---
 
-## Rubric for Posters
+## Rubric 
 
 ### Each "video demo":
 1. Be no more than **5 minutes long**.
