@@ -22,9 +22,7 @@
 
 
 # Project1: Set Goals for Project2
-
-
-<p align=center><img width=500 src="https://ee-schools.org/wp-content/uploads/Under-Construction-Sign.png"></p>
+ 
 
 
 ## Your Task
