@@ -146,7 +146,7 @@ for those who want to work in _i+1_.
 
 
 - Project1: 
-  - You review ten projects done previously in this subjects elect two, then boast of its accomplishments.
+  - You review nine projects done previously in this subjects elect two, then boast of its accomplishments.
   - Select wisely. You have a 25% chance that, in project2, you will have to work on your Project1 selections.
 - Project2: 
   - You will switch projects and significantly extend some project
@@ -194,7 +194,8 @@ For masters students, some evidence must be generated that you are actively enga
 
 - The project repo MUST have a branch called "MAIN". Groups will be assessed via their commit history (seen under "Insights") in MAIN.
     Projects were all group members are not active doing commits will lose marks (or the offending student will be expelled from that group).
-- Groups need to maintain an active discussion in the channel within the subject's Discord channel. Projects were all group members are not active in discussions  will either lose marks    (or the offending student will be expelled from that group).
+- Groups need to maintain an active discussion in some on-line forum. Github issue reports will be fun. Optionally, students can request a Discord channel. 
+  Projects were all group members are not active in discussions  will either lose marks    (or the offending student will be expelled from that group).
 
 
 ### Attendance
