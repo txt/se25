@@ -61,7 +61,7 @@ Your repo is your resume. Does it look professional?
 2. Create a repo in that organization. Make it public.
 
 
-3. Find the big green  `CODE` button. Create a new workshop on the main.
+3. Find the big green  `CODE` button. Create a new workspace on the main.
 
 
 4. **Check you have the latest Python (3.13)**
