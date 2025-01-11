@@ -5,7 +5,7 @@
     src="https://img.shields.io/badge/Home-%23ff5733?style=for-the-badge&logo=home&logoColor=white"></a> <a 
     href="/docs/syllabus.md#top"><img 
     src="https://img.shields.io/badge/Syllabus-%230055ff?style=for-the-badge&logo=openai&logoColor=white"></a> <a 
-    href="groups"><img 
+    href="https://docs.google.com/spreadsheets/d/1Jlx-BBsvVqmWhW1L9Fz6u18vPSjGXj1i/edit?usp=sharing&ouid=110996670184359055145&rtpof=true&sd=true"><img 
     src="https://img.shields.io/badge/Groups-%23ffd700?style=for-the-badge&logo=users&logoColor=white"></a> <a 
     href="https://moodle-courses2425.wolfware.ncsu.edu/course/view.php?id=7150"><img 
     src="https://img.shields.io/badge/Moodle-%23dc143c?style=for-the-badge&logo=moodle&logoColor=white"></a> <a 
@@ -32,6 +32,7 @@
 
 
  
+
 
 |Lecturer      | About                           |
 |------------:|:--------------------------------|
