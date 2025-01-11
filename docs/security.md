@@ -21,6 +21,9 @@
 
 
 
+# Security 101
+
+
 | Why | How (Process) | What (Resources) | Metrics |
 | ----- | ----- | ----- | ----- |
 | **To identify and mitigate security vulnerabilities early in the development process.** | \- **Implement Static Application Security Testing (SAST):** Integrate SAST tools into the CI/CD pipeline to automatically scan code for vulnerabilities during development. <br>\- **Conduct Threat Modeling:** Perform threat modeling sessions during the design phase to anticipate potential security threats and design countermeasures. <br>\-- **Perform Secure Code Reviews:** Establish a process for regular peer reviews focusing on security aspects of the code. |<br> \- SAST tools (e.g., SonarQube, Checkmarx).<br> \- Threat modeling frameworks (e.g., OWASP Threat Dragon).<br> \- Secure coding guidelines and checklists. |<br> **Internal Metrics:**<br> \- Number of vulnerabilities detected and resolved during development.<br> \- Percentage of codebase covered by SAST scans.<br> \- Frequency and effectiveness of threat modeling sessions.<hr> **External Metrics:**<br> \- Reduction in security incidents post-deployment.<br> \- Compliance with industry security standards and regulations. |
