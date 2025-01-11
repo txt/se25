@@ -146,7 +146,7 @@
     </tr>
     <tr>
       <td>Mar03</td>
-      <td>Mon: <a href="/docs/security.md">Security/a><br>
+      <td>Mon: <a href="/docs/security.md">Security</a><br>
           Wed: Mid-term exam</td>
       <td></td>
       <td></td>
