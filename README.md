@@ -23,7 +23,8 @@
 >  SE is about **teams**. Teams of people you know that build your software. Teams you dont know that bult the software you are using. Other teams who use and fix your code.  So, its time to learn about teams; about being a team player; about communicating within your team and to other teams;  about being a follower and (when needed) a leader; and about creating and meeting team expectations. Enjoy!
 
 **Textbook** freeware, on-line:
-<a href="https://softengbook.org"><pre>
+<a href="https://softengbook.org">
+<pre>
 @book{softengbook,
   title     = "[Software Engineering: A Modern Approach](https://softengbook.org/)",
   author    = "Marco Tulio Valente",
@@ -48,7 +49,7 @@
     </tr>
   </thead>
   <tbody>
-    <tr submission>
+    <tr>
       <td>Jan06</td>
       <td>Mon: no class.<br>Wed: <a href="/docs/syllabus.md">Syllabus</a></td>
       <td></td>
@@ -80,8 +81,7 @@
       <td>
            Wed: <a href="docs/hw1.md">Hw1: beautiful repos</a>
       </td>
-      <td>
-      </td>
+      <td></td>
       <td></td>
       <td></td>
       <td>1:homework</td>
@@ -108,8 +108,7 @@
       <td>
            Wed: <a href="docs/hw03.md">Hw3: debugging</a>
       </td>
-      <td>
-      </td>
+      <td></td>
       <td></td>
       <td></td>
       <td>1:Homework</td>
@@ -120,8 +119,7 @@
       <td>
            Thurs: <a href="docs/hw04.md">Hw4: Script wizard</a>
       </td>
-      <td>
-      </td>
+      <td></td>
       <td></td>
       <td></td>
       <td>1:homework</td>
@@ -156,13 +154,11 @@
     </tr>
     <tr>
       <td>Mar10</td>
-      <td>Mon,Wed: no class (spring break)
+      <td>Mon,Wed: no class (spring break)</td>
       <td></td>
       <td></td>
-      <td>
-      </td>
-      <td>
-      </td>
+      <td></td>
+      <td></td>
       <td></td>
     </tr>
     <tr>
@@ -212,7 +208,7 @@
     </tr>
     <tr>
       <td>Apr21</td>
-      <td>Mon, Wed: no class
+      <td>Mon, Wed: no class</td>
       <td></td>
       <td></td>
       <td></td>
@@ -233,4 +229,3 @@
     </tr>
   </tbody>
 </table>
-
