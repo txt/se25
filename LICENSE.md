@@ -24,7 +24,7 @@
 # MIT License
 
 
-Copyright (c) 2024 textual stuff
+Copyright (c) 2025 Tim Menzies
 
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
