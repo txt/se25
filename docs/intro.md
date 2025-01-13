@@ -76,6 +76,13 @@ Connected distributions. Tweaking any will cause ripples that update the distrib
 
 ---
 
+## The Times they are a changing
+
+Internet everywhere (Starlink etc)
+
+- Developers not accessible from around the world (most of which want to work for far less than USA salaries)
+- The future: software developed everywhere
+- You task: do you know how to manage tesams? Distributes teams?
 
 ## Case Studies: Industry Examples (from Participants)
 
@@ -107,6 +114,64 @@ Connected distributions. Tweaking any will cause ripples that update the distrib
 
 ## War Stories (from lecturer)
 
+### Example 0: AI matters, but maybe not in the way people think
+
+- Yes, LLMs have allowed a wider population to build software
+  - But for software that matters, you want that?
+  - You want anyone to do heart surgery?
+- Welcome to the era of massive technical debt, where SE people have to fix the mess created by the masses
+  
+```
+@article{johnson2024ai,
+  title={AI Over-Hype: A Dangerous Threat (and How to Fix It)},
+  author={Johnson, Brittany and Menzies, Tim},
+  journal={IEEE Software},
+  volume={41},
+  number={6},
+  pages={131--138},
+  year={2024},
+  publisher={IEEE}
+}
+```
+
+Experiences programmers know programs have bugs
+- So we know not to field things, before they are tested.
+ 
+
+Time in project (Fred Brooks, 1976)
+- A third of the time is spent planning.
+- A sixth of the time is spent coding.
+- A quarter of the time is spent testing (unit testing).
+- A quarter of the time is spent integrating code with other components or systems.
+
+A more modern view (Long et al.)- all phases have parts:
+   1.  Requirements Analysis,
+   2. Architecture & Design,
+   3. Coding ,
+   4. System Integration
+   5. Qualification Testing, and 
+   6. Development Test & Evaluation.
+
+A comparsion of views:
+
+![image](https://github.com/user-attachments/assets/e7ef4133-174b-47b6-b34e-e7609c967997)
+
+
+
+```
+@ARTICLE{Long24tse,
+  author={Long, Daniel and Drylie, Scott and Ritschel, Jonathan D. and Koschnick, Clay},
+  journal={IEEE Transactions on Software Engineering}, 
+  title={An Assessment of Rules of Thumb for Software Phase Management, and the Relationship Between Phase Effort and Schedule Success}, 
+  year={2024},
+  volume={50},
+  number={2},
+  pages={209-219},
+  keywords={Software;Encoding;Testing;Decision making;Schedules;Costs;Task analysis;Software development;Hotelling;rule of thumb;effort;phasing},
+  doi={10.1109/TSE.2023.3339383}}
+```
+
+  
 ### Example 1: Ethics matter: the	Volkswagen Emissions Scandal:
 * Software engineers implementing specifications that violated emissions standards.
 * Implication: Ethical considerations in software design and implementation.
@@ -139,11 +204,27 @@ Connected distributions. Tweaking any will cause ripples that update the distrib
 
 ![Operating System Contributors](https://github.com/user-attachments/assets/1f17d988-8366-4dd7-b812-78648245d55d)
 
-### Example 4: Agile might not matter
+### Example 4: Test-driven development, and agile might not matter
+
 
 - Hardware-Software Co-Design:
   * Example from a Chinese company: Software teams aligning with slower hardware development cycles.
   * Implication: Agile principles dumped to fixed hardware timelines.
+
+- Maybe much of the benefits we saw when agile/TDD first showed up were die to the new IDEs and increemtnal scripting tools coming on live in the early 2000s
+
+```
+@ARTICLE{karac18tse,
+  author={Karac, Itir and Turhan, Burak},
+  journal={IEEE Software}, 
+  title={What Do We (Really) Know about Test-Driven Development?}, 
+  year={2018},
+  volume={35},
+  number={4},
+  pages={81-85},
+  keywords={Productivity;Task analysis;Systematics;Software engineering;Testing;Software quality;test-driven development;TDD;test-first;test-last;software development;software engineering},
+  doi={10.1109/MS.2018.2801554}}
+```
 
 ### Example 5: Technical debt matters: the Cobol Story
 
@@ -156,37 +237,28 @@ Connected distributions. Tweaking any will cause ripples that update the distrib
   * Total costs: 330M pounds for migration + 49.1M pounds lost to fraud.
   * The bank faced several days of downtime and reputational damage.
 
-### Example 6: who knows where the time goes?
 
-Time in project (Fred Brooks, 1976)
-- A third of the time is spent planning.
-- A sixth of the time is spent coding.
-- A quarter of the time is spent testing (unit testing).
-- A quarter of the time is spent integrating code with other components or systems.
+### Example 6: Crazy ideas (might) matter
 
-A more modern view (Long et al.) - all phases have parts:
-   1.  Requirements Analysis,
-   2. Architecture & Design,
-   3. Coding ,
-   4. System Integration
-   5. Qualification Testing, and 
-   6. Development Test & Evaluation.
+Crazy ideas (Prolog, logic programming) can turn out to be insanely powerful.
 
-A comparsion of views:
+WhatsApp: 100 developer, 1 billion users. How?
 
-![image](https://github.com/user-attachments/assets/e7ef4133-174b-47b6-b34e-e7609c967997)
+Erlang. A cool language designed aaround logic programming (Prolog) that was real fast at Switching between lots of tiny conversations
 
+- Erlang processes are tiny
+  - Bytes, not kilobytes
+  - Creation time (203: less than 3 microseconds for up to 30,000 processes)
+  - Compare with Java/C#: 300 microseconds
+-  A web server in this language  for 10,000 users is not “one web server with 10,000 users” (like Apache or Jigsaw or all the rest) i
+   -  it’s “10,000 web servers with one user each” -     a radicle departure from conventional practise.
 
+https://www.investopedia.com/articles/investing/032515/whatsapp-best-facebook-purchase-ever.asp
 
-```
-@ARTICLE{Long24tse,
-  author={Long, Daniel and Drylie, Scott and Ritschel, Jonathan D. and Koschnick, Clay},
-  journal={IEEE Transactions on Software Engineering}, 
-  title={An Assessment of Rules of Thumb for Software Phase Management, and the Relationship Between Phase Effort and Schedule Success}, 
-  year={2024},
-  volume={50},
-  number={2},
-  pages={209-219},
-  keywords={Software;Encoding;Testing;Decision making;Schedules;Costs;Task analysis;Software development;Hotelling;rule of thumb;effort;phasing},
-  doi={10.1109/TSE.2023.3339383}}
-```
+Facebook (now Meta Platforms) purchased WhatsApp in 2014 for approximately $19 billion
+
+- at the time, one of the biggest acqustions ever
+- surpassed since by e.g. 
+ -  Dell's acquisition of EMC in 2016 was valued at $67 billion
+ -  Microsoft's acquisition of Activision Blizzard in 2022 for $68.7 billion
+  
