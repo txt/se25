@@ -18,11 +18,24 @@
 </p>
  <h1 align="center">:cyclone:&nbsp;CSC510: Software Engineering<br>NC&nbsp;State, Spring&nbsp;'25</h1>
       
+ 
 
+# Intro to SE (Jan'8, 2025)
 
+Corrections: 
+- I said process, product, personnel. 
+- Correct terms, according to Fenton,  are process, product, resources.
 
-# Extended Reverse-Engineering Terms
-
+```
+@inproceedings{fenton2000software,
+  title={Software metrics: roadmap},
+  author={Fenton, Norman E. and Neil, Martin},
+  booktitle={Proceedings of the Conference on the Future of Software Engineering},
+  pages={357--370},
+  year={2000},
+  organization={ACM}
+}
+```
 
 | **Term**          | **Explanation**                                                                                      | **Examples**                                                                                                                                             |
 |--------------------|------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------|
@@ -33,16 +46,22 @@
 | **External Metrics** | - Measures of impact/outcomes. <br> - Stakeholder and compliance-focused results.                   | - Reduced post-deployment incidents.<br> - Compliance with security standards.<br> - Stakeholder confidence.<br> - External audit feedback.<br> - Cost-effectiveness of testing.<br> - Stability and reliability of delivered products. |
 
 
-@inproceedings{fenton2000software,
-  title={Software metrics: roadmap},
-  author={Fenton, Norman E. and Neil, Martin},
-  booktitle={Proceedings of the Conference on the Future of Software Engineering},
-  pages={357--370},
-  year={2000},
-  organization={ACM}
-}
- 
-# Software Engineering: Process, Resources, Products, and Metrics
+
+
+### Aside: what is Bayes Net
+
+Fenton lurvs his bayes nets
+
+![image](https://github.com/user-attachments/assets/9fb746d8-59a0-4c31-beab-b61a33bf2d2e)
+
+Connected distributions. Tweaking any will cause ripples that update the distributions up and downstream
+
+- First proposed decades ago
+- To this day, remain a highlyexperiemntal technique, not widely used
+  
+ ![image](https://github.com/user-attachments/assets/373b5f02-ff1e-44f2-b712-20676bf7564b)
+
+## Summary of Lecture
 
 
 | **Process**                                        | **Resources (Inputs)**                                                                 | **Product (Outputs)**                                                                                           | **Internal Metrics**                                                            | **External Metrics**                                                                  |
