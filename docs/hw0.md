@@ -23,4 +23,5 @@
 
 # Hw0
 
+Please see instructions at [Moodle](https://moodle-courses2425.wolfware.ncsu.edu/mod/quiz/view.php?id=971876).
 
