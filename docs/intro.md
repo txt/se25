@@ -77,7 +77,7 @@ Connected distributions. Tweaking any will cause ripples that update the distrib
 ---
 
 
-## Case Studies: Industry Examples
+## Case Studies: Industry Examples (from Participants)
 
 
 ### Example 1: **Integration Challenges**
@@ -103,4 +103,90 @@ Connected distributions. Tweaking any will cause ripples that update the distrib
 - **Internal Metrics:** Number of community disputes resolved.
 - **External Metrics:** Retention of userbase and contributors.
 
+---
 
+## War Stories (from lecturer)
+
+### Example 1: Ethics matter: the	Volkswagen Emissions Scandal:
+* Software engineers implementing specifications that violated emissions standards.
+* Implication: Ethical considerations in software design and implementation.
+* ref: https://en.wikipedia.org/wiki/Volkswagen_emissions_scandal
+
+### Example 2: Process matters. The Microsoft study
+* Microsoft investigated defect rates in software built by globally distributed teams versus co-located teams.
+* They found that the height of the reporting hierarchy (organizational chart) was a predictor of defects.
+  * If remote teams communicated only through senior managers (e.g., a high-level executive like Bill Gates), defect rates were higher.
+  * When teams reported to lower-level managers with closer oversight, defect rates were lower.
+
+```
+@inproceedings{nagappan2008global,
+  title={The influence of organizational structure on software quality: An empirical case study},
+  author={Nagappan, Nachiappan and Murphy, Brendan and Basili, Victor R.},
+  booktitle={Proceedings of the 30th International Conference on Software Engineering},
+  pages={521--530},
+  year={2008},
+  organization={ACM}
+}
+```
+
+### Example 3: Open Source Governance Matters: the Zephyr story
+
+- Linxx foundation carries dozens of read-time operating systems
+- One of these, Zephyr, is getting far more contrinutors than the rest
+- Zephyr's organizers attribute this to their open goverance policy
+  - so large organizars can still buy in to the project, without domianting it
+   - so developers can still contribute, without fear their contributins will be ignore
+
+![Operating System Contributors](https://github.com/user-attachments/assets/1f17d988-8366-4dd7-b812-78648245d55d)
+
+### Example 4: Agile might not matter
+
+- Hardware-Software Co-Design:
+  * Example from a Chinese company: Software teams aligning with slower hardware development cycles.
+  * Implication: Agile principles dumped to fixed hardware timelines.
+
+### Example 5: Technical debt matters: the Cobol Story
+
+- 90% of Fortune 500 business systems are still supported by COBOL.
+- A 2020 Reuters report estimated that 43% of banking systems still use COBOL.
+- COBOL also powers an estimated 220 billion lines of code, with 5 billion new lines added annually, mainly in specific industries.
+- Commonwealth Bank of Australia,  replaced its core banking platform in 2012. The job ultimately took five years and cost more than 1 billion Australian dollars ($749.9 million).
+- COBOL is indispensable but replacing it is fraught with significant challenges due to its deep integration in legacy systems.
+  * In 2018, TSB's migration of a billion customer records led to outages, wrong account balances, and cross-account visibility.
+  * Total costs: 330M pounds for migration + 49.1M pounds lost to fraud.
+  * The bank faced several days of downtime and reputational damage.
+
+### Example 6: who knows where the time goes?
+
+Time in project (Fred Brooks, 1976)
+- A third of the time is spent planning.
+- A sixth of the time is spent coding.
+- A quarter of the time is spent testing (unit testing).
+- A quarter of the time is spent integrating code with other components or systems.
+
+A more modern view (Long et al.) - all phases have parts:
+   1.  Requirements Analysis,
+   2. Architecture & Design,
+   3. Coding ,
+   4. System Integration
+   5. Qualification Testing, and 
+   6. Development Test & Evaluation.
+
+A comparsion of views:
+
+![image](https://github.com/user-attachments/assets/e7ef4133-174b-47b6-b34e-e7609c967997)
+
+
+
+```
+@ARTICLE{Long24tse,
+  author={Long, Daniel and Drylie, Scott and Ritschel, Jonathan D. and Koschnick, Clay},
+  journal={IEEE Transactions on Software Engineering}, 
+  title={An Assessment of Rules of Thumb for Software Phase Management, and the Relationship Between Phase Effort and Schedule Success}, 
+  year={2024},
+  volume={50},
+  number={2},
+  pages={209-219},
+  keywords={Software;Encoding;Testing;Decision making;Schedules;Costs;Task analysis;Software development;Hotelling;rule of thumb;effort;phasing},
+  doi={10.1109/TSE.2023.3339383}}
+```
