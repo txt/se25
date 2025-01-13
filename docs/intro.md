@@ -158,6 +158,9 @@ Time in project (Fred Brooks, 1976)
 - A quarter of the time is spent testing (unit testing).
 - A quarter of the time is spent integrating code with other components or systems.
 
+![image](https://github.com/user-attachments/assets/1407bde9-547e-4b49-8ac2-141443fc3e72)
+
+
 A more modern view (Long et al.)- all phases have parts:
    1.  Requirements Analysis,
    2. Architecture & Design,
