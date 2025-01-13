@@ -1,22 +1,25 @@
 <p><a name=top> </a>&nbsp;</p>
 <p align=center>
-    <a 
-    href="/README.md#top"><img 
-    src="https://img.shields.io/badge/Home-%23ff5733?style=for-the-badge&logo=home&logoColor=white"></a> <a 
-    href="/docs/syllabus.md#top"><img 
-    src="https://img.shields.io/badge/Syllabus-%230055ff?style=for-the-badge&logo=openai&logoColor=white"></a> <a 
-    href="https://docs.google.com/spreadsheets/d/1Jlx-BBsvVqmWhW1L9Fz6u18vPSjGXj1i/edit?usp=sharing&ouid=110996670184359055145&rtpof=true&sd=true"><img 
-    src="https://img.shields.io/badge/Groups-%23ffd700?style=for-the-badge&logo=users&logoColor=white"></a> <a 
-    href="https://moodle-courses2425.wolfware.ncsu.edu/course/view.php?id=7150"><img 
-    src="https://img.shields.io/badge/Moodle-%23dc143c?style=for-the-badge&logo=moodle&logoColor=white"></a> <a 
-    href="https://discord.gg/whDXzJGP"><img 
-    src="https://img.shields.io/badge/Discord-%23008080?style=for-the-badge&logo=discord&logoColor=white"></a> <a 
-    href="/LICENSE.md"><img 
-    src="https://img.shields.io/badge/(c)%20Tim%20Menzies,%202025-%234b4b4b?style=for-the-badge&logoColor=white"> </a>
+    <a
+    href="/README.md#top"><img
+    src="https://img.shields.io/badge/Home-%23ff5733?style=for-the-badge&logo=home&logoColor=white"></a> <a
+    href="/docs/syllabus.md#top"><img
+    src="https://img.shields.io/badge/Syllabus-%230055ff?style=for-the-badge&logo=openai&logoColor=white"></a> <a
+    href="https://docs.google.com/spreadsheets/d/1Jlx-BBsvVqmWhW1L9Fz6u18vPSjGXj1i/edit?usp=sharing&ouid=110996670184359055145&rtpof=true&sd=true"><img
+    src="https://img.shields.io/badge/Groups-%23ffd700?style=for-the-badge&logo=users&logoColor=white"></a> <a
+    href="https://moodle-courses2425.wolfware.ncsu.edu/course/view.php?id=7150"><img
+    src="https://img.shields.io/badge/Moodle-%23dc143c?style=for-the-badge&logo=moodle&logoColor=white"></a> <a
+    href="https://discord.gg/whDXzJGP"><img
+    src="https://img.shields.io/badge/Discord-%23008080?style=for-the-badge&logo=discord&logoColor=white"></a> <a
+    href="https://ncsu.hosted.panopto.com/Panopto/Pages/Sessions/List.aspx?folderID=958aa5e8-f99e-441f-a545-b26400dfe515"><img
+    src="https://img.shields.io/badge/Videos-%23ffa500?style=for-the-badge&logo=youtube&logoColor=white"></a> <a
+    href="/LICENSE.md"><img
+    src="https://img.shields.io/badge/(c)%20Tim%20Menzies,%202025-%234b4b4b?style=for-the-badge&logoColor=white"></a>
     <br>&nbsp;<br>
     <img width=200 src="/img/banner2.png">
 </p>
- <h1 align="center">:cyclone:&nbsp;CSC510: Software Engineering<br>NC&nbsp;State, Spring&nbsp;'25</h1>
+<h1 align="center">:cyclone:&nbsp;CSC510: Software Engineering<br>NC&nbsp;State, Spring&nbsp;'25</h1>
+      
 
 
 
@@ -34,11 +37,14 @@
       
  
 
+
 # Intro to SE (Jan'8, 2025)
+
 
 Corrections: 
 - I said process, product, personnel. 
 - Correct terms, according to Fenton,  are process, product, resources.
+
 
 ```
 @inproceedings{fenton2000software,
@@ -51,6 +57,7 @@ Corrections:
 }
 ```
 
+
 | **Term**          | **Explanation**                                                                                      | **Examples**                                                                                                                                             |
 |--------------------|------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------|
 | **Process**        | - Methods and workflows. <br> - "How" tasks are achieved.                                            | - SAST integration.<br> - Threat modeling.<br> - Code reviews.<br> - MFA enforcement.<br> - Dependency scanning.<br> - Using Bayesian networks for causal modeling to predict defects.<br> - GQM (Goal-Question Metric) frameworks for metrics alignment. |
@@ -60,20 +67,23 @@ Corrections:
 | **External Metrics** | - Measures of impact/outcomes. <br> - Stakeholder and compliance-focused results.                   | - Reduced post-deployment incidents.<br> - Compliance with security standards.<br> - Stakeholder confidence.<br> - External audit feedback.<br> - Cost-effectiveness of testing.<br> - Stability and reliability of delivered products. |
 
 
-
-
 ### Aside: what is Bayes Net
+
 
 Fenton lurvs his bayes nets
 
+
 ![image](https://github.com/user-attachments/assets/9fb746d8-59a0-4c31-beab-b61a33bf2d2e)
 
+
 Connected distributions. Tweaking any will cause ripples that update the distributions up and downstream
+
 
 - First proposed decades ago
 - To this day, remain a highlyexperiemntal technique, not widely used
   
  ![image](https://github.com/user-attachments/assets/373b5f02-ff1e-44f2-b712-20676bf7564b)
+
 
 ## Summary of Lecture
 
@@ -90,13 +100,17 @@ Connected distributions. Tweaking any will cause ripples that update the distrib
 
 ---
 
+
 ## The Times they are a changing
 
+
 Internet everywhere (Starlink etc)
+
 
 - Developers not accessible from around the world (most of which want to work for far less than USA salaries)
 - The future: software developed everywhere
 - You task: do you know how to manage tesams? Distributes teams?
+
 
 ## Case Studies: Industry Examples (from Participants)
 
@@ -124,11 +138,15 @@ Internet everywhere (Starlink etc)
 - **Internal Metrics:** Number of community disputes resolved.
 - **External Metrics:** Retention of userbase and contributors.
 
+
 ---
+
 
 ## War Stories (from lecturer)
 
+
 ### Example 0: AI matters, but maybe not in the way people think
+
 
 - Yes, LLMs have allowed a wider population to build software
   - But for software that matters, you want that?
@@ -148,15 +166,18 @@ Internet everywhere (Starlink etc)
 }
 ```
 
+
 Experiences programmers know programs have bugs
 - So we know not to field things, before they are tested.
  
+
 
 Time in project (Fred Brooks, 1976)
 - A third of the time is spent planning.
 - A sixth of the time is spent coding.
 - A quarter of the time is spent testing (unit testing).
 - A quarter of the time is spent integrating code with other components or systems.
+
 
 ![image](https://github.com/user-attachments/assets/1407bde9-547e-4b49-8ac2-141443fc3e72)
 
@@ -169,10 +190,11 @@ A more modern view (Long et al.)- all phases have parts:
    5. Qualification Testing, and 
    6. Development Test & Evaluation.
 
+
 A comparsion of views:
 
-![image](https://github.com/user-attachments/assets/e7ef4133-174b-47b6-b34e-e7609c967997)
 
+![image](https://github.com/user-attachments/assets/e7ef4133-174b-47b6-b34e-e7609c967997)
 
 
 ```
@@ -188,17 +210,20 @@ A comparsion of views:
   doi={10.1109/TSE.2023.3339383}}
 ```
 
+
   
 ### Example 1: Ethics matter: the	Volkswagen Emissions Scandal:
 * Software engineers implementing specifications that violated emissions standards.
 * Implication: Ethical considerations in software design and implementation.
 * ref: https://en.wikipedia.org/wiki/Volkswagen_emissions_scandal
 
+
 ### Example 2: Process matters. The Microsoft study
 * Microsoft investigated defect rates in software built by globally distributed teams versus co-located teams.
 * They found that the height of the reporting hierarchy (organizational chart) was a predictor of defects.
   * If remote teams communicated only through senior managers (e.g., a high-level executive like Bill Gates), defect rates were higher.
   * When teams reported to lower-level managers with closer oversight, defect rates were lower.
+
 
 ```
 @inproceedings{nagappan2008global,
@@ -211,7 +236,9 @@ A comparsion of views:
 }
 ```
 
+
 ### Example 3: Open Source Governance Matters: the Zephyr story
+
 
 - Linxx foundation carries dozens of read-time operating systems
 - One of these, Zephyr, is getting far more contrinutors than the rest
@@ -219,7 +246,9 @@ A comparsion of views:
   - so large organizars can still buy in to the project, without domianting it
    - so developers can still contribute, without fear their contributins will be ignore
 
+
 ![Operating System Contributors](https://github.com/user-attachments/assets/1f17d988-8366-4dd7-b812-78648245d55d)
+
 
 ### Example 4: Test-driven development, and agile might not matter
 
@@ -228,7 +257,9 @@ A comparsion of views:
   * Example from a Chinese company: Software teams aligning with slower hardware development cycles.
   * Implication: Agile principles dumped to fixed hardware timelines.
 
+
 - Maybe much of the benefits we saw when agile/TDD first showed up were die to the new IDEs and increemtnal scripting tools coming on live in the early 2000s
+
 
 ```
 @ARTICLE{karac18tse,
@@ -243,7 +274,9 @@ A comparsion of views:
   doi={10.1109/MS.2018.2801554}}
 ```
 
+
 ### Example 5: Technical debt matters: the Cobol Story
+
 
 - 90% of Fortune 500 business systems are still supported by COBOL.
 - A 2020 Reuters report estimated that 43% of banking systems still use COBOL.
@@ -257,11 +290,15 @@ A comparsion of views:
 
 ### Example 6: Crazy ideas (might) matter
 
+
 Crazy ideas (Prolog, logic programming) can turn out to be insanely powerful.
+
 
 WhatsApp: 100 developer, 1 billion users. How?
 
+
 Erlang. A cool language designed aaround logic programming (Prolog) that was real fast at Switching between lots of tiny conversations
+
 
 - Erlang processes are tiny
   - Bytes, not kilobytes
@@ -270,9 +307,12 @@ Erlang. A cool language designed aaround logic programming (Prolog) that was rea
 -  A web server in this language  for 10,000 users is not “one web server with 10,000 users” (like Apache or Jigsaw or all the rest) i
    -  it’s “10,000 web servers with one user each” -     a radicle departure from conventional practise.
 
+
 https://www.investopedia.com/articles/investing/032515/whatsapp-best-facebook-purchase-ever.asp
 
+
 Facebook (now Meta Platforms) purchased WhatsApp in 2014 for approximately $19 billion
+
 
 - at the time, one of the biggest acqustions ever
 - surpassed since by e.g. 
@@ -282,9 +322,12 @@ Facebook (now Meta Platforms) purchased WhatsApp in 2014 for approximately $19 b
  
 ---
 
+
  
 
+
 ## Glossary of Terms
+
 
 ### Core Software Engineering Concepts
 - **Process**:  
@@ -300,6 +343,7 @@ Facebook (now Meta Platforms) purchased WhatsApp in 2014 for approximately $19 b
 - **External Metrics**:  
   - Measures of the impact and outcomes, focusing on stakeholder satisfaction, e.g., compliance with standards or customer feedback.
 
+
 ### Metrics and Measurement
 - **GQM (Goal-Question-Metric)**:  
   - A framework linking organizational goals to specific questions and metrics for evaluation.
@@ -311,6 +355,7 @@ Facebook (now Meta Platforms) purchased WhatsApp in 2014 for approximately $19 b
   - The percentage of source code executed during testing, used as a measure of test completeness.
 - **Technical Debt**:  
   - The accumulated cost of deferred maintenance, often resulting from rushed or suboptimal code.
+
 
 ### Techniques and Tools
 - **Test-Driven Development (TDD)**:  
@@ -324,6 +369,7 @@ Facebook (now Meta Platforms) purchased WhatsApp in 2014 for approximately $19 b
 - **Version Control**:  
   - Systems for tracking changes in code, enabling collaboration and rollback, e.g., Git or Subversion.
 
+
 ### Team Dynamics and Management
 - **Distributed Teams**:  
   - Teams working across multiple locations, often spanning time zones and cultures.
@@ -334,6 +380,7 @@ Facebook (now Meta Platforms) purchased WhatsApp in 2014 for approximately $19 b
 - **Dependency Management**:  
   - Tracking and managing interdependencies between teams, tasks, or components.
 
+
 ## Ethical and Social Considerations
 - **Ethical Software Practices**:  
   - Developing software that adheres to legal, societal, and organizational ethics.
@@ -341,6 +388,7 @@ Facebook (now Meta Platforms) purchased WhatsApp in 2014 for approximately $19 b
   - A case of unethical software manipulation to bypass regulatory emissions tests.
 - **Open Governance**:  
   - Transparent and inclusive decision-making processes in open-source projects.
+
 
 ### Emerging Trends and Challenges
 - **Legacy Software**:  
@@ -354,10 +402,13 @@ Facebook (now Meta Platforms) purchased WhatsApp in 2014 for approximately $19 b
 - **Technical Debt Management**:  
   - Practices aimed at minimizing the accumulation and impact of technical debt.
 
+
 ## Self-Study
+
 
 1. **Understanding Metrics**  
    - Explain the difference between internal and external metrics. Provide examples of how each type of metric can influence decision-making in a software project.
+
 
 2. **Process and Resource Management**  
    - How can balancing process, product, and personnel management improve the success of distributed software teams? 
@@ -365,11 +416,14 @@ Facebook (now Meta Platforms) purchased WhatsApp in 2014 for approximately $19 b
 3. **Ethics in Software Engineering**  
    - Discuss the implications of the Volkswagen emissions scandal for software engineering ethics. What practices could have prevented this issue?
 
+
 4. **Technical Debt and Legacy Systems**  
    - Why is technical debt a significant challenge in modern software engineering? 
      - Use the COBOL case study to illustrate your answer.
 
+
 5. **Technical Debt and Modern Systems**  
    - Why is technical debt a significant challenge in modern software engineering? 
      - Use recent advances in AI as a  case study to illustrate your answer.   
+
 
