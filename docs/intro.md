@@ -17,6 +17,20 @@
     <img width=200 src="/img/banner2.png">
 </p>
  <h1 align="center">:cyclone:&nbsp;CSC510: Software Engineering<br>NC&nbsp;State, Spring&nbsp;'25</h1>
+
+
+
+## Table of Contents
+1. [Corrections](#corrections)
+2. [Introductory Terms](#intro-to-se-jan8-2025)
+3. [Summary of Lecture](#summary-of-lecture)
+4. [The Times They Are A-Changing](#the-times-they-are-a-changing)
+5. [Case Studies: Industry Examples](#case-studies-industry-examples)
+6. [War Stories](#war-stories-from-lecturer)
+7. [Glossary of Terms](#glossary-of-terms)
+8. [Self-Study Questions](#self-study)
+
+
       
  
 
@@ -222,7 +236,7 @@ A comparsion of views:
   volume={35},
   number={4},
   pages={81-85},
-  keywords={Productivity;Task analysis;Systematics;Software engineering;Testing;Software quality;test-driven development;TDD;test-first;test-last;software development;software engineering},
+  engineering},
   doi={10.1109/MS.2018.2801554}}
 ```
 
@@ -262,3 +276,97 @@ Facebook (now Meta Platforms) purchased WhatsApp in 2014 for approximately $19 b
  -  Dell's acquisition of EMC in 2016 was valued at $67 billion
  -  Microsoft's acquisition of Activision Blizzard in 2022 for $68.7 billion
   
+ 
+---
+
+ 
+
+## Glossary of Terms
+
+### Core Software Engineering Concepts
+- **Process**:  
+  - Methods and workflows defining "how" tasks are achieved, including methodologies like Agile or Waterfall.
+- **Resources**:  
+  - Inputs and tools enabling tasks, such as version control systems, testing frameworks, or personnel expertise.
+- **Product**:  
+  - The outputs or results of software processes, including functional systems, documentation, or reports.
+- **Software Life Cycle**:  
+  - The stages of software development, from requirements analysis to design, coding, testing, deployment, and maintenance.
+- **Internal Metrics**:  
+  - Measures of efficiency and performance within the organization, e.g., defect resolution time or code coverage.
+- **External Metrics**:  
+  - Measures of the impact and outcomes, focusing on stakeholder satisfaction, e.g., compliance with standards or customer feedback.
+
+### Metrics and Measurement
+- **GQM (Goal-Question-Metric)**:  
+  - A framework linking organizational goals to specific questions and metrics for evaluation.
+- **Defect Density**:  
+  - The number of defects per unit size of code, used to assess software quality.
+- **Mean Time to Repair (MTTR)**:  
+  - Average time taken to resolve a defect or issue.
+- **Code Coverage**:  
+  - The percentage of source code executed during testing, used as a measure of test completeness.
+- **Technical Debt**:  
+  - The accumulated cost of deferred maintenance, often resulting from rushed or suboptimal code.
+
+### Techniques and Tools
+- **Test-Driven Development (TDD)**:  
+  - Writing tests before implementing code to ensure quality and adherence to specifications.
+- **Continuous Integration (CI)**:  
+  - Automating the integration of code changes, typically through frequent builds and tests.
+- **Static Analysis**:  
+  - Examining code without executing it to find potential issues, such as vulnerabilities or inefficiencies.
+- **Bayesian Networks**:  
+  - Probabilistic models that represent dependencies and enable inference, e.g., for defect prediction.
+- **Version Control**:  
+  - Systems for tracking changes in code, enabling collaboration and rollback, e.g., Git or Subversion.
+
+### Team Dynamics and Management
+- **Distributed Teams**:  
+  - Teams working across multiple locations, often spanning time zones and cultures.
+- **Personnel Management**:  
+  - Balancing team skills, training, and roles to optimize productivity and collaboration.
+- **Stakeholder Management**:  
+  - Ensuring stakeholder needs and expectations are met throughout the project lifecycle.
+- **Dependency Management**:  
+  - Tracking and managing interdependencies between teams, tasks, or components.
+
+## Ethical and Social Considerations
+- **Ethical Software Practices**:  
+  - Developing software that adheres to legal, societal, and organizational ethics.
+- **Volkswagen Emissions Scandal**:  
+  - A case of unethical software manipulation to bypass regulatory emissions tests.
+- **Open Governance**:  
+  - Transparent and inclusive decision-making processes in open-source projects.
+
+### Emerging Trends and Challenges
+- **Legacy Software**:  
+  - Older software systems still in use but often costly and difficult to maintain.
+- **Global Development**:  
+  - Software development leveraging teams across the world, often for cost or expertise advantages.
+- **Agile Frameworks**:  
+  - Iterative and flexible development methodologies prioritizing collaboration and adaptability.
+- **Incremental Development**:  
+  - Delivering software in smaller, manageable increments rather than a single large release.
+- **Technical Debt Management**:  
+  - Practices aimed at minimizing the accumulation and impact of technical debt.
+
+## Self-Study
+
+1. **Understanding Metrics**  
+   - Explain the difference between internal and external metrics. Provide examples of how each type of metric can influence decision-making in a software project.
+
+2. **Process and Resource Management**  
+   - How can balancing process, product, and personnel management improve the success of distributed software teams? 
+ 
+3. **Ethics in Software Engineering**  
+   - Discuss the implications of the Volkswagen emissions scandal for software engineering ethics. What practices could have prevented this issue?
+
+4. **Technical Debt and Legacy Systems**  
+   - Why is technical debt a significant challenge in modern software engineering? 
+     - Use the COBOL case study to illustrate your answer.
+
+5. **Technical Debt and Modern Systems**  
+   - Why is technical debt a significant challenge in modern software engineering? 
+     - Use recent advances in AI as a  case study to illustrate your answer.   
+
