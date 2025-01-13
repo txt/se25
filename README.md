@@ -51,7 +51,7 @@
   <tbody>
     <tr>
       <td>Jan06</td>
-      <td>Mon: no class.<br>Wed: <a href="/docs/syllabus.md">Syllabus</a><br><a href="/docs/intro.md">Intro<a></td>
+      <td>Mon: no class.<br>Wed: <a href="/docs/syllabus.md">Syllabus</a>; <br><a href="/docs/intro.md">Intro<a></td>
       <td></td>
       <td></td>
       <td></td>
