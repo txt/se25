@@ -32,6 +32,7 @@
 6. [War Stories](#war-stories-from-lecturer)
 7. [Glossary of Terms](#glossary-of-terms)
 8. [Self-Study Questions](#self-study)
+9. [Mini-review Questions](#mini-review)
 
 
       
@@ -426,4 +427,11 @@ Facebook (now Meta Platforms) purchased WhatsApp in 2014 for approximately $19 b
    - Why is technical debt a significant challenge in modern software engineering? 
      - Use recent advances in AI as a  case study to illustrate your answer.   
 
+## Mini-Review Questions (due Jan 16)
+
+1. Define and distinguish internal process metrics from external product metrics. 
+2. Is "skiil required to use functional programming" an internal or external metric? Justify your answer? (2-4 lines of text)
+3. "We must, by the end of 2025, remove all use of COBOL from around the world." Discuss. (3-10 lines).
+
+Also, give one example of each.
 
