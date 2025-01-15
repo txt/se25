@@ -179,8 +179,8 @@ Time in project (Fred Brooks, 1976)
 - A quarter of the time is spent testing (unit testing).
 - A quarter of the time is spent integrating code with other components or systems.
 
- ![Requirement](https://github.com/user-attachments/assets/47004fa8-28f2-4d56-94bc-67bb8e0fc037)
 
+ ![Requirement](https://github.com/user-attachments/assets/47004fa8-28f2-4d56-94bc-67bb8e0fc037)
 
 
 A more modern view (Long et al.)- all phases have parts:
@@ -427,7 +427,9 @@ Facebook (now Meta Platforms) purchased WhatsApp in 2014 for approximately $19 b
    - Why is technical debt a significant challenge in modern software engineering? 
      - Use recent advances in AI as a  case study to illustrate your answer.   
 
+
 ## Mini-Review Questions (due Jan 16)
+
 
 1. Define and distinguish internal process metrics from external product metrics. 
    Make sure our give  one example of each.
