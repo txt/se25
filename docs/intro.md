@@ -180,6 +180,7 @@ Time in project (Fred Brooks, 1976)
 - A quarter of the time is spent integrating code with other components or systems.
 
 
+
 ![image](https://github.com/user-attachments/assets/1407bde9-547e-4b49-8ac2-141443fc3e72)
 
 
@@ -192,7 +193,7 @@ A more modern view (Long et al.)- all phases have parts:
    6. Development Test & Evaluation.
 
 
-A comparsion of views:
+A comparison of views:
 
 
 ![image](https://github.com/user-attachments/assets/e7ef4133-174b-47b6-b34e-e7609c967997)
