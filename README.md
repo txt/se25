@@ -64,7 +64,7 @@
       <td>Jan13</td>
       <td>
            Mon: <a href="https://softengbook.org/chapter2">Process1</a><br>
-           Wed: <a href="/docs/process.md">Process2</a>
+           Wed: <a href="/docs/process2.md">Process2</a>
            <!--- Wed: <a href="https://medium.com/inthepipeline/how-to-use-a-makefile-to-speed-up-your-dbt-project-workflow-fb36eb676910">Data-oriented coding</a ---->
       </td>
       <td>
