@@ -179,9 +179,8 @@ Time in project (Fred Brooks, 1976)
 - A quarter of the time is spent testing (unit testing).
 - A quarter of the time is spent integrating code with other components or systems.
 
+ ![Requirement](https://github.com/user-attachments/assets/47004fa8-28f2-4d56-94bc-67bb8e0fc037)
 
-
-![image](https://github.com/user-attachments/assets/1407bde9-547e-4b49-8ac2-141443fc3e72)
 
 
 A more modern view (Long et al.)- all phases have parts:
