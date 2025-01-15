@@ -45,7 +45,7 @@ Ignore: Kansan, little’s law
   - Agile
     - Extreme
       - Releases,months
-      - Iterations, weeks, sooty points planning poker
+      - Iterations,  , story points planning poker
       - Tasks, days
       - Slack
       - terms:
@@ -53,6 +53,6 @@ Ignore: Kansan, little’s law
         - Incremental design, pair programming, test-driven development (TDD), automated builds, and continuous integration.
         - negotiated (not fixed) scope contracts
     - Scrum
-      - Backlog, burn down,, Sprint, Daily Meetings, scrum board (.a. kanban)
+      - Backlog, burn down,, Sprint, Daily Meetings, scrum board (a.k.a. kanban)
 
 
