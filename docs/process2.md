@@ -23,7 +23,7 @@
 
 
 
-# Process@
+# Process
 
 
 Let's play word bingo. How many of these can you define, by the end of today?
@@ -33,7 +33,7 @@ Not here: effort estimation
 Ignore: Kansan, little’s law
 
 
-- What is process
+- What is process?
 - Chaos report
 - Agile manifesto
 - Feed two pizzas
