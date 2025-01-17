@@ -1,0 +1,501 @@
+
+=============
+
+# Git
+
+## What is Git?
+Git is a free and open-source distributed version control system used to **handle** all aspects of project development. It is commonly used by programmers to collaboratively manage and track source code.
+
+---
+
+
+## Git Data Structure
+Git has two primary data structures:  
+
+1. **Mutable Index (Stage or Cache)** – Stores information about the working directory and the next revision to be committed.  
+2. **Object Database** – Stores immutable objects, including commits, trees, and blobs.  
+
+In Git terminology:  
+- A **blob** is a file, represented as a sequence of bytes.  
+- A **tree** is a directory structure that maps names to blobs or other trees (allowing nested directories).
+
+![Git Object Model](https://www3.ntu.edu.sg/home/ehchua/programming/howto/images/Git_Objects.png)
+
+*Image source: [NTU - Git HowTo](https://www3.ntu.edu.sg/home/ehchua/programming/howto/Git_HowTo.html)*
+
+
+---
+
+## Main Concepts
+
+### **Repository**
+A **repository (repo)** is a storage space containing files, directories, historical records, commits, and branches. It can be:  
+- **Local** (stored on your machine)  
+- **Remote** (hosted on platforms like GitHub, GitLab, or Bitbucket)  
+
+
+
+![Git Workflow](https://kevintshoemaker.github.io/StatsChats/GIT1.png)
+
+*Image source: [Kevin T. Shoemaker - Git Tutorial](https://kevintshoemaker.github.io/StatsChats/GIT_tutorial.html)*
+
+
+### **Components of a Git Repository**
+- **`.git` Directory** – Contains configuration files, logs, branches, HEAD, and more.  
+- **Working Tree** – Represents the project's current state.  
+- **Index (Staging Area)** – A middle layer between the working tree and the Git repository.  
+- **HEAD** – A pointer to the latest commit in the active branch.  
+
+---
+### **Commit**
+A commit is a **snapshot** of the repository at a specific moment.  
+- Each commit has a unique ID (SHA-1 hash).  
+- It records changes made to files (added, modified, or deleted). For example, if you added 5 files, and removed 2 others, these changes will be contained in a commit.
+
+
+---
+
+### **Branch**
+A branch is a **parallel version of your project**.  
+- By default, Git creates a branch called **`main`** (formerly `master`).  
+- Branches enable independent feature development before merging changes.
+
+
+![Git Branching Strategy](https://miro.medium.com/v2/resize:fit:720/format:webp/1*Q8MmK6j-P8Wb6T2zz0crJw.png)
+
+
+*Image source: [Choosing the Right Branching Strategy for Your Git Workflow](https://medium.com/@smahadik204/choosing-the-right-branching-strategy-for-your-git-workflow-7abe013f872e)*
+
+
+---
+
+### **Stages of Git**
+- **Modified** – Changes have been made to a file but file has not been committed to Git Database yet.
+- **Staged** – The file is marked to be included in the next commit.  
+- **Committed** – Files have been committed to the Git Database. 
+
+---
+
+### **Merge**
+Merging is the process of combining changes from different branches. It integrates the work from one branch into another.
+
+```sh
+# Merge a branch into the current branch
+git merge <branch-name>
+```
+![Git Three-Way Merge](https://media.geeksforgeeks.org/wp-content/uploads/20230516192737/git-three-way-merging.png)
+
+*Image source: [GeeksforGeeks - Git Merge](https://www.geeksforgeeks.org/git-merge/)*
+
+---
+
+### **Clone**
+Cloning is copying a repository from a remote server to your local machine.
+
+```sh
+git clone <repository-url>
+```
+
+---
+
+  ### **Pull and Push**
+- **Pull**: Fetches changes from a remote repository and merges them into your local branch.  
+- **Push**: Sends committed changes from your local repository to a remote repository.  
+
+```sh
+git pull
+git push origin <branch-name>
+```
+
+---
+
+
+## **Basic Commands**
+
+```sh
+#Create an empty Git repository.
+git init
+
+# Set global username and email
+$ git config --global user.email "MyEmail@ncsu.com"
+$ git config --global user.name "My Name"
+
+# Quickly check available commands
+$ git help
+
+# Add files to staging area
+git add <file>
+
+# Commit your changes
+git commit -m "Commit message"
+
+# Check the status of your files. Will display the branch, untracked files, changes and other differences
+git status
+
+# List existing branches & remotes
+git branch -a
+
+# Create a new branch
+git branch <new-branch>
+
+# Delete a branch
+git branch -d <branch-name>
+
+# Rename a branch
+git branch -m <old-branch-name> <new-branch-name>
+
+
+# By default, git push will push and merge changes from the current branch to its remote-tracking branch
+git push
+
+# Push commits to a remote repository
+git push origin <branch-name>
+
+# By default, git pull will update your current branch
+git pull
+
+# Create a new branch
+git checkout -b <branch-name>
+
+# Switching Branches
+git checkout <branch-name>
+
+# Restoring Files to a Previous State
+git checkout <branch-name> -- <file-name>
+
+# Checking Out a Specific Commit
+git checkout <commit-hash>
+
+# Merge a branch into the current branch
+git merge <branch-name>
+
+#To intentionally untrack file(s) & folder(s) from git. Based on different languages, 
+echo "temp/" >> .gitignore
+echo "private_key" >> .gitignore
+```
+There are different styles of gitignore file. reference:
+https://github.com/github/gitignore. For example, Python developers might
+consider
+using [https://github.com/github/gitignore/blob/main/Python.gitignore](https://github.com/github/gitignore/blob/main/Python.gitignore).
+
+---
+
+## **Special Situations**
+
+### **Stash**
+You’ve been doing some work in your git repo, but you want to pull from the remote. Since you have uncommitted changes to some files, you are not able to run git pull. Instead, you can run **`git stash`** to save your changes onto a stack!
+
+
+```sh
+git stash       # Save uncommitted changes
+git pull        # Pull latest changes
+git status      # Checking if everything is okay
+git stash list  # View stashed changes
+git stash pop   # Apply the latest stash and remove it from the stash list
+#or
+git stash apply # Apply the latest stash but keep it in the stash list
+```
+
+---
+
+### **Fixing Merge Conflicts**
+When we merge current branch to main branch, some conflicts might happen, like:
+```sh
+Auto-merging filename.txt
+CONFLICT (content): Merge conflict in filename.txt
+Automatic merge failed; fix conflicts and then commit the result.
+```
+
+This means that Git has identified conflicting changes in "filename" that need to be resolved.<br />
+Open the files with conflicts in your text editor or IDE. Conflicts sections shows your current branch, named "**HEAD**", and the branch you try to merge, named "branch-name".<br />
+```sh
+<<<<<<< HEAD
+This is a different line on main branch.
+=======
+This is the modified line on current branch.
+>>>>>>> feature
+
+```
+
+**Steps to resolve:**
+1. Edit the file to resolve the conflict by choosing the right changes to keep.  
+2. Stage the resolved file. Once you have resolved the conflicts, you need to stage the changes:  
+   ```sh
+   git add filename.txt
+   ```
+3. After staging the resolved files, commit the merge:  
+   ```sh
+   git commit -m "Resolved merge conflict in filename.txt"
+   ```
+4.  After committing, the merge conflict resolution is complete.
+There are some good visual tools to help with dealing conlicts like VSCodes, IntelliJ. To minimize the chance of conflicts, pull changes from the upstream branches regularly and resolve smaller conflicts incrementally.
+When working in a team, communicate about major changes or rebase regularly to reduce the chances of conflicts.
+
+
+---
+
+## **Reverting and Resetting Commits**
+
+In Git, "reverse" typically refers to undoing changes or reverting a commit. There are several ways to reverse changes in Git:
+
+### **Revert a Commit (Safe)**
+Creates a new commit that undoes the changes made by a previous commit without rewriting history. This is useful when you want to keep the history intact and record the fact that a commit was reverted.
+
+```sh
+git revert <commit-hash>
+```
+
+    But if you have merged a branch into your main branch, but later realized that you need to undo this merge. To revert a **merge commit**, specify the parent branch:
+
+
+```sh
+    #find the commit hash of the merge that you want to reverse
+    git log --oneline
+    #use "-m" option to specify the parent of the merge you want to keep. The "-m 1" option typically specifies that you want to keep the changes from the first parent (usually the main branch before the merge).
+    git revert -m 1 <merge-commit-hash>
+```
+
+---
+
+### **Reset a Commit (Destructive)**
+
+Moves the **HEAD** pointer and potentially the branch pointer to a previous commit, effectively "erasing" commits from the history. This can be destructive as it changes the commit history, making it as though certain commits never happened.
+
+The git reset command is used to undo commits by moving the HEAD and the current branch to a specified commit. 
+
+**Types of Reset:**
+- `--soft`: Moves HEAD, but keeps changes staged.  
+- `--mixed` (default):  Moves the **HEAD** to a specified commit, unstages changes (moves them to the working directory), but doesn't touch the working directory.
+- `--hard`: Moves the **HEAD** to a specified commit and deletes all changes in the working directory and index.
+
+```sh
+git reset --soft <commit-hash>
+git reset --mixed <commit-hash>
+git reset --hard <commit-hash>
+```
+
+**⚠ Warning:** `--hard` **deletes all uncommitted changes permanently!**
+
+---
+
+### **Undo Changes in the Working Directory:**
+Reverts changes made to files in the working directory that haven't been staged or committed yet.
+If you want to undo changes to a file that haven't been staged or committed yet, you can use the "git checkout" (in older versions) or "git restore" (in newer versions) command. 
+    ```sh
+    git restore <file>
+    #or for older version
+    git checkout -- <file>
+    ```
+
+---
+
+### **Unstage Changes:**
+
+If you've added changes to the staging area (using "git add") and want to unstage them without losing changes in the working directory:
+    ```sh
+    git reset HEAD <file>
+    ```
+### **Reflog to Recover Lost Commits:**
+If you accidentally use "git reset --hard" or otherwise lose commits, you can often recover them using the Git reflog, which tracks all movements of **HEAD**.
+    ```sh
+    git reflog
+    ```
+    Find the commit hash of the desired state, and then reset or checkout to that commit.
+
+```sh
+git checkout <commit-hash>
+```
+
+---
+## Some materials
+YouTube video: [Learn git in 15 mins](https://www.youtube.com/watch?v=USjZcfj8yxE)
+Interacting git learning website: [Learn Git Branch](https://learngitbranching.js.org/)
+
+## In class exercises
+
+[Git - the simple guide](https://rogerdudler.github.io/git-guide/)
+
+[GitHub Skills](https://github.com/skills)
+
+[Git Tutorial](https://learngitbranching.js.org/)
+
+---
+
+# 📌 Homework Instructions
+
+**Note:** For the homework, we will be looking for evidence that you completed these tasks in your [commit log](https://github.com/txt/se25/commits/main).
+
+---
+
+## 1. Initialize a New Git Repository
+- Create a new directory called **`git-homework2`**.
+- Initialize a **Git repository** in this directory.
+
+      
+---
+
+## 2. Create a New Project and Add It to the Repository
+- Create a file called **`README.md`** and write a brief description of the repository.
+- Add the following standard files to your repo:  
+  - `LICENSE.md`  
+  - `.gitignore`  
+  - `INSTALL.md`  
+  - `CONTRIBUTING.md`  
+  - `CODE-OF-CONDUCT.md`  
+  - (Reference: [Standard Files](https://softengbook.org/chapter2), [Choose a License](https://choosealicense.com/licenses/))  
+- Add **at least four badges** to `README.md`.
+- Create a simple **webpage (`.html` file)** describing your team. Include:  
+  - **Team number**  
+  - **All team members' names**  
+  - **Emails**
+  - Add footer
+- Stage and commit the changes with an **appropriate commit message**.
+
+---
+
+### 📜 README.md File Requirements
+
+#### 1️⃣ Headers
+```md
+## 📝 Introduction
+```
+
+#### 2️⃣ Image
+```md
+![Project Screenshot](path/to/your/image.png)
+```
+
+#### 3️⃣ Code Example
+
+
+```sh
+# Stage all changes for commit
+git add .
+
+# Commit the staged changes with a message
+git commit -m "Add changes"
+
+# Push to the remote repository
+git push origin YOUR_BRANCH
+```
+
+
+
+#### 4️⃣ Task List
+
+##### ✅ Task List  
+
+- [ ] Task 1: Implement feature A  
+- [ ] Task 2: Fix bug in module B  
+- [ ] Task 3: Update documentation  
+- [x] Task 4: Review pull requests  
+- [x] Task 5: Merge latest changes  
+
+
+---
+
+## 3. Each Group Member Creates a New Branch
+- Create a new branch named **`your_unity_id`**.
+    <!-- * git add...; git commit...; git push...; -->
+---
+
+## 4. Create and Assign Issues
+Each group member should **create 5 issues** in their own branch:  
+
+### Issue 1: Complete Git Tutorial Exercises (Assign to yourself)
+- Complete the following topics in the [Git Tutorial](https://learngitbranching.js.org/):
+  - **"Main" Topics:**  
+    1. Introduction Sequence  
+    2. Ramping Up  
+    3. Moving Work Around  
+  - **"Remote" Topics:**  
+    1. Push & Pull -- Git Remotes!  
+- Add an appropriate **label**.
+
+### Issue 2: Add Screenshots to `README.md` (Assign to yourself)
+- Add a **screenshot** to `README.md` showing your Git tutorial progress.
+- Replace **"Example"** with **your name** in the screenshot.  
+- Add an appropriate **label**.
+
+#### Example Screenshots:  
+<img src="https://github.com/user-attachments/assets/da3aa352-63e0-411b-8fe7-5980258d2672" width="400"/>
+
+<img src="https://github.com/user-attachments/assets/2c53fddd-db60-4d25-95fa-208310610580" width="400"/>
+
+
+
+### Issue 3: Modify `.html` File to Include Email Links (Assign to yourself)
+- Add an appropriate **label**.
+- Modify the `.html` file to include **email links**.
+- Commit and push changes with a **descriptive commit message**.
+- Verify the commit history and check the differences between commits.
+    <!-- * git add...; git commit...; git push...; -->
+
+
+### Issue 4: Change a Footer to the Website (Assign to yourself)
+- Add an appropriate **label**.
+- Modify the `.html` file to **change a footer** section.
+- Ensure the footer follows the website’s **design style**.
+- Commit and push changes with an **appropriate message**.
+         
+### Issue 5: Help Wanted 
+- Assign **Issue 5** to another **group member**.  
+- Label it as **"Help Wanted"**.  
+- Make sure **no two group members** are assigned the same task.
+
+---
+
+## 6. Complete Issues 1 to 4  
+- Work on and complete **Issues 1 to 4**.  
+- Once completed, **close the corresponding issues**.  
+
+---
+
+## 7. Switch Branch and Work on Assigned Help Task
+- Switch to the **branch where you were assigned to help**.
+
+---
+
+## 8. Merge and Resolve Conflicts(Issue 5)
+- Merge the **branch into the main branch**.
+- Resolve conflicts by including all changes or creating a **consolidated version**.
+- After resolving, **stage, commit, and complete the merge**.
+- Once completed, **close the issues**.  
+
+
+---
+
+## 9. Revert a Commit
+- Make a **new commit** by adding a **line to the `.html` file**.
+- Undo the **most recent commit** using Git.
+
+---
+
+## 10. Stash Changes
+- Create a **new branch** named `"temp"`.
+- Make some changes but **do not commit them**.
+- Use **`git stash`** to save the changes.
+- Switch to the **main branch** and make another commit.
+- Switch back to `"temp"` and apply the **stashed changes** using `git stash apply`.
+
+---
+**Only after all group members have completed the previous steps.**
+
+## 11. Clean Up the Repository
+- Delete all the **branches**.
+
+---
+
+## Submitting Your Work
+- Create a **PDF file** containing:
+  1. **Your repository link**
+  2. **One screenshot of your terminal** for **each group member** showing **your Git commands and terminal output** for Step **8 (Merge and Resolve Conflict).**
+- Submit the **PDF file**.
+
+---
+
+## 🎯 Grading Scale
+
+- Each step is worth **0.09 points**.  
+- Total: **1 point**.  
+- Ensure all steps are completed to receive full credit.
