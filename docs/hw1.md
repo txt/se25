@@ -1,22 +1,24 @@
 <p><a name=top> </a>&nbsp;</p>
 <p align=center>
-    <a 
-    href="/README.md#top"><img 
-    src="https://img.shields.io/badge/Home-%23ff5733?style=for-the-badge&logo=home&logoColor=white"></a> <a 
-    href="/docs/syllabus.md#top"><img 
-    src="https://img.shields.io/badge/Syllabus-%230055ff?style=for-the-badge&logo=openai&logoColor=white"></a> <a 
-    href="groups"><img 
-    src="https://img.shields.io/badge/Groups-%23ffd700?style=for-the-badge&logo=users&logoColor=white"></a> <a 
-    href="https://moodle-courses2425.wolfware.ncsu.edu/course/view.php?id=7150"><img 
-    src="https://img.shields.io/badge/Moodle-%23dc143c?style=for-the-badge&logo=moodle&logoColor=white"></a> <a 
-    href="https://discord.gg/DkaZw4zM"><img 
-    src="https://img.shields.io/badge/Discord-%23008080?style=for-the-badge&logo=discord&logoColor=white"></a> <a 
-    href="/LICENSE.md"><img 
-    src="https://img.shields.io/badge/(c)%20Tim%20Menzies,%202025-%234b4b4b?style=for-the-badge&logoColor=white"> </a>
+    <a
+    href="/README.md#top"><img
+    src="https://img.shields.io/badge/Home-%23ff5733?style=for-the-badge&logo=home&logoColor=white"></a> <a
+    href="/docs/syllabus.md#top"><img
+    src="https://img.shields.io/badge/Syllabus-%230055ff?style=for-the-badge&logo=openai&logoColor=white"></a> <a
+    href="https://docs.google.com/spreadsheets/d/1Jlx-BBsvVqmWhW1L9Fz6u18vPSjGXj1i/edit?usp=sharing&ouid=110996670184359055145&rtpof=true&sd=true"><img
+    src="https://img.shields.io/badge/Groups-%23ffd700?style=for-the-badge&logo=users&logoColor=white"></a> <a
+    href="https://moodle-courses2425.wolfware.ncsu.edu/course/view.php?id=7150"><img
+    src="https://img.shields.io/badge/Moodle-%23dc143c?style=for-the-badge&logo=moodle&logoColor=white"></a> <a
+    href="https://discord.gg/whDXzJGP"><img
+    src="https://img.shields.io/badge/Discord-%23008080?style=for-the-badge&logo=discord&logoColor=white"></a> <a
+    href="https://ncsu.hosted.panopto.com/Panopto/Pages/Sessions/List.aspx?folderID=958aa5e8-f99e-441f-a545-b26400dfe515"><img
+    src="https://img.shields.io/badge/Videos-%23ffa500?style=for-the-badge&logo=youtube&logoColor=white"></a> <a
+    href="/LICENSE.md"><img
+    src="https://img.shields.io/badge/(c)%20Tim%20Menzies,%202025-%234b4b4b?style=for-the-badge&logoColor=white"></a>
     <br>&nbsp;<br>
     <img width=200 src="/img/banner2.png">
 </p>
- <h1 align="center">:cyclone:&nbsp;CSC510: Software Engineering<br>NC&nbsp;State, Spring&nbsp;'25</h1>
+<h1 align="center">:cyclone:&nbsp;CSC510: Software Engineering<br>NC&nbsp;State, Spring&nbsp;'25</h1>
       
 
 
@@ -61,7 +63,7 @@ Your repo is your resume. Does it look professional?
 2. Create a repo in that organization. Make it public.
 
 
-3. Find the big green  `CODE` button. Create a new workshop on the main.
+3. Find the big green  `CODE` button. Create a new codespace on the main.
 
 
 4. **Check you have the latest Python (3.13)**

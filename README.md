@@ -1,29 +1,32 @@
 <p><a name=top> </a>&nbsp;</p>
 <p align=center>
-    <a 
-    href="/README.md#top"><img 
-    src="https://img.shields.io/badge/Home-%23ff5733?style=for-the-badge&logo=home&logoColor=white"></a> <a 
-    href="/docs/syllabus.md#top"><img 
-    src="https://img.shields.io/badge/Syllabus-%230055ff?style=for-the-badge&logo=openai&logoColor=white"></a> <a 
-    href="groups"><img 
-    src="https://img.shields.io/badge/Groups-%23ffd700?style=for-the-badge&logo=users&logoColor=white"></a> <a 
-    href="https://moodle-courses2425.wolfware.ncsu.edu/course/view.php?id=7150"><img 
-    src="https://img.shields.io/badge/Moodle-%23dc143c?style=for-the-badge&logo=moodle&logoColor=white"></a> <a 
-    href="https://discord.gg/DkaZw4zM"><img 
-    src="https://img.shields.io/badge/Discord-%23008080?style=for-the-badge&logo=discord&logoColor=white"></a> <a 
-    href="/LICENSE.md"><img 
-    src="https://img.shields.io/badge/(c)%20Tim%20Menzies,%202025-%234b4b4b?style=for-the-badge&logoColor=white"> </a>
+    <a
+    href="/README.md#top"><img
+    src="https://img.shields.io/badge/Home-%23ff5733?style=for-the-badge&logo=home&logoColor=white"></a> <a
+    href="/docs/syllabus.md#top"><img
+    src="https://img.shields.io/badge/Syllabus-%230055ff?style=for-the-badge&logo=openai&logoColor=white"></a> <a
+    href="https://docs.google.com/spreadsheets/d/1Jlx-BBsvVqmWhW1L9Fz6u18vPSjGXj1i/edit?usp=sharing&ouid=110996670184359055145&rtpof=true&sd=true"><img
+    src="https://img.shields.io/badge/Groups-%23ffd700?style=for-the-badge&logo=users&logoColor=white"></a> <a
+    href="https://moodle-courses2425.wolfware.ncsu.edu/course/view.php?id=7150"><img
+    src="https://img.shields.io/badge/Moodle-%23dc143c?style=for-the-badge&logo=moodle&logoColor=white"></a> <a
+    href="https://discord.gg/whDXzJGP"><img
+    src="https://img.shields.io/badge/Discord-%23008080?style=for-the-badge&logo=discord&logoColor=white"></a> <a
+    href="https://ncsu.hosted.panopto.com/Panopto/Pages/Sessions/List.aspx?folderID=958aa5e8-f99e-441f-a545-b26400dfe515"><img
+    src="https://img.shields.io/badge/Videos-%23ffa500?style=for-the-badge&logo=youtube&logoColor=white"></a> <a
+    href="/LICENSE.md"><img
+    src="https://img.shields.io/badge/(c)%20Tim%20Menzies,%202025-%234b4b4b?style=for-the-badge&logoColor=white"></a>
     <br>&nbsp;<br>
     <img width=200 src="/img/banner2.png">
 </p>
- <h1 align="center">:cyclone:&nbsp;CSC510: Software Engineering<br>NC&nbsp;State, Spring&nbsp;'25</h1>
+<h1 align="center">:cyclone:&nbsp;CSC510: Software Engineering<br>NC&nbsp;State, Spring&nbsp;'25</h1>
       
 
 **About**
 >  SE is about **teams**. Teams of people you know that build your software. Teams you dont know that bult the software you are using. Other teams who use and fix your code.  So, its time to learn about teams; about being a team player; about communicating within your team and to other teams;  about being a follower and (when needed) a leader; and about creating and meeting team expectations. Enjoy!
 
 **Textbook** freeware, on-line:
-<a href="https://softengbook.org"><pre>
+<a href="https://softengbook.org">
+<pre>
 @book{softengbook,
   title     = "[Software Engineering: A Modern Approach](https://softengbook.org/)",
   author    = "Marco Tulio Valente",
@@ -40,17 +43,17 @@
     <tr>
       <th>📅  Week of...</th>
       <th>🎓 Lecture</th>
-      <th>🛠️ Homework submission</th>
-      <th>📂 Project submission</th>
+      <th>🛠️ Homework submission<br>(due 11:25am)</th>
+      <th>📂 Project submission<br>(due 11:25am)</th>
       <th>✨ Other</th>
       <th>📝 Notes</th>
       <th>📊 Grade</th>
     </tr>
   </thead>
   <tbody>
-    <tr submission>
+    <tr>
       <td>Jan06</td>
-      <td>Mon: no class.<br>Wed: <a href="/docs/syllabus.md">Syllabus</a></td>
+      <td>Mon: no class.<br>Wed: <a href="/docs/syllabus.md">Syllabus</a>; <br><a href="/docs/intro.md">Intro<a></td>
       <td></td>
       <td></td>
       <td></td>
@@ -61,11 +64,11 @@
       <td>Jan13</td>
       <td>
            Mon: <a href="https://softengbook.org/chapter2">Process1</a><br>
-           Wed: <a href="https://softengbook.org/chapter2">Process2</a>
+           Wed: <a href="/docs/process2.md">Process2</a>
            <!--- Wed: <a href="https://medium.com/inthepipeline/how-to-use-a-makefile-to-speed-up-your-dbt-project-workflow-fb36eb676910">Data-oriented coding</a ---->
       </td>
       <td>
-           Wed: <a href="docs/hw0.md">Practice exam</a>
+           Wed: <a href="docs/hw0.md">Hw0: practice exam</a>
       </td>
       <td></td>
       <td></td>
@@ -80,8 +83,7 @@
       <td>
            Wed: <a href="docs/hw1.md">Hw1: beautiful repos</a>
       </td>
-      <td>
-      </td>
+      <td></td>
       <td></td>
       <td></td>
       <td>1:homework</td>
@@ -108,8 +110,7 @@
       <td>
            Wed: <a href="docs/hw03.md">Hw3: debugging</a>
       </td>
-      <td>
-      </td>
+      <td></td>
       <td></td>
       <td></td>
       <td>1:Homework</td>
@@ -118,10 +119,9 @@
       <td>Feb10</td>
       <td><a href="https://softengbook.org/chapter5">Design1</a></td>
       <td>
-           Wed: <a href="docs/hw04.md">Hw4: Script wizard</a>
+           Thurs: <a href="docs/hw04.md">Hw4: Script wizard</a>
       </td>
-      <td>
-      </td>
+      <td></td>
       <td></td>
       <td></td>
       <td>1:homework</td>
@@ -146,7 +146,8 @@
     </tr>
     <tr>
       <td>Mar03</td>
-      <td>Wed: Mid-term exam</td>
+      <td>Mon: <a href="/docs/security.md">Security</a><br>
+          Wed: Mid-term exam</td>
       <td></td>
       <td></td>
       <td></td>
@@ -155,13 +156,11 @@
     </tr>
     <tr>
       <td>Mar10</td>
-      <td>Mon,Wed: no class (spring break)
+      <td>Mon,Wed: no class (spring break)</td>
       <td></td>
       <td></td>
-      <td>
-      </td>
-      <td>
-      </td>
+      <td></td>
+      <td></td>
       <td></td>
     </tr>
     <tr>
@@ -211,7 +210,7 @@
     </tr>
     <tr>
       <td>Apr21</td>
-      <td>Mon, Wed: no class
+      <td>Mon, Wed: no class</td>
       <td></td>
       <td></td>
       <td></td>
@@ -232,4 +231,3 @@
     </tr>
   </tbody>
 </table>
-

@@ -1,22 +1,24 @@
 <p><a name=top> </a>&nbsp;</p>
 <p align=center>
-    <a 
-    href="/README.md#top"><img 
-    src="https://img.shields.io/badge/Home-%23ff5733?style=for-the-badge&logo=home&logoColor=white"></a> <a 
-    href="/docs/syllabus.md#top"><img 
-    src="https://img.shields.io/badge/Syllabus-%230055ff?style=for-the-badge&logo=openai&logoColor=white"></a> <a 
-    href="groups"><img 
-    src="https://img.shields.io/badge/Groups-%23ffd700?style=for-the-badge&logo=users&logoColor=white"></a> <a 
-    href="https://moodle-courses2425.wolfware.ncsu.edu/course/view.php?id=7150"><img 
-    src="https://img.shields.io/badge/Moodle-%23dc143c?style=for-the-badge&logo=moodle&logoColor=white"></a> <a 
-    href="https://discord.gg/DkaZw4zM"><img 
-    src="https://img.shields.io/badge/Discord-%23008080?style=for-the-badge&logo=discord&logoColor=white"></a> <a 
-    href="/LICENSE.md"><img 
-    src="https://img.shields.io/badge/(c)%20Tim%20Menzies,%202025-%234b4b4b?style=for-the-badge&logoColor=white"> </a>
+    <a
+    href="/README.md#top"><img
+    src="https://img.shields.io/badge/Home-%23ff5733?style=for-the-badge&logo=home&logoColor=white"></a> <a
+    href="/docs/syllabus.md#top"><img
+    src="https://img.shields.io/badge/Syllabus-%230055ff?style=for-the-badge&logo=openai&logoColor=white"></a> <a
+    href="https://docs.google.com/spreadsheets/d/1Jlx-BBsvVqmWhW1L9Fz6u18vPSjGXj1i/edit?usp=sharing&ouid=110996670184359055145&rtpof=true&sd=true"><img
+    src="https://img.shields.io/badge/Groups-%23ffd700?style=for-the-badge&logo=users&logoColor=white"></a> <a
+    href="https://moodle-courses2425.wolfware.ncsu.edu/course/view.php?id=7150"><img
+    src="https://img.shields.io/badge/Moodle-%23dc143c?style=for-the-badge&logo=moodle&logoColor=white"></a> <a
+    href="https://discord.gg/whDXzJGP"><img
+    src="https://img.shields.io/badge/Discord-%23008080?style=for-the-badge&logo=discord&logoColor=white"></a> <a
+    href="https://ncsu.hosted.panopto.com/Panopto/Pages/Sessions/List.aspx?folderID=958aa5e8-f99e-441f-a545-b26400dfe515"><img
+    src="https://img.shields.io/badge/Videos-%23ffa500?style=for-the-badge&logo=youtube&logoColor=white"></a> <a
+    href="/LICENSE.md"><img
+    src="https://img.shields.io/badge/(c)%20Tim%20Menzies,%202025-%234b4b4b?style=for-the-badge&logoColor=white"></a>
     <br>&nbsp;<br>
     <img width=200 src="/img/banner2.png">
 </p>
- <h1 align="center">:cyclone:&nbsp;CSC510: Software Engineering<br>NC&nbsp;State, Spring&nbsp;'25</h1>
+<h1 align="center">:cyclone:&nbsp;CSC510: Software Engineering<br>NC&nbsp;State, Spring&nbsp;'25</h1>
       
 
 
@@ -25,14 +27,31 @@
 
 
 |Details      | Notes                           |
-|:------------|:--------------------------------|
+|------------:|:--------------------------------|
 |When         | Mon Wed 11:45AM - 1:00PM           |
 |Where        | rm 01011  Engineering Building I |
 | Prerequisites |CSC 316 and CSC 226 (or equivalent |
-|Instructor       | Tim Menzies      |
-|Office hours | 2pm to 4pm Monday, in my office ([by appointment](https://calendar.app.google/GwzbUmsiCSvGQ27dA)) |
+
+
+ 
+
+
+|Lecturer      | About                           |
+|------------:|:--------------------------------|
+| Prof. Tim Menzies | <img   src="/img/tim.png">|
+|Office hours | 2pm to 4pm Monday<br> in my office ([by appointment](https://calendar.app.google/GwzbUmsiCSvGQ27dA)) |
 |Office       | Room: 3304:EB2|
 |Email        | timm@ieee.org|
+
+
+ 
+
+
+|Tutor      | About                           |
+|------------:|:--------------------------------|
+|Katerina Vilkomir| <img  e src="/img/katerina.png"> |
+|Office hours | 9:30 - 10:30<br>  Monday and Tuesday<br> ([by appointment](https://calendar.app.google/CnF6PRCzPkkT4oiT7)) |
+|Email        | evilkom@ncsu.edu |
 
 
 **Preferred method of communication and Response Times:**
@@ -130,7 +149,7 @@ for those who want to work in _i+1_.
 
 
 - Project1: 
-  - You review ten projects done previously in this subjects elect two, then boast of its accomplishments.
+  - You review nine projects done previously in this subjects elect two, then boast of its accomplishments.
   - Select wisely. You have a 25% chance that, in project2, you will have to work on your Project1 selections.
 - Project2: 
   - You will switch projects and significantly extend some project
@@ -178,7 +197,8 @@ For masters students, some evidence must be generated that you are actively enga
 
 - The project repo MUST have a branch called "MAIN". Groups will be assessed via their commit history (seen under "Insights") in MAIN.
     Projects were all group members are not active doing commits will lose marks (or the offending student will be expelled from that group).
-- Groups need to maintain an active discussion in the channel within the subject's Discord channel. Projects were all group members are not active in discussions  will either lose marks    (or the offending student will be expelled from that group).
+- Groups need to maintain an active discussion in some on-line forum. Github issue reports will be fun. Optionally, students can request a Discord channel. 
+  Projects were all group members are not active in discussions  will either lose marks    (or the offending student will be expelled from that group).
 
 
 ### Attendance

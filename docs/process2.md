@@ -23,3 +23,36 @@
 
 
 
+# Process
+
+
+Let's play word bingo. How many of these can you define, by the end of today?
+
+
+Not here: effort estimation    
+Ignore: Kansan, little’s law
+
+
+- What is process?
+- Chaos report
+- Agile manifesto
+- Feed two pizzas
+- Waterfall vs agile
+- processes
+  - Waterfall
+  - Spiral
+  - RUP
+  - Agile
+    - Extreme
+      - Releases,months
+      - Iterations,  , story points planning poker
+      - Tasks, days
+      - Slack
+      - terms:
+        - Customer representative, user stories,  iterations, releases, release planning, iteration planning, planning poker, and slack.
+        - Incremental design, pair programming, test-driven development (TDD), automated builds, and continuous integration.
+        - negotiated (not fixed) scope contracts
+    - Scrum
+      - Backlog, burn down,, Sprint, Daily Meetings, scrum board (a.k.a. kanban)
+
+
