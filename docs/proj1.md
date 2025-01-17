@@ -44,6 +44,8 @@ Two posters and two "video demos" from two projects that describe:
 - Review **9+ projects** before selecting two.
 - You have a **25% chance** of having to create one of these posters for Project2, so choose carefully.
 - Many previous projects may have issues (e.g., poor installation instructions, outdated packages, dull goals). Be critical in your selection.
+- Submit your work to Moodle (including 2 posters and 2 videos) AND the  [Discussions Forum](https://github.com/Kii4ka/CSC510_Software_Engineering_Posters_Spring2025/discussions) (only 2 posters).
+- React in the Discussions Forum to the posters you like so we can find the best ones.
 
 
 ---
