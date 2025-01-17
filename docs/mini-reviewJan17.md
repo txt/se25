@@ -30,10 +30,10 @@
 |----|-----|
 |11:30 | open moodle, struggle to work out how to download html of student responses |
 | 11:37 | pre-prompting. hello chat gpt. here are the questions. how would you answer them|
-| 11:40 | load student html, ask [Prompt1](prompt1). Get [Response1](#response1) and [Response2](response2) |
+| 11:40 | load student html, ask [Prompt1](#prompt1). Get [Response1](#response1) and [Response2](#response2) |
 | 11:45 | start typing mitigations for students |
 | 12:01 | starting verification. read 15 responses at random| 
-| 12:07 | realized i cannot sumamrize the student responses, unless i'd structured the input questions in much greater detail. so i can't even judge LLM effectiveness since it is doing something I can't |
+| 12:07 | realized i cannot summarize the student responses, unless i'd structured the input questions in much greater detail. so i can't even judge LLM effectiveness since it is doing something I can't |
 | 12:10 | end. Total time= 40 mins|
 
 
