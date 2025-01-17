@@ -71,7 +71,8 @@ Question answering strategies:
 
 ### Internal/External Metrics
 
-![](/img/Specifications.png])
+![image](https://github.com/user-attachments/assets/48355582-e525-434d-9e85-3963e24a00d0)
+
 
 
 ### The Question of COBOL
