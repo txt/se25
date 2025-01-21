@@ -108,7 +108,7 @@ This list includes both infamous failures and lessons learned to emphasize the c
 ## Requirement Interactions
 
 
-### Matrix of Requirements Interactions
+### Sample of Functional Requirements Interactions
 
 
 | Requirement ID              | R1 | R2 | R3 | R4 | R5 | R6 | R7 | R8 | R9 | R10 |
@@ -171,7 +171,7 @@ This list includes both infamous failures and lessons learned to emphasize the c
    - **Negative Interaction**: Balancing loyalty points and payment structures could introduce errors or delays in processing payments.
 
 
---------------------
+### Sample of NonFunctional Requirements Interactions
 
 
 |   | A  | C  | I  | M  | P  | Po | R  | S  | Se | U  |
