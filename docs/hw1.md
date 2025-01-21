@@ -33,7 +33,7 @@ Your repo is your resume. Does it look professional?
 - Only **one group member** submits the work.
 - Include:
   - **Group number**
-  - **Names of all participants**
+  - **Names of all participants** (Name - github user id)
   - **Repo URL**
   - A **screenshot** as specified in Task 6.
 
