@@ -99,12 +99,6 @@ In contrast to Genesis, the Stardust spacecraft successfully returned its sample
 [^8]: NASA. *Stardust Mission Overview*. [Link](https://stardust.jpl.nasa.gov/)
 
 
----
-
-
-This list includes both infamous failures and lessons learned to emphasize the critical role of requirements engineering. Let me know if you'd like any adjustments!
-
-
 ## Requirement Interactions
 
 
