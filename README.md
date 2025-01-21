@@ -92,7 +92,8 @@
     <tr>
       <td>Jan27</td>
       <td>
-      <a href="https://softengbook.org/chapter3">Requirements1</a>
+      Mon: <a href="https://softengbook.org/chapter3">Requirements1</a><br>
+      Wed: <a href="/docs/require2.md">Requirements2</a>
       </td>
       <td>
            Wed: <a href="docs/hw02.md">Hw2: share code</a>
