@@ -25,37 +25,47 @@
 
 ## Project 2 & Project 3
 
+
 ### Deadlines
+
 
 - **Project 2 Deadline:** February 26
 - **Project 3 Deadline:** April 16
 
+
 ### Your Task
+
 
 Project 2: Extend and enhance an existing project.
 
+
 Project 3: Work on another team's Project 2 code.
 
+
 #### Important Notes:
+
 
 - Your goal is to do enough work and paint a clear vision for the future so that someone else wants to use your code for their next project.
 - Your deliverables include a **15-minute demo** with a tutor, who will assess **significant improvement** in your current project compared to its initial state.
 - Projects 2 and 3 will be assessed in live demo sessions with the tutor/grader. These sessions will occur during the weeks of March 3 and April 21. We ask students for help scheduling all these demo sessions. Our graders/tutors are students with their own exams and assignments to complete. Hence, they might suggest demo times outside normal working hours (evenings, weekends). Please do them the courtesy of considering those times. That said, if those proposed times are inconvenient, you can, should, and must ask for other times.
 
+
   
 
+
 ⚠️ **Demo Sessions:**
+
 
 - Live demo sessions will be held in the weeks of **March 3 and April 21**.
 - Tutors may suggest demo times **outside normal hours** (evenings/weekends). Please be considerate.
 - If the suggested times are inconvenient, you may request alternatives.
 
 
-
-
 ## What to Submit
 
+
 Submit a **single PDF file** containing:
+
 
 1. **A project poster** (similar to the Project 1 poster) aimed at attracting another team to work on your code for Project 3.
 2. **A link to your project repository**. The repository must meet the following requirements:
@@ -70,7 +80,9 @@ Submit a **single PDF file** containing:
    - **Each team member should add at least 20 new test cases, for a total of 60 new test cases for a team of 3** covering both nominal and off-nominal scenarios (expected and problematic cases).
 3. Fill Software Sustainability Evaluation self-assessment and Repository Rubric tables:
 
+
 Software Sustainability Evaluation self-assessment table:
+
 
 | Category                         | Question                                                                                                                                                                                                                                                                                                                      | Yes | No | Evidence |
 | -------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | --- | -- | -------- |
@@ -161,12 +173,16 @@ Software Sustainability Evaluation self-assessment table:
 |Question 16.2| Does your website or documentation describe how your project is funded, and the period over which funding is guaranteed?| ✅   | ❌  |          |
 |Question 16.3| Do you make timely announcements of the deprecation of components, APIs, etc.?| ✅   | ❌  |          |
 
+
 ### Repository Rubric
+
 
 - The project repo **MUST** have a branch called `MAIN`. Groups will be assessed via their commit history (seen under "Insights") in `MAIN`. Projects where all group members are not actively making commits will lose marks, or the offending student may be expelled from the group.
 - Groups need to maintain an active discussion in some online forum. GitHub issue reports will be fun. Optionally, students can request a Discord channel. Projects where all group members are not active in discussions will either lose marks, or the offending student may be expelled from the group.
 
+
 Each team starts with full marks but **loses** 0.33 marks for missing items:
+
 
 |Notes|Evidence|Score|
 |-----|---------|--|
@@ -213,9 +229,12 @@ but nevertheless, here is a track record that everyone is contributing a lot)|ev
 - **Column 3**: Self-assessment score (0 = none, 1 = a little, 2 = somewhat, 3 = a lot).
 - At the buttom, show the sum of Column 3.
 
+
 ## Poster Requirements
 
+
 Each poster must:
+
 
 - Be a **standard page size** (e.g., letter or A4).
 - Use **small fonts** (text may be as small as 4 to 6 points).
@@ -235,24 +254,33 @@ Each poster must:
   - **Boast your test cases**:
     - E.g., "One group listed 130+ test cases, showcasing their ability to make changes while maintaining old functionality."
 
+
 ## 📌 **Submission Instructions:**
+
 
 - Submit your work to **Moodle** (1 poster) **AND**
 - Post your poster to the [Discussions Forum](https://github.com/Kii4ka/CSC510_Software_Engineering_Posters_Spring2025/discussions).
 
+
 💬 **Get Involved!**
+
 
 - React in the Discussions Forum to the posters you like so we can identify the best ones! 👍👎
 
+
 ## Grading Criteria
 
+
 ### Project 2:
+
 
 - **Demo:** 5 marks
 - **Rubric Compliance:** 8 marks (see below)
 - **Poster:** 2 marks
 
+
 ### Project 3:
+
 
 - **Demo:** 21 marks
 - **Poster:** 2 marks
@@ -260,8 +288,10 @@ Each poster must:
 
 ## Ways to Lose Points
 
+
 - Your poster or demo **does not** have the above features.
 - Your poster **fails to effectively sell the project**. Specifically:
   - Within the **first 15 seconds** of reading, the poster **does not clearly explain** what the project is about.
   - The poster **does not make a compelling case** for why this technology stack is interesting (e.g., "Select this project to learn about Kubernetes").
+
 

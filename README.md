@@ -64,7 +64,8 @@
       <td>Jan13</td>
       <td>
            Mon: <a href="https://softengbook.org/chapter2">Process1</a><br>
-           Wed: <a href="/docs/process2.md">Process2</a>
+           Wed: <a href="/docs/process2.md">Process2</a><br>
+           Fri: <a href="/docs/mini-reviewJan17.md">Review</a>
            <!--- Wed: <a href="https://medium.com/inthepipeline/how-to-use-a-makefile-to-speed-up-your-dbt-project-workflow-fb36eb676910">Data-oriented coding</a ---->
       </td>
       <td>
@@ -79,6 +80,7 @@
       <td>Jan20</td>
       <td>
            Mon: no class (MLK  day)<br>
+       Wed: <a href="https://softengbook.org/chapter3">Requirements1</a><br>
       </td>
       <td>
            Wed: <a href="docs/hw1.md">Hw1: beautiful repos</a>
@@ -91,7 +93,7 @@
     <tr>
       <td>Jan27</td>
       <td>
-      <a href="https://softengbook.org/chapter3">Requirements1</a>
+      Mon: <a href="/docs/require2.md">Requirements2</a>
       </td>
       <td>
            Wed: <a href="docs/hw02.md">Hw2: share code</a>
