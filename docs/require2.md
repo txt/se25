@@ -31,14 +31,9 @@
 
 - **Requirements**
   - Functional Requirements
+    - e.g.  User Authentication, Flight Search, Flight Booking , Payment Processing, Booking Cancellation.
   - Non-Functional Requirements
-    - Performance
-    - Availability
-    - Security
-    - Portability
-    - Privacy
-    - Memory Usage
-    - Disk Usage
+    - e.g. Performance, Availability, Security, Portability, Privacy, Memory Usage, Disk Usage
 - **Requirements Engineering**
   - Identification
   - Analysis
