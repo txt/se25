@@ -51,6 +51,24 @@
   - A/B Testing
 
 
+## When
+
+Recell the v-diagram:
+
+- As we approach coding we do the planning required to generate the exepectations
+  that let us test.
+- As we leave coding, we generate the experience needed to update our planning,
+  next time around.
+
+Requirements is pre-code activity where we define what needs to be done
+
+- Requrements engineering works when we can generate tests
+- Testing works when it can update requirements
+
+![Requirement](https://github.com/user-attachments/assets/47004fa8-28f2-4d56-94bc-67bb8e0fc037)
+
+
+
 ## (in)Famous Requirements Failures
 
 
