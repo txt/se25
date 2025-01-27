@@ -35,7 +35,7 @@ Your repo is your resume. Does it look professional?
   - **Group number**
   - **Names of all participants** (Name - github user id)
   - **Repo URL**
-  - A **screenshot** as specified in Task 6.
+  - A **screenshot** as specified in Tasks 3, 4, 6.
 
 
 ## What to Hand In:
@@ -64,7 +64,7 @@ Your repo is your resume. Does it look professional?
 
 
 3. Find the big green  `CODE` button. Create a new codespace on the main.
-
+- Take a screenshot.
 
 4. **Check you have the latest Python (3.13)**
    - If not, then in the terminal, install  python3.13 by running the following command (it is all on one line).
@@ -79,6 +79,7 @@ Your repo is your resume. Does it look professional?
      ```bash
      python3.13 -B --version
      ```
+     - Take a screenshot
 
 
 5. Write a short Python program (10 lines) and add an error.
@@ -97,7 +98,7 @@ Your repo is your resume. Does it look professional?
 6. Run the code again. Take your mouse and point to one of the errors on the screen. Observe how it highlights like a hyperlink.
 
 
-- Take a screenshot of you and point to that error. Include the whole window so we can see you can see the code and error at the same time. (Only one screenshot is needed and only for task 6).
+- Take a screenshot of you and point to that error. Include the whole window so we can see you can see the code and error at the same time..
 
 
 For 7 and 8 tasks, it is recommended that a terminal be used. 
