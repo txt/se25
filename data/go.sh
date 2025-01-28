@@ -14,17 +14,39 @@
 d=tNoSpaceNoCommas.csv
 
 rare() {
-  cat $d | gawk -F, '
+  cat $d | gawk '
 
-NR>1{for(i=1;i<=NF;i++) parts[i][$i]++;} 
+BEGIN { FS   = ","
+        BINS = 7 }
 
-END { 
-for(i in parts) {
-  print ""
-  if (length(parts[i]) < 20)
-    for(j in parts[i]) print(i, j, parts[i][j]) 
-    }}
-    '
-  }
+NR==1 { for(col=1; col<=NF; col++)  
+          if ($col !~ /X$/) {
+            print $col
+            names[col] = $col
+            nump[col]  = $col ~ /^[A-Z]/ }}
+
+NR>1  { for(col in names)
+          if ( $col != "" ) 
+            has[col][NR] = $col }
+
+END   { for(col in has) {
+          n = asort( has[col] ) 
+          nump[col] ? num(names[col], has[col], n) : sym(has[col],n) }}
+
+function num(name,a,n,    cut,b,i,now,b4) {
+  cut[++b] = a[1]
+  for(i in a) {
+    now = int(i/n * BINS)
+    if (i<n && a[i] != a[i+1] && now != b4) {cut[++b] = a[i]; b4=now }
+    freq[ b ]++ }
+  print("\n", name)
+  for(i in freq) 
+    printf("\t %5s : %s\n", freq[i], cut[i])
+}
+
+function sym(name,a,n) { return 1}
+
+'
+}
 
 $1
