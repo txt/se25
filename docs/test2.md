@@ -71,7 +71,7 @@ Why Use Grammar-Based Fuzzing?
 
 ### Automated Program Repair
 
-<img align=right src="https://github.com/txt/se24fall/blob/main/docs/yellow.png">
+<img width=400 align=right src="https://github.com/txt/se24fall/blob/main/docs/yellow.png">
 
 - run tests down the branches of the program.
 - on each node, keep counters of passes and fails
@@ -89,7 +89,7 @@ For more on test failure localization, , see Jones JA, Harrold MJ, Stasko J. Vis
 
 Now apply genetic programming (cross-over, mutation):
 
-<img src="https://control.com/uploads/articles/Genetic_programming_crossover_of_two_programs.jpg">
+<img  width=600 src="https://control.com/uploads/articles/Genetic_programming_crossover_of_two_programs.jpg">
 
 Note: this is a CPU-intensive search. So only search a small space (the green zones, above).
 
