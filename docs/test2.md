@@ -28,6 +28,33 @@
 
 (rough notes, we'll come back to this alter)
 
+## Glossary of terms
+
+## Advanced Debugging Concepts
+- Delta Debugging
+- Grammar-Based Fuzzing
+  - Grammar Definition
+- Automated Program Repair
+  - Fault Localization
+  - Test Failure Visualization
+  - Genetic Programming
+    - Crossover and Mutation
+- Test-case Prioritization
+
+## Software Testing
+- Regression Testing
+  - Continuous Integration
+- Test Coverage
+  - Branch Coverage
+  - Line Coverage
+  - Problems with standard coverage measures
+- Mutation Testing
+
+## Software Defects and Bug Detection
+- Concurrency Issues
+- Component Interaction Bugs
+
+
 
 ## **Advanced Debugging Concepts**
 
@@ -67,7 +94,6 @@
 The following simple grammar defines valid arithmetic expressions:
 
 
-```python
 ```python
 grammar = {
     "expr": [["num"], ["expr", "op", "expr"]],
@@ -110,6 +136,29 @@ Why Use Grammar-Based Fuzzing?
 - Useful for testing parsers, interpreters, and compilers.
 - It [works](https://youtu.be/I9imQjwx7W4?si=h77DkQ79l0Pf9WFQ).
   - 450 unique bugs found in popular data bases
+
+Many ways to use grammar-based  fuzzing:
+
+- generating 100,000s of state,emts looking for a crash
+-  Muation Tessing
+   - Mutation testing is a software testing technique that evaluates the effectiveness of a test suite by introducing small, controlled modifications (mutations) into the program’s source code and checking if the test suite detects these changes.
+   - Key concepts are mutants, mutation operators, and mutations scores
+
+1. **Mutants**
+  - Mutants are modified versions of the original program.
+  - Each mutant has a small change (e.g., replacing `>` with `<` or changing `+` to `-`).
+  - Good mutants change the behavior of the program.
+  - A strong test suite should **detect** thise changes.
+2. **Mutation Operators**;  Common mutation operators include:
+  - **Arithmetic Operator Replacement (AOR)**: Changes `+` to `-`, `*` to `/`, etc.
+  - **Relational Operator Replacement (ROR)**: Modifies comparison operators (e.g., `>` to `<=`).
+  - **Logical Operator Replacement (LOR)**: Replaces `&&` with `||`, or vice versa.
+  - **Statement Deletion (SD)**: Removes a statement.
+  - **Constant Replacement (CR)**: Replaces a constant value with another.
+3. **Mutation Score**
+  - The mutation score measures how many mutants are detected by the test suite.
+  - Mutation Score = (Killed Mutants / Total Mutants) * 100
+
 
 
 ### Automated Program Repair
@@ -246,5 +295,47 @@ These limitations underscore the need for complementary testing approaches and m
 
 [^5]: Marinescu, P. D., & Cadar, C. (2013). Make test-zesti: A symbolic execution solution for improving regression testing. In Proceedings of the 2013 International Conference on Software Engineering (pp. 716-726).
 
+
 ---
 Answer from Perplexity: pplx.ai/share
+
+
+## Review Questions
+
+
+Remembering:
+
+1. What is delta debugging, and how does it help identify software defects?
+2. What is the purpose of grammar-based fuzzing in software testing?
+
+Understanding:
+
+3. How does automated program repair use machine learning to fix software defects?
+4. Why is test-case prioritization important in regression testing?
+
+Applying:
+
+```
+1 + 2
+3 * 4 - 5
+2 / 1 + 3 * 5
+```
+
+
+5. Write downa  grammar (in any foramt) that can generate the above statemetns
+6. Show what  would you need to change to support exponetiaon.
+7. If you had a failing test case in a large codebase, how would you use delta debugging to isolate the problem?
+
+Analyzing:
+
+8. How does test coverage (e.g., branch, line, and statement coverage) correlate with the effectiveness of a test suite?
+
+Evaluating:
+
+9. Some researchers argue that mutation testing is a better indicator of test effectiveness than code coverage. Do you agree or disagree? Justify your reasoning.
+10. Test-case prioritization strategies often perform differently for open-source and closed-source projects. What factors might explain these differences?
+
+Creating:
+
+11. Design a test-case prioritization strategy for a continuous integration environment. What factors would you prioritize, and why?
+
