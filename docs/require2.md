@@ -48,7 +48,7 @@
 
 ## When
 
-Recell the v-diagram:
+Recall the v-diagram:
 
 - As we approach coding we do the planning required to generate the exepectations
   that let us test.
