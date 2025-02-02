@@ -48,20 +48,24 @@
 
 ## When
 
+
 Recall the v-diagram:
+
 
 - As we approach coding we do the planning required to generate the exepectations
   that let us test.
 - As we leave coding, we generate the experience needed to update our planning,
   next time around.
 
+
 Requirements is pre-code activity where we define what needs to be done
+
 
 - Requrements engineering works when we can generate tests
 - Testing works when it can update requirements
 
-![Requirement](https://github.com/user-attachments/assets/47004fa8-28f2-4d56-94bc-67bb8e0fc037)
 
+![Requirement](https://github.com/user-attachments/assets/47004fa8-28f2-4d56-94bc-67bb8e0fc037)
 
 
 ## (in)Famous Requirements Failures
@@ -325,21 +329,28 @@ In contrast to Genesis, the Stardust spacecraft successfully returned its sample
 3. **What is the difference between internal metrics (e.g., memory usage) and external metrics (e.g., performance) in evaluating system requirements?**
    *(Hint: Consider whether the metric is user-facing or system-focused.)*
 
+
 _________
+
 
 ## Results from gemini:
 
+
 How well do the responses align with the key concepts from the lecture?
 
+
 ### Student Response Analysis: Alignment with Key Concepts
+
 
 **1. Functional vs. Non-Functional Requirements**
 - **Functional Requirements:** ✅ **79.6%** of responses correctly identify functional requirements (e.g., *"what the system does"*).
 - **Non-Functional Requirements:** ✅ **87.8%** correctly distinguish non-functional requirements (e.g., *"how the system performs"*).
 
+
 **2. Minimum Viable Product (MVP) vs. Complete Product**
 - **MVP:** ✅ **79.6%** correctly describe an MVP as a minimal, testable version of a product.
 - **Complete Product:** ✅ **85.7%** distinguish a full product from an MVP, emphasizing completeness and robustness.
+
 
 **3. Internal vs. External Metrics**
 - **Internal Metrics:** ✅ **98.0%** correctly identify internal system metrics (e.g., *memory usage, CPU*).
@@ -348,15 +359,19 @@ How well do the responses align with the key concepts from the lecture?
 
 **Major Misunderstandings and Confusion Patterns**
 
+
 **1. Functional vs. Non-Functional Requirements**
 - ❌ **6.1%** of responses show confusion.
 - Likely issue: Mixing *"what the system does"* (functional) with *"how it performs"* (non-functional).
+
 
 **2. MVP vs. Complete Product**
 - ❌ **8.2%** of responses misunderstand MVP.
 - Likely issue: Confusing an MVP with a **full but early-stage product** instead of a minimal, testable version.
 
+
 **3. Internal vs. External Metrics**
 - ❌ **2.0%** of responses fail to distinguish between system-focused and user-facing metrics.
 - Likely issue: Mixing **internal system behavior** (e.g., memory usage) with **user-facing performance** (e.g., response time).
+
 

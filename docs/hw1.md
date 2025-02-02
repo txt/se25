@@ -66,6 +66,7 @@ Your repo is your resume. Does it look professional?
 3. Find the big green  `CODE` button. Create a new codespace on the main.
 - Take a screenshot.
 
+
 4. **Check you have the latest Python (3.13)**
    - If not, then in the terminal, install  python3.13 by running the following command (it is all on one line).
      ```bash
