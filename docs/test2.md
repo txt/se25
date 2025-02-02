@@ -71,13 +71,13 @@ Why Use Grammar-Based Fuzzing?
 
 ### Automated Program Repair
 
-<img width=400 align=right src="https://github.com/txt/se24fall/blob/main/docs/yellow.png">
 
 - run tests down the branches of the program.
 - on each node, keep counters of passes and fails
 - somehow aggregate those counters into a visualization
 
-<br clear=all>
+<img width=400   src="https://github.com/txt/se24fall/blob/main/docs/yellow.png">
+
 
 <img src="https://github.com/txt/se24fall/blob/main/docs/tarantula.png" width="600px">
 
@@ -94,6 +94,67 @@ Now apply genetic programming (cross-over, mutation):
 Note: this is a CPU-intensive search. So only search a small space (the green zones, above).
 
 
-## Test Cae Prioriiation
+## Test Case Prioriiation
+ 
+### The Classic 2014 Study
+
+```
+@inproceedings{10.1145/2635868.2635910,
+author = {Elbaum, Sebastian and Rothermel, Gregg and Penix, John},
+title = {Techniques for improving regression testing in continuous integration development environments},
+year = {2014},
+isbn = {9781450330565},
+publisher = {Association for Computing Machinery},
+address = {New York, NY, USA},
+url = {https://doi.org/10.1145/2635868.2635910},
+pages = {235–245},
+numpages = {11},
+series = {FSE 2014}
+}
+```
+
 
 https://cs.uwaterloo.ca/~m2nagapp/courses/CS846/1189/papers/elbaum_fse14.pdf
+
+
+![image](https://github.com/user-attachments/assets/126c9ce8-7fb5-4628-88c0-8c09a128edaa)
+
+![image](https://github.com/user-attachments/assets/236936e0-e150-4831-910a-13db998c5287)
+
+### 2022: Exploring different priorization strategieus
+
+
+![image](https://github.com/user-attachments/assets/3ca1ba81-2d2b-45e8-8b8e-f1d0d6c1ed61)
+
+https://arxiv.org/abs/2008.00612
+
+```
+@ARTICLE{9367020,
+  author={Ling, Xiao and Agrawal, Rishabh and Menzies, Tim},
+  journal={IEEE Transactions on Software Engineering}, 
+  title={How Different is Test Case Prioritization for Open and Closed Source Projects?}, 
+  year={2022},
+  volume={48},
+  number={7},
+  pages={2526-2540},
+  keywords={Testing;Software;Open source software;Software development management;Measurement;Software algorithms;History;Software testing;regression testing;test case prioritization;open-source software},
+  doi={10.1109/TSE.2021.3063220}}
+```
+
+**Close-source Projects**
+
+In the following D1 works as well as A2 (which is omniscient: it actually knows where the bugs are)
+
+![image](https://github.com/user-attachments/assets/336aac75-1231-4d4e-8739-79cea4feda82)
+
+**Open-Source Projects**
+
+Here, B1,B3 same as A2  
+
+![image](https://github.com/user-attachments/assets/f0a2defa-1313-444e-9d99-6f3dc9c2a465)
+
+
+
+
+> **Conclusion** : Test case prioritization schemes that work best for the industrial closed-source project can work worse for opensource projects (and vice versa)
+
