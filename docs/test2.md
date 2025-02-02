@@ -55,6 +55,7 @@ Software Defects and Bug Detection
 - Component Interaction Bugs
 
 
+_____
 
 ## **Advanced Debugging Concepts**
 
@@ -86,6 +87,7 @@ Software Defects and Bug Detection
 - Don't run ll the tests all the time
 - Run the "most important" ones first
 
+_____
 
 ## Notes on  Grammar-Based Fuzzing
 
@@ -160,6 +162,7 @@ Many ways to use grammar-based  fuzzing:
   - Mutation Score = (Killed Mutants / Total Mutants) * 100
 
 
+_____
 
 ### Automated Program Repair
 
@@ -191,6 +194,7 @@ Now apply genetic programming (cross-over, mutation):
 
 Note: this is a CPU-intensive search. So only search a small space (the green zones, above).
 
+_____
 
 ## Test Case Prioriiation
  
@@ -266,6 +270,7 @@ Here, B1,B3 same as A2
 > **Conclusion** : Test case prioritization schemes that work best for the industrial closed-source project can work worse for opensource projects (and vice versa)
 
 
+_____
 ### Limitations of Branch and Line Coverage in Bug Detection
 
 Branch and line coverage metrics, while useful, have several limitations in identifying bugs:
@@ -296,9 +301,9 @@ These limitations underscore the need for complementary testing approaches and m
 [^5]: Marinescu, P. D., & Cadar, C. (2013). Make test-zesti: A symbolic execution solution for improving regression testing. In Proceedings of the 2013 International Conference on Software Engineering (pp. 716-726).
 
 
----
 Answer from Perplexity: pplx.ai/share
 
+______
 
 ## Review Questions
 
