@@ -30,7 +30,7 @@
 
 ## Glossary of terms
 
-## Advanced Debugging Concepts
+Advanced Debugging Concepts
 - Delta Debugging
 - Grammar-Based Fuzzing
   - Grammar Definition
@@ -41,7 +41,7 @@
     - Crossover and Mutation
 - Test-case Prioritization
 
-## Software Testing
+Software Testing
 - Regression Testing
   - Continuous Integration
 - Test Coverage
@@ -50,7 +50,7 @@
   - Problems with standard coverage measures
 - Mutation Testing
 
-## Software Defects and Bug Detection
+Software Defects and Bug Detection
 - Concurrency Issues
 - Component Interaction Bugs
 
