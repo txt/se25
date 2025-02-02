@@ -346,10 +346,6 @@ How well do the responses align with the key concepts from the lecture?
 - **External Metrics:** ⚠️ **73.5%** correctly distinguish external, user-facing metrics (e.g., *response time, availability*).
 
 
-**Key Takeaways**
-✔️ **Strong Understanding:** Most students grasp **functional vs. non-functional requirements** and the difference between **an MVP and a complete product**.  
-⚠️ **Area for Reinforcement:** The weakest area is **external metrics (73.5%)**,
-
 **Major Misunderstandings and Confusion Patterns**
 
 **1. Functional vs. Non-Functional Requirements**
