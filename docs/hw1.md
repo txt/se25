@@ -101,6 +101,7 @@ Your repo is your resume. Does it look professional?
 
 
 - Take a screenshot of you and point to that error. Include the whole window so we can see you can see the code and error at the same time..
+It is probably syntax error that you fix after making screenshot. 
 
 
 For 7 and 8 tasks, it is recommended that a terminal be used. 
@@ -130,9 +131,9 @@ For 7 and 8 tasks, it is recommended that a terminal be used.
 -  Look up "pytest". Add a test engine to your code.
 -  Write two tests:
      - One test should pass.
-     - One test should fail.
+     - One test should fail(that means that you should have one logical error).
 - Important: Make the tests in a SEPARATE file for your code file.
-- It should show "fail". Thereby showing your code is working.
+- It should show "fail". Thereby showing your tests are working.
 
 
 11. **Set Up GitHub Actions**
