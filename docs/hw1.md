@@ -65,6 +65,7 @@ Your repo is your resume. Does it look professional?
 
 3. Find the big green  `CODE` button. Create a new codespace on the main.
 - Take a screenshot.
+- Use codespace to complete following steps.
 
 
 4. **Check you have the latest Python (3.13)**
