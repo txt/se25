@@ -38,7 +38,9 @@ Two posters and two "video demos" from two projects that describe:
 1. **What was done before**
 2. **What could be done to extend that**
 
+
 Only **one group member** submits the work.
+
 
  
 ### Important

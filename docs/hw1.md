@@ -67,6 +67,8 @@ Learn more about [READMEs](https://docs.github.com/en/enterprise-server@3.14/rep
 
 3. Find the big green  `CODE` button. Create a new codespace on the main.
 - Take a screenshot.
+- Use codespace to complete following steps.
+
 
 4. **Check you have the latest Python (3.13)**
    - If not, then in the terminal, install  python3.13 by running the following command (it is all on one line).
@@ -101,6 +103,7 @@ Learn more about [READMEs](https://docs.github.com/en/enterprise-server@3.14/rep
 
 
 - Take a screenshot of you and point to that error. Include the whole window so we can see you can see the code and error at the same time..
+It is probably syntax error that you fix after making screenshot. 
 
 
 For 7 and 8 tasks, it is recommended that a terminal be used. 
@@ -131,9 +134,9 @@ Learn more about [ignoring files](https://docs.github.com/en/enterprise-server@3
 -  Look up "pytest". Add a test engine to your code.
 -  Write two tests:
      - One test should pass.
-     - One test should fail.
+     - One test should fail(that means that you should have one logical error).
 - Important: Make the tests in a SEPARATE file for your code file.
-- It should show "fail". Thereby showing your code is working.
+- It should show "fail". Thereby showing your tests are working.
 
 
 11. **Set Up GitHub Actions**
