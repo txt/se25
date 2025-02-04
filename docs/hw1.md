@@ -129,6 +129,9 @@ Learn more about [ignoring files](https://docs.github.com/en/enterprise-server@3
      - **License**: BSD-2 (or your choice)
      - **Platform**: Linux
 
+All badges that connect to the service must be active ✅. No dead badges! ❌ Make sure they link correctly.
+
+
 
 10. **Add Tests**
 -  Look up "pytest". Add a test engine to your code.
