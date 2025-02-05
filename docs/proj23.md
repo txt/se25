@@ -48,6 +48,7 @@ Project 3: Work on another team's Project 2 code.
 - Your goal is to do enough work and paint a clear vision for the future so that someone else wants to use your code for their next project.
 - Your deliverables include a **15-minute demo** with a tutor, who will assess **significant improvement** in your current project compared to its initial state.
 - Projects 2 and 3 will be assessed in live demo sessions with the tutor/grader. These sessions will occur during the weeks of March 3 and April 21. We ask students for help scheduling all these demo sessions. Our graders/tutors are students with their own exams and assignments to complete. Hence, they might suggest demo times outside normal working hours (evenings, weekends). Please do them the courtesy of considering those times. That said, if those proposed times are inconvenient, you can, should, and must ask for other times.
+- **Cameras ON** for all participants. **NO AI voices**—we want to hear and see *you*.  
 
 
   
