@@ -28,7 +28,9 @@
 
 (rough notes, we'll come back to this alter)
 
+
 ## Glossary of terms
+
 
 Advanced Debugging Concepts
 - Delta Debugging
@@ -41,6 +43,7 @@ Advanced Debugging Concepts
     - Crossover and Mutation
 - Test-case Prioritization
 
+
 Software Testing
 - Regression Testing
   - Continuous Integration
@@ -50,12 +53,14 @@ Software Testing
   - Problems with standard coverage measures
 - Mutation Testing
 
+
 Software Defects and Bug Detection
 - Concurrency Issues
 - Component Interaction Bugs
 
 
 _____
+
 
 ## **Advanced Debugging Concepts**
 
@@ -87,7 +92,9 @@ _____
 - Don't run ll the tests all the time
 - Run the "most important" ones first
 
+
 _____
+
 
 ## Notes on  Grammar-Based Fuzzing
 
@@ -139,12 +146,15 @@ Why Use Grammar-Based Fuzzing?
 - It [works](https://youtu.be/I9imQjwx7W4?si=h77DkQ79l0Pf9WFQ).
   - 450 unique bugs found in popular data bases
 
+
 Many ways to use grammar-based  fuzzing:
+
 
 - generating 100,000s of state,emts looking for a crash
 -  Muation Tessing
    - Mutation testing is a software testing technique that evaluates the effectiveness of a test suite by introducing small, controlled modifications (mutations) into the program’s source code and checking if the test suite detects these changes.
    - Key concepts are mutants, mutation operators, and mutations scores
+
 
 1. **Mutants**
   - Mutants are modified versions of the original program.
@@ -163,6 +173,7 @@ Many ways to use grammar-based  fuzzing:
 
 
 _____
+
 
 ### Automated Program Repair
 
@@ -194,7 +205,9 @@ Now apply genetic programming (cross-over, mutation):
 
 Note: this is a CPU-intensive search. So only search a small space (the green zones, above).
 
+
 _____
+
 
 ## Test Case Prioriiation
  
@@ -273,7 +286,9 @@ Here, B1,B3 same as A2
 _____
 ### Limitations of Branch and Line Coverage in Bug Detection
 
+
 Branch and line coverage metrics, while useful, have several limitations in identifying bugs:
+
 
 1. **Incomplete path coverage**: High coverage doesn't guarantee all execution paths are tested[^1].
   - In testing research, suite quality is often evaluated by a suite's ability to kill mutants (artificially seeded potential faults).
@@ -287,38 +302,51 @@ Branch and line coverage metrics, while useful, have several limitations in iden
 4. **Concurrency issues**: Coverage metrics struggle with multithreaded program bugs[^4].
 5. **Complex interactions**: Bugs from intricate component interactions may be missed[^5].
 
+
 These limitations underscore the need for complementary testing approaches and more sophisticated bug detection techniques.
+
 
 [^1]: Gopinath, R., Jensen, C., & Groce, A. (2014). Code coverage for suite evaluation by developers. In Proceedings of the 36th International Conference on Software Engineering (pp. 72-82).
   
 
+
 [^2]: Inozemtseva, L., & Holmes, R. (2014). Coverage is not strongly correlated with test suite effectiveness. In Proceedings of the 36th International Conference on Software Engineering (pp. 435-445).
+
 
 [^3]: Kochhar, P. S., Thung, F., & Lo, D. (2015). Code coverage and test suite effectiveness: Empirical study with real bugs in large systems. In 2015 IEEE 22nd International Conference on Software Analysis, Evolution, and Reengineering (SANER) (pp. 560-564).
 
+
 [^4]: Yang, J., Evans, D., Bhardwaj, D., Bhat, T., & Das, M. (2006). Perracotta: mining temporal API rules from imperfect traces. In Proceedings of the 28th international conference on Software engineering (pp. 282-291).
+
 
 [^5]: Marinescu, P. D., & Cadar, C. (2013). Make test-zesti: A symbolic execution solution for improving regression testing. In Proceedings of the 2013 International Conference on Software Engineering (pp. 716-726).
 
 
 Answer from Perplexity: pplx.ai/share
 
+
 ______
+
 
 ## Review Questions
 
 
 Remembering:
 
+
 1. What is delta debugging, and how does it help identify software defects?
 2. What is the purpose of grammar-based fuzzing in software testing?
 
+
 Understanding:
+
 
 3. How does automated program repair use machine learning to fix software defects?
 4. Why is test-case prioritization important in regression testing?
 
+
 Applying:
+
 
 ```
 1 + 2
@@ -331,16 +359,23 @@ Applying:
 6. Show what  would you need to change to support exponetiaon.
 7. If you had a failing test case in a large codebase, how would you use delta debugging to isolate the problem?
 
+
 Analyzing:
+
 
 8. How does test coverage (e.g., branch, line, and statement coverage) correlate with the effectiveness of a test suite?
 
+
 Evaluating:
+
 
 9. Some researchers argue that mutation testing is a better indicator of test effectiveness than code coverage. Do you agree or disagree? Justify your reasoning.
 10. Test-case prioritization strategies often perform differently for open-source and closed-source projects. What factors might explain these differences?
 
+
 Creating:
 
+
 11. Design a test-case prioritization strategy for a continuous integration environment. What factors would you prioritize, and why?
+
 

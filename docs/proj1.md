@@ -111,10 +111,17 @@ Only **one group member** submits the work.
 
 
 - Your poster or "video demo" does not have the above features.
+   - **No AI voices**—we want to hear **your own voice** to help you practice presentation skills.
+   - Avoid long, **uninformative sections** (e.g., 30 seconds of activity without an explanation).   
 - Your poster fails to effectively **sell** the project. Specifically:
   - in the first 15 seconds or reading, the poster offers  does not  very clear understanding of what was going on (so good intro sentence)
   - the  poster does not  make a case that this technology stack is interesting (e.g. "select this project so you can
     learn about kubernetes")
+  - Avoid empty spaces at the top, bottom, middle, or sides.  
+  - While minimal space can look clean, it’s a **missed opportunity**—posters must be **visually appealing** *and* **sell the project**.  
+  - Make your posters **more informative** than just the README.md.
+
+
 ---
 
 
