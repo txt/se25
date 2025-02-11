@@ -121,6 +121,7 @@ Only **one group member** submits the work.
   - While minimal space can look clean, it’s a **missed opportunity**—posters must be **visually appealing** *and* **sell the project**.  
   - Make your posters **more informative** than just the README.md.
 
+
 ---
 
 

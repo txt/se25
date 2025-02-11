@@ -62,6 +62,7 @@ Your repo is your resume. Does it look professional?
   
 2. Create a repo in that organization. Make it public. 
 
+
 Learn more about [READMEs](https://docs.github.com/en/enterprise-server@3.14/repositories/managing-your-repositorys-settings-and-features/customizing-your-repository/about-readmes).
 
 
@@ -113,6 +114,7 @@ For 7 and 8 tasks, it is recommended that a terminal be used.
    - Go to [Choose a License](https://choosealicense.com/licenses/) and find the text for your license of choice.
    - Add your chosen license text to `LICENSE.md`. Change  /workspaces/LICENSE.md to have that content. The `LICENSE.md` document should be on your repository root.
 Learn more about [licenses](https://docs.github.com/en/enterprise-server@3.14/repositories/managing-your-repositorys-settings-and-features/customizing-your-repository/licensing-a-repository).
+
 
 8. **Add `.gitignore`**
    - Use [GitHub Gitignore](https://github.com/github/gitignore).
