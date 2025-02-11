@@ -118,6 +118,7 @@ Create an overleaf.com account
 |Grade | What | Notes|
 |------|------|------|
 |-3| POOR ESSAY STRUCTURE | We want coherent paragraphs, not a bullet list. References are used in a way that enhances the argument. Paragraphs should be content-full (rather that a set of irrelevances). Arguments should be defended and not just be opinions of the form "I think that..." (with no supporting clauses). Each section should start with some clarification/structuring preamble.  |
+|2 |SYNTHESIS | +2 if less time defining things than contrasting and comparing things (or building something new out of the things) |
 |2 |PROBLEM DEFINITION | +1 if it states the problem and +1 more if does it well; e.g. Situates current problem in broader content|
 |2 | GATHER RELEVANT FACTS | +1 if it gather assess relevant facts and +1 more if does it well; e.g. Extensive literature review |
 |2 | IDENTIFY STAKEHOLDERS | +1 if it identifies the stakeholders and +1 more if does it well; e.g. show how stockholder requirements can be contradictory|
@@ -126,7 +127,7 @@ Create an overleaf.com account
 |4 | TESTING | 2 if it tests options using criteria like  harm, publicity, defensibility, reversibility, virtue, colleague, professional, organizational test ( see guidance on that at https://github.com/txt/se20/blob/master/etc/img/12steps.png) And 2 more if it does it well; e.g. writes extensively insightful notes on three or more of the tests |
 |2 | CHOICE | +1 if tentative choice and +1  if final Choice |
 |-2,+1 | OTHER | -2  if the essay is mostly “I think X, I think Y”  without any citations or comment on the amazing things other people have thunk in this matter.  +1 more if it  beyond the specifics of your answer, the real test will be ""does the student understand general principles that can be applied in other contexts”; i.e.  if the essay defined clear steps to making ethical decisions (beyond the 12 steps of https://github.com/txt/se20/blob/master/etc/img/12steps.png) for future applications.| 
-|20| TOTAL      | plus, maybe, +1 bonus| 
+|22| TOTAL      | | 
 
 
  
