@@ -126,7 +126,7 @@ Create an overleaf.com account
 |3 | SOFTWARE DESIGN | +2 of some of those options need to includes a redesign for a better version of the software where the better software mitigates some of the issues discussed by the original software. And +1 more if it does it well; e.g. clever design|
 |4 | TESTING | 2 if it tests options using criteria like  harm, publicity, defensibility, reversibility, virtue, colleague, professional, organizational test ( see guidance on that at https://github.com/txt/se20/blob/master/etc/img/12steps.png) And 2 more if it does it well; e.g. writes extensively insightful notes on three or more of the tests |
 |2 | CHOICE | +1 if tentative choice and +1  if final Choice |
-|-2,+1 | OTHER | -2  if the essay is mostly “I think X, I think Y”  without any citations or comment on the amazing things other people have thunk in this matter.  +1 more if it  beyond the specifics of your answer, the real test will be ""does the student understand general principles that can be applied in other contexts”; i.e.  if the essay defined clear steps to making ethical decisions (beyond the 12 steps of https://github.com/txt/se20/blob/master/etc/img/12steps.png) for future applications.| 
+|-2 | OTHER | -2  if the essay is mostly “I think X, I think Y”  without any citations or comment on the amazing things other people have thunk in this matter; or if the   student does not seem to understand general principles behind their particular case studyy or if the essay does not define clear steps to making ethical decisions (beyond the 12 steps of https://github.com/txt/se20/blob/master/etc/img/12steps.png) for future applications.| 
 |22| TOTAL      | | 
 
 
