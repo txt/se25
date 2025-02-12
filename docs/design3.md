@@ -1,8 +1,30 @@
-asdas
+<p><a name=top> </a>&nbsp;</p>
+<p align=center>
+    <a
+    href="/README.md#top"><img
+    src="https://img.shields.io/badge/Home-%23ff5733?style=for-the-badge&logo=home&logoColor=white"></a> <a
+    href="/docs/syllabus.md#top"><img
+    src="https://img.shields.io/badge/Syllabus-%230055ff?style=for-the-badge&logo=openai&logoColor=white"></a> <a
+    href="https://docs.google.com/spreadsheets/d/1Jlx-BBsvVqmWhW1L9Fz6u18vPSjGXj1i/edit?usp=sharing&ouid=110996670184359055145&rtpof=true&sd=true"><img
+    src="https://img.shields.io/badge/Groups-%23ffd700?style=for-the-badge&logo=users&logoColor=white"></a> <a
+    href="https://moodle-courses2425.wolfware.ncsu.edu/course/view.php?id=7150"><img
+    src="https://img.shields.io/badge/Moodle-%23dc143c?style=for-the-badge&logo=moodle&logoColor=white"></a> <a
+    href="https://discord.gg/whDXzJGP"><img
+    src="https://img.shields.io/badge/Discord-%23008080?style=for-the-badge&logo=discord&logoColor=white"></a> <a
+    href="https://ncsu.hosted.panopto.com/Panopto/Pages/Sessions/List.aspx?folderID=958aa5e8-f99e-441f-a545-b26400dfe515"><img
+    src="https://img.shields.io/badge/Videos-%23ffa500?style=for-the-badge&logo=youtube&logoColor=white"></a> <a
+    href="/LICENSE.md"><img
+    src="https://img.shields.io/badge/(c)%20Tim%20Menzies,%202025-%234b4b4b?style=for-the-badge&logoColor=white"></a>
+    <br>&nbsp;<br>
+    <img width=200 src="/img/banner2.png">
+</p>
+<h1 align="center">:cyclone:&nbsp;CSC510: Software Engineering<br>NC&nbsp;State, Spring&nbsp;'25</h1>
+      
 
 
 
 # **Modeling as an Abstraction Tool**
+
 
 - **Modeling serves as an abstraction tool, just as modular decomposition does in software engineering.**
 - **Design methods helps structure systems in a way that aligns with Parnas’ principles of information hiding and separation of concerns.**
@@ -11,6 +33,7 @@ asdas
 
 ## Glossary
 
+
 - Abstraction
     - Modeling
     - Unix Pipes
@@ -18,9 +41,11 @@ asdas
     - Design Patterns
     - Error Handlers
 
+
 - Error Handling
     - Try-Catch Mechanism
     - Exception Handling
+
 
 - Pipes and Filters
     - Modular Decomposition
@@ -31,11 +56,13 @@ asdas
     - Software Composition
     - Command Line Utilities
 
+
 - Information Hiding
     - Separation of Concerns
     - Internal Function Visibility
     - Encapsulation vs. Information Hiding
     - Loose coupling
+
 
 - Design Patterns
     - Model-View-Controller (MVC)
@@ -47,7 +74,9 @@ asdas
 
 ## Abstraction
 
+
 Abstraction  has been applied, successfully, dozens of times in the history of computing
+
 
 - All these following use the same idea... abstraction
 
@@ -73,6 +102,7 @@ The following list is sorted
          - Implemented and popularized by Barbara Liskov
     - The  rest allow you jump computation around one of more CPUs
 
+
 ## Error handling
 
 
@@ -90,7 +120,9 @@ def atom(token: str) -> Atom:
             return token
 ```
 
+
 Error handling classes in Python:
+
 
 ```
 BaseException
@@ -162,30 +194,40 @@ BaseException
     ├── SystemExit
 ```
 
+
 # **Pipes and Filters: A Case Study in Information Hiding (Parnas' Principles in Action)**
+
 
 ## **1. Introduction: Pipes as a Radical Shift in Software Design**
 When **Ken Thompson** implemented **pipes** in UNIX in **1973**, he was unknowingly **validating** David Parnas’ principles of **information hiding** and **modular decomposition**. 
 
+
 - Historical note: Parmas' paper came years **after** pipes.
+
 
 Instead of monolithic programs, **pipes** allowed **small, focused tools** to be combined dynamically at runtime. 
 
+
 As **Doug McIlroy**, the director of Bell Labs, famously put it:
+
 
 > *“We should have some ways of coupling programs like garden hose.”*  
 > *“Let programmers screw in another segment when it becomes necessary to massage data in another way.”*  
 > *“Expect the output of every program to become the input to another, as yet unknown, program. Don’t clutter output with extraneous information.”*  
+
 
 These quotes highlight a **modular** approach to software:  
 1. **Programs should be loosely coupled** (just as Parnas advocated).  
 2. **New capabilities should be added incrementally**, without modifying existing programs.  
 3. **Each module (program) should hide its implementation details** while exposing a simple, uniform interface (a text stream).  
 
+
 ---
+
 
 ## **2. Pipes as an Example of Information Hiding**
 David Parnas, in *“On the Criteria to Be Used in Decomposing Systems into Modules”*, argued that **modules should encapsulate decisions likely to change**. Pipes **directly embody** this principle:
+
 
 | **Parnas' Principle**            | **How Pipes Implement It** |
 |-----------------------------------|----------------------------|
@@ -194,39 +236,51 @@ David Parnas, in *“On the Criteria to Be Used in Decomposing Systems into Modu
 | **Minimizing Ripple Effects** | A new filter can be inserted into a pipeline **without modifying** existing programs. |
 | **Separation of Concerns** | Each program performs **one function well** and delegates other concerns to different programs. |
 
+
 ### **2.1 Traditional Approach vs. Pipes (Modular Decomposition)**
 In a **pre-pipe world**, a text-processing system would be implemented as a **monolithic** program with **hardcoded dependencies** between each stage of processing.
+
 
 ```plaintext
 INPUT → Preprocessing → Formatting → Output Handling → PRINTER
 ```
 If **any one part needed a change**, the **entire program had to be modified**.
 
+
 With **pipes**, each stage is an **independent module**:
+
 
 ```plaintext
 INPUT | Preprocessor | Formatter | Output Handler | PRINTER
 ```
 Now, we can **replace or reorder** any module **without affecting the others**.
 
+
 ---
+
 
 ## **3. The Historical Moment: One Night That Changed UNIX**
 Ken Thompson’s **overnight implementation of pipes** in **1973** was one of the most transformative moments in software history. Doug McIlroy recalls:
 
+
 > *“It was clear to everyone, practically minutes after the system came up with pipes working, that it was a wonderful thing. Nobody would ever go back and give that up if they could.”*  
 > *“The next day saw an unforgettable orgy of one-liners as everybody joined in the excitement of plumbing.”*
 
+
 This **instant success** proves the **power of modular design**: when software components are properly abstracted and loosely coupled, **innovation happens organically**.
 
+
 ---
+
 
 ## **4. Pipes and Filters in Action**
 Pipes fundamentally changed **how we think about software**. Instead of **applications**, UNIX introduced **tools**—small programs designed to work together dynamically.
 
+
 ### **4.1 Example: Processing Text with UNIX Pipes**
 Before pipes, a text formatting system would require a dedicated application.  
 With pipes, individual **tools** can be **chained dynamically**:
+
 
 ```bash
 nroff files | col | lp
@@ -235,13 +289,16 @@ nroff files | col | lp
 - `col` – Adjusts escape sequences to create **column-based text**.  
 - `lp` – Sends the output to the **line printer**.  
 
+
 **Parnas’ Information Hiding Lesson:**  
 - `nroff` **doesn’t need to know** where the output goes.  
 - `lp` **doesn’t need to know** where the input came from.  
 - Each program **hides its internal logic** behind a **stream interface**.  
 
+
 ### **4.2 Example: A More Complex Pipeline**
 A full document preparation system using **preprocessors**:
+
 
 ```bash
 tbl file-1 file-2 ... | eqn | nroff -ms
@@ -250,13 +307,17 @@ tbl file-1 file-2 ... | eqn | nroff -ms
 - `eqn` – Converts **equation markup** into formatted text.  
 - `nroff -ms` – Formats everything into a structured document.  
 
+
 Again, **each program is oblivious to the implementation details of the others**.
 
+
 ---
+
 
 ## **5. Pipes as a Design Pattern**
 ### **5.1 The General Pattern: Produce, Translate, Filter, Consume**
 Pipes introduce a new paradigm:
+
 
 ```bash
 find /usr/bin/ |          # Produce data
@@ -266,24 +327,32 @@ xargs -d '\n' process     # Consume (pass to final processing command)
 ```
 Each program operates **independently**, ensuring **maximum flexibility**.
 
+
 ### **5.2 The Beauty of Language Agnosticism**
 > *"Filters inside pipes could be written in any language, by different teams."*
 
+
 ---
+
 
 ## **6. Performance Considerations: When Abstraction Has Costs**
 Although **pipes introduce modularity**, they come with **performance trade-offs**:
+
 
 - **Overhead of process creation** – Each command runs as a separate **process**, which consumes resources.  
 - **Streaming latency** – Data must be transferred between processes, sometimes across networks.  
 - But  **modern optimizations** (e.g., UNIX process forking, buffer sharing) mitigate these issues.
 
+
 Pips also implement ``my way or the high way'':
+
 
 - One way process, no jumping around
 - Less suited to Gui envrionments where users can jump to any function in any order.
 
+
 And pipes have advatnages:
+
 
 - The operating system knows it can run each aprt of the pipe as a seperate filter.
 - Debugging can be easier (just explore each part of the pipe seperately).
@@ -291,23 +360,29 @@ And pipes have advatnages:
 
 ---
 
+
 ## **7. The UNIX Philosophy: Abstraction as a Design Principle**
 Pipes **exemplify** the UNIX philosophy:
+
 
 1. **Do one thing well.**  
 2. **Write programs to work together.**  
 3. **Use text streams as a universal interface.**  
+
 
 Parnas would **fully endorse** this approach because it maximizes:
 - **Modularity** (components are independent).  
 - **Flexibility** (pipelines are reconfigurable).  
 - **Maintainability** (code changes don’t affect unrelated components).  
 
+
 ---
+
 
 ## **8. Conclusion: Pipes as Cool Information Hiding Mechanism**
 The **Pipes and Filters** pattern is a **pure realizations of Parnas' modularity principles**
 (cough, just some years earlier):
+
 
 | **Parnas' Principle**            | **How Pipes Implement It** |
 |-----------------------------------|----------------------------|
@@ -316,7 +391,9 @@ The **Pipes and Filters** pattern is a **pure realizations of Parnas' modularity
 | **Minimizing Ripple Effects** | A new program can be inserted without modifying existing ones. |
 | **Separation of Concerns** | Each program does one thing and does it well. |
 
+
 Pipes **show** that **abstracting system components behind simple, well-defined interfaces** is the key to **scalable, maintainable software**.
+
 
 > *Pipes weren’t just a technical innovation. They were a **cultural** and **philosophical** shift toward modular, flexible, and extensible software design.*  
 
@@ -324,22 +401,27 @@ Pipes **show** that **abstracting system components behind simple, well-defined 
 ---
 
 
-
 ## **Lessons from Parnas’ Modular Decomposition**
+
 
 ## **1. Introduction**
 Modeling in software engineering is fundamentally an **abstraction tool**—it structures complex systems by focusing on **essential details** while **hiding unnecessary complexity**. This aligns with David Parnas’ seminal paper, *["On the Criteria to Be Used in Decomposing Systems into Modules,"](https://dl.acm.org/doi/10.1145/361598.361623)* which emphasizes:
 
+
 - **Information Hiding** – Grouping related design decisions together while keeping implementation details private.
 - **Separation of Concerns** – Ensuring that different modules handle independent aspects of the system.
+
 
 Object-oriented
 and other modeling techniques provide structured ways to **abstract** software components while ensuring **maintainability, flexibility, and scalability**.
 
+
 ---
+
 
 ## **2. Parnas’ Principles and Objects as an Abstraction Mechanism**
 Parnas outlined **two competing approaches** to modular decomposition:
+
 
 1. **Data Flow (Traditional Decomposition)**  
    - Modules are split based on sequential steps in the execution process.  
@@ -348,17 +430,23 @@ Parnas outlined **two competing approaches** to modular decomposition:
 
  <img src="https://substackcdn.com/image/fetch/f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F5aa541cc-5bce-49d0-9794-02266cba87ed_1738x1000.png">
 
+
 2. **Object-Oriented (OO) Decomposition**  
    - Modules are structured based on **information hiding** and **responsibility assignment**.  
    - Leads to **loosely coupled**, **easily extendable** systems.
 
+
 <img src="https://substackcdn.com/image/fetch/f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F7f126ade-1690-4705-b8f8-3d8ecd928239_2209x1000.jpeg">
+
 
 When applied to **modeling**, these principles shape **different types of  diagrams**, enforcing **abstraction and modularity**.
 
+
 ---
 
+
 ## **3. OO as an Abstraction Tool (Inspired by Parnas’ Principles)**  
+
 
 ### **3.1 Structural Abstraction (Class and Package Diagrams)**  
 #### **Parnas’ Information Hiding → Encapsulation in Objects**  
@@ -367,6 +455,7 @@ When applied to **modeling**, these principles shape **different types of  diagr
   - **Private attributes** (hiding implementation)
   - **Public methods** (exposing controlled access)
 - **Package diagrams** define modular boundaries, ensuring clear separation between components.
+
 
 #### **Example: Object-Oriented Modular Decomposition ( Class Diagram)**  
 ```plaintext
@@ -379,7 +468,9 @@ When applied to **modeling**, these principles shape **different types of  diagr
 | + processPayment(amount: Double)     |
 +--------------------------------------+
 
+
                ⬇ (depends on)
+
 
 +--------------------------------------+
 |         PaymentGateway (interface)   |
@@ -387,13 +478,16 @@ When applied to **modeling**, these principles shape **different types of  diagr
 | + charge(amount: Double)             |
 +--------------------------------------+
 
+
                ⬇ (implemented by)
+
 
 +--------------------------------------+
 |         StripeGateway                |
 +--------------------------------------+
 | + charge(amount: Double)             |
 +--------------------------------------+
+
 
 +--------------------------------------+
 |         PayPalGateway                |
@@ -403,15 +497,19 @@ When applied to **modeling**, these principles shape **different types of  diagr
 ```
 **Key Takeaways:**
 
+
 - **Encapsulation:** The `PaymentProcessor` does not depend on `StripeGateway` or `PayPalGateway` directly but on an **abstract interface (`PaymentGateway`)**.
 - **Modular Change:** If a new gateway is added, `PaymentProcessor` remains **unchanged**.
 
+
 ---
+
 
 ### **3.2 Behavioral Abstraction (Sequence and State Diagrams)**
 #### **Parnas’ “Design for Change” → Defining Clear Responsibilities & Interactions**
 - **Sequence diagrams** abstract interactions between key modules, preventing **implementation-dependent** dependencies.
 - **State diagrams** abstract the **internal logic** of a system, allowing modular reasoning.
+
 
 #### **Example: Data Flow Decomposition (Sequence Diagram)**  
 ```plaintext
@@ -427,15 +525,19 @@ User       UI Layer            Backend             Database
 ```
 **Key Takeaways:**
 
+
 - **Encapsulation:** The **user** does not need to know about the database; it interacts only with the UI.
 - **Minimizing Ripple Effects:** The **backend** does not expose its internal implementation; it only provides a `sendPayment()` API.
 
+
 ---
+
 
 ### **3.3 Process Abstraction (Activity and State Diagrams)**
 #### **Parnas’ “Minimizing Ripple Effects” → Clear Module Responsibilities**
 - **Activity diagrams** abstract workflows, preventing **low-level implementation** from affecting high-level system understanding.
 - **State diagrams** abstract **complex behaviors**, ensuring **localized reasoning** without exposing unnecessary details.
+
 
 #### **Example: Abstracting Compiler Workflow (Activity Diagram)**  
 ```plaintext
@@ -453,21 +555,27 @@ User       UI Layer            Backend             Database
 - The **compiler pipeline** abstracts implementation details (e.g., tokenization rules, parsing algorithms) from the high-level stages.
 - **Modification Isolation:** Changing one phase does not affect others.
 
+
 ---
+
 
 ## **4. Modeling for Change-Resistant Systems**
 Parnas emphasized that **poorly designed systems suffer from ripple effects**, where a small change in one module forces modifications elsewhere. A well-structured **modeling approach** prevents this by ensuring:  
 
+
 - **Encapsulation of design decisions** – Hiding implementation details within models.  
 - **Clear module responsibilities** – Using diagrams to show dependencies without exposing unnecessary details.  
 - **Defined interfaces for interaction** – Ensuring modules interact only through well-defined abstractions.
+
 
 ### **Final Takeaways**
 - **Modeling is not just documentation—it enforces modularity.**
 - **Good models follow Parnas’ principles by encapsulating complexity and defining clear module boundaries.**
 - **Diagrams, like modular decomposition, separate stable interfaces from change-prone implementation details.**
 
+
 ---
+
 
 ## **5. Summary Table: Parnas’ Models vs. OO Abstractions**
 | **Parnas’ Principle**        | **Traditional Flow-Based Design**  | **Object-Oriented (OO) Design**  | **UML Equivalent**  |
@@ -477,14 +585,18 @@ Parnas emphasized that **poorly designed systems suffer from ripple effects**, w
 | **Minimizing Ripple Effects** | Changes cascade through system | Isolated changes via interfaces | **Sequence Diagrams** |
 | **Information Hiding**        | All functions modify shared state | Internal data hidden within modules | **State & Activity Diagrams** |
 
+
 ---
 
+
 ## 6. OO Abstractions since Parnas
+
 
 ### OO Class Hierachies
 
 
 Smalltalk class hierarchy (somewhere in the 1980s)
+
 
 - Count the "abstract classes" (mostly, the non-leaf classes)
   - i.e. classes that will never be instantiated
@@ -603,6 +715,7 @@ Object
 
 - More on "Streams"
 
+
   - Streams are objects that support sequential access to collections and files of sequential data. Streams can be open on sequenceable collections of any kind of object, on a source of random numbers, or on files.
   - There are two separate sets of stream classes, one for streams on collections, and one for streams on files.
   - More on "Random" as a stream:
@@ -615,13 +728,16 @@ Object
 [On the criteria to be used in decomposing systems into modules](https://blog.acolyer.org/2016/09/05/on-the-criteria-to-be-used-in-decomposing-systems-into-modules/).
 David Parnas, 1971
 
+
 - Death to flowcharts! (and, by implication, pipes)
 
 
 ## Design Patterns
 
+
 Q: So what have programmers seen before that might repeat in future systems?    
 A: Patterns
+
 
   - e.g. _idioms_ : small code-level patterns 
   - e.g. _design patterns_: common collections of a few classes
@@ -633,9 +749,11 @@ A: Patterns
   - Which can identify problems... which can be solved ... using other patterns.
   - So patterns take us naturally to design review/ critique/ improvement
 
+
 ### Patterns example 1: 3-tiered architectures
   
 Data : model : dialog
+
 
 - Data = ? SQL
 - Model = ? some object system
@@ -682,6 +800,7 @@ Patterns have review heuristics:
   - E.g. delete cascade?  in composites 
 	  - If “it” gets deleted, then do you delete the sub-parts
 
+
 ### Patterns example 3: CRUD: low-level code idiom
 	
 CRUD = create, read, update, delete
@@ -703,6 +822,7 @@ systems
 	
 Patterns have review heuristics:
 
+
 - Everything is just CRUD? what about other actions?
 - Can only see CRUD for some  service? How to test it effectively? 
 - Limited Scope: CRUD only covers basic data operations, not capturing complex transactions or specific business rules within an application. 
@@ -711,12 +831,15 @@ As applications grow, the simplistic CRUD approach can become cumbersome, making
 - Poor Error Handling:
 CRUD operations often lack built-in mechanisms for handling complex error conditions or validation, which can lead to issues in data integrity. 
 
+
 ---
+
 
 # Review Questions
 
 
 ## Question 1
+
 
 **1.1)** Define Encapsulation.  
 **1.2)** Contrast Encapsulation with Information Hiding.  
@@ -724,24 +847,31 @@ CRUD operations often lack built-in mechanisms for handling complex error condit
 **1.4)** A banking application has an `Account` class that stores a user’s balance. Instead of making `balance` a public variable, the class provides methods `deposit(amount)` and `withdraw(amount)`, which check for overdrafts before modifying `balance`.  
 Does  ths encapsulation protect the integrity of the bank’s account data?  How can it hurt the software?
 
+
  
 
+
 ## Question 2
+
 
 **2.1)** Define Pipes and Filters.  
 **2.2)** Contrast Pipes and Filters with Design patters.  
 **2.3)** Explain when to use Pipes and Filters vs. Function Calls.  
 **2.4)** A data processing company needs to clean and transform CSV logs before analysis. They design a pipeline:  
 
+
 - Extract data from raw files.  
 - Transform data (convert timestamps, clean missing values).  
 - Filter logs to keep only relevant records.  
 - Load data into a database.  
 
+
 Each step is implemented as an independent script that passes data through a Unix pipe (`cat logs.csv | clean.py | filter.py | load.py`).  
 Does this pattern make the system more flexible?  How can it hurt the software?
 
+
 ## Question 3
+
 
 **3.1)** Define Information Hiding.  
 **3.2)** Contrast Information Hiding with Desgin Patterns.  
@@ -749,14 +879,14 @@ Does this pattern make the system more flexible?  How can it hurt the software?
 **3.4)** A software engineer is building a car rental system. The `Car` class has an internal function `_calculateDepreciation()` that determines how the car’s value changes over time.  
 What does this  method hidden from external access, and what are the benefits of this approach?   How can it hurt the software?
 
+
 ## Question 4
+
 
 **4.1)** Define Design Patterns.  
 **4.2)** Contrast Design Patterns with Object-Oriented Design.  
 **4.3)** Explain when to use Design Patterns vs. Procedural Approaches.  
 **4.4)** A software team is designing a GUI application. To ensure consistency, they use the **Model-View-Controller (MVC)** pattern, separating data (`Model`), logic (`Controller`), and UI (`View`).  
 Does this design pattern improve flexibility and maintainability?  How can it hurt the software? 
-
-
 
 
