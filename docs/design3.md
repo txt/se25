@@ -84,18 +84,19 @@ Abstraction  has been applied, successfully, dozens of times in the history of c
 The following list is sorted
   by their memory footprint, largest to smallest:
 
+(+) not covered in this elcture
 
 1. Unix Pipes
 2. Object ORiented.
-3. Operating systems
-4. Virtual machines
-5. Containers
-6. Serverless systems
-7. Erlang's trick
+3. Operating systems (+)
+4. Virtual machines (+)
+5. Container (+)
+6. Serverless systems (+)
+7. Erlang's trick (+)
 8. Design Patterns
      - These are can "just" be a paper design principle
      - They can also be the design guide for  an OO class library.
-9. Macros
+9. Macros (+)
 10. Iterators and error handlers
     - These not the same as the rest
          - Iterators and error handlers are abstraction tricks for programmers are smaller than
