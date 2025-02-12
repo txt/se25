@@ -51,16 +51,9 @@ This cycle emphasizes the importance of constant adaptation and improvement, mir
 ## For this Essay
 Ensure that your proposed solution is software based.
 
+To make grading easier, your essay needs the standard essay structure (abstract, introduction, background, ..., discussion, conclusion, references).
 
-So we can mark it easier,  your essay needs the  standard essay
-structures (abstract, introduction, background, ... , discussion,
-conclusion, references).
-
-
-And try to avoid bullet points, where you can. Instead of just
-listing a  bunch of separate things, look for synthesis between
-things. So, sure, spend sometime defining things but spend more
-time thawing things together to see what sticks.
+Try to avoid bullet points where possible. Instead of listing separate ideas, look for synthesis between concepts. Spend time defining things, but spend more time weaving them together to see what sticks.
 
 
 Work solo. **IMPORTANT**: read [the lecture on ethics](ethics.html) before you start.
@@ -70,46 +63,39 @@ Work solo. **IMPORTANT**: read [the lecture on ethics](ethics.html) before you s
 - Using these <a href="https://raw.githubusercontent.com/txt/se20/master/etc/img/12steps.png">7 steps</a> as an outline
 - Address one of the [case studies](https://onlineethics.org/resources?combine=software&field_keywords_target_id=&field_resource_type_target_id=13236)
 
-
 Your answer must cover, at the very least:
-- who is _hurt_ by the current design;
-- how we might _fix_ that?
-  - Important: ensure that your  text justifies why  the new design addresses the  problems you document.
-- and how will your fix _empower traditionally disempowered social groups_?
-  - ie. don't just fix this particular problem; rather, address   deeper issues that might cause problems in the future).
+- Who is _hurt_ by the current design?
+- How we might _fix_ that?
+  - Important: Ensure that your text justifies why the new design addresses the problems you document.
+- How will your fix _empower traditionally disempowered social groups_?
+  - Don't just fix this particular problem; rather, address deeper issues that might cause problems in the future.
+ 
+## Word Limit
+- No less than three pages (in the format shown below, excluding references).
+- No more than four pages.
+- **HARD LIMITS:**
+  - We will not grade beyond four pages.
+  - We will not read if less than three pages.
+  - We will not read if it is in the wrong format (see below).
 
+## How to Write
 
-## Word limit
-- No less that three pages (in the format shown below, excluding references);
-  - no more than four
-- HARD LIMITS: 
-  - we will not grade after four pages.
-  - we will not read if less than three.
-  - we will not read if it is the wrong format (see below)
+1. Create an Overleaf account.
+2. Go to [IEEE Official Templates](https://www.overleaf.com/gallery/tagged/ieee-official).
+3. Select "IEEE Bare Demo Template for Conferences" ([template link](https://www.overleaf.com/latex/templates/ieee-bare-demo-template-for-conferences/ypypvwjmvtdf)).
+4. Click "Open as Template."
+5. Add your name and email to the list you as an author.
+6. Add these lines before `\begin{document}`:
 
+   ```latex
+   \usepackage[switch]{lineno}
+   \linenumbers
+   ```
 
-## How to write
-
-
-Create an overleaf.com account
-
-
-- Go to https://www.overleaf.com/gallery/tagged/ieee-official
-- Select :IEEE Bare Demo Template for conferences"
-  -  https://www.overleaf.com/latex/templates/ieee-bare-demo-template-for-conferences/ypypvwjmvtdf
-- Hit "open as template"
-- Add your name and email to list of authors.
--  Add these lines before `\begin{document}`
-
-
-         \usepackage[switch]{lineno}
-         \linenumbers
-
-
-- Write at a three to four page paper.
-- Hit the "recompile" button
-- Look to the right of "recompile: for the download icon
-- Submit to Moodle
+7. Write a three to four-page paper.
+8. Click the "Recompile" button.
+9. Download your document using the download icon next to "Recompile."
+10. Submit to Moodle.
 
 
 ## Grading Rubric
@@ -124,12 +110,44 @@ Create an overleaf.com account
 |2 | IDENTIFY STAKEHOLDERS | +1 if it identifies the stakeholders and +1 more if does it well; e.g. show how stockholder requirements can be contradictory|
 |5 | LIST OF 5 OPTIONS | +5 if it develops a list of iat least five options |
 |3 | SOFTWARE DESIGN | +2 of some of those options need to includes a redesign for a better version of the software where the better software mitigates some of the issues discussed by the original software. And +1 more if it does it well; e.g. clever design|
-|4 | TESTING | 2 if it tests options using criteria like  harm, publicity, defensibility, reversibility, virtue, colleague, professional, organizational test ( see guidance on that at https://github.com/txt/se20/blob/master/etc/img/12steps.png) And 2 more if it does it well; e.g. writes extensively insightful notes on three or more of the tests |
+|4 | TESTING | 2 if it tests options using criteria like  harm, publicity, defensibility, reversibility, virtue, colleague, professional, organizational test ([see guidance](https://github.com/txt/se20/blob/master/etc/img/12steps.png)) And 2 more if it does it well; e.g. writes extensively insightful notes on three or more of the tests |
 |2 | CHOICE | +1 if tentative choice and +1  if final Choice |
 |-2 | OTHER | -2  if the essay is mostly “I think X, I think Y”  without any citations or comment on the amazing things other people have thunk in this matter; or if the   student does not seem to understand general principles behind their particular case studyy or if the essay does not define clear steps to making ethical decisions (beyond the 12 steps of https://github.com/txt/se20/blob/master/etc/img/12steps.png) for future applications.| 
 |22| TOTAL      | | 
 
 
- 
 
+# QA
 
+1. **Does the title of the essay have to be the same as the name of the case study, or can it be something different?**  
+   **A:** Yes.
+
+2. **Should we follow any specific naming convention for the essay?**  
+   **A:** `[your_unity_id]_ethics.pdf` (Note: If you do not follow this naming convention, we won't deduct points, but if you follow it, we will be happy.)
+
+3. **What section names should we use in the essay?**  
+   **A:** Sections should be titled "The Problem", "Relevant Facts", "Stakeholders", etc.
+
+4. **Who else is an author for our essay?**  
+   **A:** You should list only your own name as the author since this is a solo essay.
+
+5. **In the essay, should all five solutions be software-based ones?**  
+   **A:** Yes.
+
+6. **Should I use the line number option?**  
+   **A:** Yes, check "How to Write", №6.
+
+7. **Are you expecting a solution to the technical problem or the ethical dilemma?**  
+   **A:** A mix of software engineering and ethical solutions is best.
+
+8. **Should our essay mention the list of authors?**  
+   **A:** Include your name, but institutional addresses can be ignored.
+
+9. **Is "Installing programs without licensing" a valid essay topic?**  
+   **A:** Yes.
+
+10. **What is the exact deadline for the essay?**  
+    **A:** March 21st, 11:25 AM.
+
+11. **Can we submit a five-page essay if the fifth page only contains references?**  
+    **A:** Yes, that's acceptable.
