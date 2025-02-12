@@ -84,7 +84,7 @@ Abstraction  has been applied, successfully, dozens of times in the history of c
 The following list is sorted
   by their memory footprint, largest to smallest:
 
-(+) not covered in this elcture
+(+) not covered in this lecture
 
 1. Unix Pipes
 2. Object ORiented.

@@ -108,7 +108,9 @@
     </tr>
     <tr>
       <td>Feb03</td>
-      <td><a href="https://softengbook.org/chapter4">Models1</a></td>
+      <td>
+         Mon: <a href="https://softengbook.org/chapter4">Models1</a><br>
+         Wed: <a href="/docs/models2.md">Models2</a></td>
       <td>
            Wed: <a href="docs/hw03.md">Hw3: debugging</a>
       </td>
