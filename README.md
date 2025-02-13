@@ -110,7 +110,9 @@
       <td>Feb03</td>
       <td>
          Mon: <a href="https://softengbook.org/chapter4">Models1</a><br>
-         Wed: <a href="/docs/models2.md">Models2</a></td>
+         Wed: <a href="/docs/models2.md">Models2</a><br>
+          Feb12: <a href="/docs/feb12.m4a">Recording</a>
+      </td>
       <td>
            Wed: <a href="docs/hw03.md">Hw3: debugging</a>
       </td>
