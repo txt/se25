@@ -139,7 +139,6 @@
       <td></td>
       <td></td>
       <td></td>
-      <td>1:homework</td>
     </tr>
     <tr>
       <td>Feb24</td>
@@ -148,7 +147,7 @@
       <td>Wed. Proj2: <a href="docs/proj23.md">Extend old code</a></td>
       <td></td>
       <td></td>
-      <td>15:project</td>
+      <td>15:project<br>1:homework</td>
     </tr>
     <tr>
       <td>Mar03</td>
