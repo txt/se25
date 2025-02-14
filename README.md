@@ -135,7 +135,7 @@
     <tr>
       <td>Feb17</td>
         <td><a href="https://softengbook.org/chapter6">Patterns1</a></td>
-      <td>Wed. <a href="docs/hw05.md">Hw5: Make my day</a></td>
+      <td>/td>
       <td></td>
       <td></td>
       <td></td>
@@ -144,7 +144,7 @@
     <tr>
       <td>Feb24</td>
        <td><a href="/docs/ethics.md">Ethics</a></td>
-      <td></td>
+      <td>Friday. <a href="docs/hw05.md">Hw5: Make my day</a></td>
       <td>Wed. Proj2: <a href="docs/proj23.md">Extend old code</a></td>
       <td></td>
       <td></td>
