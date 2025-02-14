@@ -1,5 +1,0 @@
-Makefiles are traditionally used for compiling code, but they can
-also be powerful tools for automating data-driven workflows. This
-tutorial focuses on using make alongside gawk, grep, and sed to
-process data efficiently.
-

@@ -108,7 +108,11 @@
     </tr>
     <tr>
       <td>Feb03</td>
-      <td><a href="https://softengbook.org/chapter4">Models1</a></td>
+      <td>
+         Mon: <a href="https://softengbook.org/chapter4">Models1</a><br>
+         Wed: <a href="/docs/models2.md">Models2</a><br>
+          Feb12: <a href="/docs/feb12.m4a">Recording</a>
+      </td>
       <td>
            Wed: <a href="docs/hw03.md">Hw3: debugging</a>
       </td>
@@ -131,20 +135,19 @@
     <tr>
       <td>Feb17</td>
         <td><a href="https://softengbook.org/chapter6">Patterns1</a></td>
-      <td>Wed. <a href="docs/hw05.md">Hw5: Make my day</a></td>
       <td></td>
       <td></td>
       <td></td>
-      <td>1:homework</td>
+      <td></td>
     </tr>
     <tr>
       <td>Feb24</td>
        <td><a href="/docs/ethics.md">Ethics</a></td>
-      <td></td>
+      <td>Friday. <a href="docs/hw05.md">Hw5: Make my day</a></td>
       <td>Wed. Proj2: <a href="docs/proj23.md">Extend old code</a></td>
       <td></td>
       <td></td>
-      <td>15:project</td>
+      <td>15:project<br>1:homework</td>
     </tr>
     <tr>
       <td>Mar03</td>
