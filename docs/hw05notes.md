@@ -30,8 +30,13 @@
 ### **1.1 Basics of `make`**
 - `make` automates tasks by defining rules consisting of **targets**, **dependencies**, and **commands**.
 - A **target** is what you want to create.
+  - Appears to the LEFT of "`:`" on line one of a rule
 - **Dependencies** specify when a target should be rebuilt.
+  - Appears to the RIGHT of "`:`" on line one of a rule
+  - May be empty
 - **Commands** define how to build the target.
+  - Appears as lines 2,3,4.... in a rule
+  - May be empty
 
 Example:
 ```make
@@ -39,6 +44,16 @@ output.txt: input.txt
 	gawk '{print $1}' input.txt > output.txt
 ```
 - If `input.txt` changes, `output.txt` will be regenerated.
+- Target = ouptut.txt
+- Dependencies = input.txt
+- Command = everything underneath
+
+Note that with make's magic variables, we can write this a bit cleaner:
+
+```make
+output.txt: input.txt
+	gawk '{print $1}' $^ > $@
+```
 
 ### **1.2 Understanding Dependencies**
 - `make` is lazy: it only runs commands if the target is **older** than its dependencies.
