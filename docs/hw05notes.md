@@ -119,7 +119,7 @@ gawk '{sum += $2} END {print "Total:", sum}' file.txt
 ```
 - Computes the sum of the second column.
 
-### **2.4 Extracting the First Paragraph**
+### **2.4 Extracting the First Record**
 ```gawk
 gawk 'NR==1 {print; exit}' file.txt
 ```
