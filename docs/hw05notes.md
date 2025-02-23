@@ -23,7 +23,6 @@
 
 # Additional notes on Make, Gawk, Shell
 
-```markdown
 # **Tutorial Notes: Using `make`, `gawk`, and Shell Scripts for Automation**
 
 ## **1. `make` – Automating Software Builds and Processes**
