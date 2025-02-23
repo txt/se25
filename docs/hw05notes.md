@@ -44,7 +44,7 @@ output.txt: input.txt
 	gawk '{print $1}' input.txt > output.txt
 ```
 - If `input.txt` changes, `output.txt` will be regenerated.
-- Target = ouptut.txt
+- Target = output.txt
 - Dependencies = input.txt
 - Command = everything underneath
 
