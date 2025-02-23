@@ -143,7 +143,10 @@
     <tr>
       <td>Feb24</td>
        <td><a href="/docs/ethics.md">Ethics</a></td>
-      <td>Friday. <a href="docs/hw05.md">Hw5: Make my day</a></td>
+      <td>
+          Friday. <a href="docs/hw05.md">Hw5: Make my day</a><br>
+          See also <a href="docs/hw05notes.md">Hw5 Additional Notes </a><br>
+      </td>
       <td>Wed. Proj2: <a href="docs/proj23.md">Extend old code</a></td>
       <td></td>
       <td></td>
