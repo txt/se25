@@ -25,6 +25,7 @@
 
 # Design Principles
 
+## Glossary
 
 - SOLID
   - Single Responsibility Principle
@@ -69,179 +70,170 @@
     - rf_probability - Predicted bug probability using Random Forest model
 
 
-Here are the questions in Markdown format:
+## Review Questions
 
-
-# Software Design Principles Review Questions
-
-
-## 1. Single Responsibility Principle (SRP)
-
+### 1. Single Responsibility Principle (SRP)
 
 The following code fragment violates the Single Responsibility Principle:
 
-
-```java
-class UserManager {
-    public void createUser(User user) {
-        // Logic to create a user
-    }
+```python
+class UserManager:
+    def create_user(self, user):
+        # Logic to create a user
+        pass
     
-    public void sendWelcomeEmail(User user) {
-        // Logic to send a welcome email
-    }
+    def send_welcome_email(self, user):
+        # Logic to send a welcome email
+        pass
     
-    public void generateUserReport() {
-        // Logic to generate a user report
-    }
-}
+    def generate_user_report(self):
+        # Logic to generate a user report
+        pass
 ```
-
 
 Define the Single Responsibility Principle. Explain how this code violates that principle. Propose a fix that adheres to the SRP.
 
+Hint: are our UserManagers running more than one servce?
 
-## 2. Open-Closed Principle (OCP)
-
+### 2. Open-Closed Principle (OCP)
 
 The following code fragment violates the Open-Closed Principle:
 
+```python
+class Shape:
+    def __init__(self, shape_type):
+        self.type = shape_type
 
-```java
-class Shape {
-    private String type;
-
-
-    public double calculateArea() {
-        if (type.equals("circle")) {
-            // Calculate circle area
-        } else if (type.equals("square")) {
-            // Calculate square area
-        }
-        return 0;
-    }
-}
+    def calculate_area(self):
+        if self.type == "circle":
+            # Calculate circle area
+            pass
+        elif self.type == "square":
+            # Calculate square area
+            pass
+        return 0
 ```
-
 
 Define the Open-Closed Principle. Show how this code violates that principle. Propose a fix that adheres to the OCP.
 
+Hint: Are Circle and Square subclasses of Shape?
 
-## 3. Liskov Substitution Principle (LSP)
-
+### 3. Liskov Substitution Principle (LSP)
 
 The following code fragment violates the Liskov Substitution Principle:
 
+```python
+class Rectangle:
+    def __init__(self, width, height):
+        self.width = width
+        self.height = height
 
-```java
-class Rectangle {
-    protected int width;
-    protected int height;
+    def set_width(self, width):
+        self.width = width
 
+    def set_height(self, height):
+        self.height = height
 
-    public void setWidth(int width) {
-        this.width = width;
-    }
+    def get_area(self):
+        return self.width * self.height
 
+class Square(Rectangle):
+    def set_width(self, width):
+        super().set_width(width)
+        super().set_height(width)
 
-    public void setHeight(int height) {
-        this.height = height;
-    }
-
-
-    public int getArea() {
-        return width * height;
-    }
-}
-
-
-class Square extends Rectangle {
-    @Override
-    public void setWidth(int width) {
-        super.setWidth(width);
-        super.setHeight(width);
-    }
-
-
-    @Override
-    public void setHeight(int height) {
-        super.setHeight(height);
-        super.setWidth(height);
-    }
-}
+    def set_height(self, height):
+        super().set_height(height)
+        super().set_width(height)
 ```
-
 
 Define the Liskov Substitution Principle. Explain how this code violates that principle. Propose a fix that adheres to the LSP.
 
+Hint: What is the difference between Squares and Rectangles?
 
-## 4. Interface Segregation Principle (ISP)
-
+### 4. Interface Segregation Principle (ISP)
 
 The following code fragment violates the Interface Segregation Principle:
 
+```python
+from abc import ABC, abstractmethod
 
-```java
-interface Worker {
-    void work();
-    void eat();
-    void sleep();
-}
+class Worker(ABC):
+    @abstractmethod
+    def work(self):
+        pass
 
+    @abstractmethod
+    def eat(self):
+        pass
 
-class Human implements Worker {
-    public void work() { /* ... */ }
-    public void eat() { /* ... */ }
-    public void sleep() { /* ... */ }
-}
+    @abstractmethod
+    def sleep(self):
+        pass
 
+class Human(Worker):
+    def work(self):
+        # Implementation
+        pass
 
-class Robot implements Worker {
-    public void work() { /* ... */ }
-    public void eat() { throw new UnsupportedOperationException(); }
-    public void sleep() { throw new UnsupportedOperationException(); }
-}
+    def eat(self):
+        # Implementation
+        pass
+
+    def sleep(self):
+        # Implementation
+        pass
+
+class Robot(Worker):
+    def work(self):
+        # Implementation
+        pass
+
+    def eat(self):
+        raise NotImplementedError("Robots don't eat")
+
+    def sleep(self):
+        raise NotImplementedError("Robots don't sleep")
 ```
-
 
 Define the Interface Segregation Principle. Show how this code violates that principle. Propose a fix that adheres to the ISP.
 
+Hint: Robts work all night.
 
-## 5. Dependency Inversion Principle (DIP)
+I apologize for the confusion. Here's a new question for the Dependency Inversion Principle, without the answer:
 
+### 5. Dependency Inversion Principle (DIP)
 
 The following code fragment violates the Dependency Inversion Principle:
 
+```python
+class MySQLDatabase:
+    def connect(self):
+        # Connect to MySQL database
+        pass
 
-```java
-class LightBulb {
-    public void turnOn() {
-        // Turn on the light bulb
-    }
+    def execute_query(self, query):
+        # Execute SQL query
+        pass
 
+class UserRepository:
+    def __init__(self):
+        self.database = MySQLDatabase()
 
-    public void turnOff() {
-        // Turn off the light bulb
-    }
-}
+    def save_user(self, user):
+        query = f"INSERT INTO users (name, email) VALUES ('{user.name}', '{user.email}')"
+        self.database.connect()
+        self.database.execute_query(query)
 
-
-class Switch {
-    private LightBulb bulb;
-
-
-    public Switch() {
-        bulb = new LightBulb();
-    }
-
-
-    public void operate() {
-        // Switch logic to turn bulb on or off
-    }
-}
+class User:
+    def __init__(self, name, email):
+        self.name = name
+        self.email = email
 ```
-
 
 Define the Dependency Inversion Principle. Explain how this code violates that principle. Propose a fix that adheres to the DIP.
 
+Hint: will we always be using MySql in the future?
 
+-----
+And for those who read this far: [answers](/docs/design3.md)

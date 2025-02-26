@@ -26,386 +26,209 @@
 # Answers to the Design2 Review Questions
 
 
+Here are the answers to the questions, using Python code examples:
+
 ## 1. Single Responsibility Principle (SRP)
 
+Definition: The Single Responsibility Principle states that a class should have only one reason to change, meaning it should have only one job or responsibility.
 
-The following code fragment violates the Single Responsibility Principle:
+Violation: The `UserManager` class violates SRP because it's responsible for user creation, email sending, and report generation. These are three distinct responsibilities that could change for different reasons.
 
+Proposed Fix:
 
-```java
-class UserManager {
-    public void createUser(User user) {
-        // Logic to create a user
-    }
-    
-    public void sendWelcomeEmail(User user) {
-        // Logic to send a welcome email
-    }
-    
-    public void generateUserReport() {
-        // Logic to generate a user report
-    }
-}
+```python
+class UserManager:
+    def create_user(self, user):
+        # Logic to create a user
+        pass
+
+class EmailService:
+    def send_welcome_email(self, user):
+        # Logic to send a welcome email
+        pass
+
+class ReportGenerator:
+    def generate_user_report(self):
+        # Logic to generate a user report
+        pass
 ```
-
-
-**Definition:** The Single Responsibility Principle states that a class should have only one reason to change, meaning it should have only one job or responsibility.
-
-
-**Violation:** This `UserManager` class violates SRP because it's responsible for user creation, email sending, and report generation. These are three distinct responsibilities that could change for different reasons.
-
-
-**Proposed Fix:**
-
-
-```java
-class UserManager {
-    public void createUser(User user) {
-        // Logic to create a user
-    }
-}
-
-
-class EmailService {
-    public void sendWelcomeEmail(User user) {
-        // Logic to send a welcome email
-    }
-}
-
-
-class ReportGenerator {
-    public void generateUserReport() {
-        // Logic to generate a user report
-    }
-}
-```
-
 
 This solution separates the responsibilities into three distinct classes, each with a single reason to change.
 
-
 ## 2. Open-Closed Principle (OCP)
 
+Definition: The Open-Closed Principle states that software entities (classes, modules, functions, etc.) should be open for extension but closed for modification.
 
-The following code fragment violates the Open-Closed Principle:
+Violation: The `Shape` class violates OCP because adding a new shape type requires modifying the existing `calculate_area` method.
 
+Proposed Fix:
 
-```java
-class Shape {
-    private String type;
+```python
+from abc import ABC, abstractmethod
+import math
 
+class Shape(ABC):
+    @abstractmethod
+    def calculate_area(self):
+        pass
 
-    public double calculateArea() {
-        if (type.equals("circle")) {
-            // Calculate circle area
-        } else if (type.equals("square")) {
-            // Calculate square area
-        }
-        return 0;
-    }
-}
+class Circle(Shape):
+    def __init__(self, radius):
+        self.radius = radius
+
+    def calculate_area(self):
+        return math.pi * self.radius ** 2
+
+class Square(Shape):
+    def __init__(self, side):
+        self.side = side
+
+    def calculate_area(self):
+        return self.side ** 2
 ```
 
-
-**Definition:** The Open-Closed Principle states that software entities (classes, modules, functions, etc.) should be open for extension but closed for modification.
-
-
-**Violation:** This `Shape` class violates OCP because adding a new shape type requires modifying the existing `calculateArea` method.
-
-
-**Proposed Fix:**
-
-
-```java
-abstract class Shape {
-    public abstract double calculateArea();
-}
-
-
-class Circle extends Shape {
-    private double radius;
-
-
-    public double calculateArea() {
-        return Math.PI * radius * radius;
-    }
-}
-
-
-class Square extends Shape {
-    private double side;
-
-
-    public double calculateArea() {
-        return side * side;
-    }
-}
-```
-
-
-This solution allows for new shapes to be added by creating new classes that extend `Shape`, without modifying existing code.
-
+This solution allows for new shapes to be added by creating new classes that inherit from `Shape`, without modifying existing code.
 
 ## 3. Liskov Substitution Principle (LSP)
 
+Definition: The Liskov Substitution Principle states that objects of a superclass should be replaceable with objects of its subclasses without affecting the correctness of the program.
 
-The following code fragment violates the Liskov Substitution Principle:
+Violation: The `Square` class violates LSP because it changes the behavior of `set_width` and `set_height` methods inherited from `Rectangle`. A `Square` cannot be used interchangeably with a `Rectangle`.
 
+Proposed Fix:
 
-```java
-class Rectangle {
-    protected int width;
-    protected int height;
+```python
+from abc import ABC, abstractmethod
 
+class Shape(ABC):
+    @abstractmethod
+    def get_area(self):
+        pass
 
-    public void setWidth(int width) {
-        this.width = width;
-    }
+class Rectangle(Shape):
+    def __init__(self, width, height):
+        self.width = width
+        self.height = height
 
+    def set_width(self, width):
+        self.width = width
 
-    public void setHeight(int height) {
-        this.height = height;
-    }
+    def set_height(self, height):
+        self.height = height
 
+    def get_area(self):
+        return self.width * self.height
 
-    public int getArea() {
-        return width * height;
-    }
-}
+class Square(Shape):
+    def __init__(self, side):
+        self.side = side
 
+    def set_side(self, side):
+        self.side = side
 
-class Square extends Rectangle {
-    @Override
-    public void setWidth(int width) {
-        super.setWidth(width);
-        super.setHeight(width);
-    }
-
-
-    @Override
-    public void setHeight(int height) {
-        super.setHeight(height);
-        super.setWidth(height);
-    }
-}
+    def get_area(self):
+        return self.side ** 2
 ```
 
-
-**Definition:** The Liskov Substitution Principle states that objects of a superclass should be replaceable with objects of its subclasses without affecting the correctness of the program.
-
-
-**Violation:** This code violates LSP because a `Square` cannot be used interchangeably with a `Rectangle`. Setting the width of a `Square` also changes its height, which is not true for a `Rectangle`.
-
-
-**Proposed Fix:**
-
-
-```java
-interface Shape {
-    int getArea();
-}
-
-
-class Rectangle implements Shape {
-    protected int width;
-    protected int height;
-
-
-    public void setWidth(int width) {
-        this.width = width;
-    }
-
-
-    public void setHeight(int height) {
-        this.height = height;
-    }
-
-
-    public int getArea() {
-        return width * height;
-    }
-}
-
-
-class Square implements Shape {
-    private int side;
-
-
-    public void setSide(int side) {
-        this.side = side;
-    }
-
-
-    public int getArea() {
-        return side * side;
-    }
-}
-```
-
-
-This solution removes the inheritance relationship and treats `Square` and `Rectangle` as separate implementations of a `Shape` interface.
-
+This solution removes the inheritance relationship and treats `Square` and `Rectangle` as separate implementations of a `Shape` abstract base class.
 
 ## 4. Interface Segregation Principle (ISP)
 
+Definition: The Interface Segregation Principle states that clients should not be forced to depend on interfaces they do not use.
 
-The following code fragment violates the Interface Segregation Principle:
+Violation: The `Worker` interface violates ISP because the `Robot` class is forced to implement `eat()` and `sleep()` methods it doesn't need.
 
+Proposed Fix:
 
-```java
-interface Worker {
-    void work();
-    void eat();
-    void sleep();
-}
+```python
+from abc import ABC, abstractmethod
 
+class Workable(ABC):
+    @abstractmethod
+    def work(self):
+        pass
 
-class Human implements Worker {
-    public void work() { /* ... */ }
-    public void eat() { /* ... */ }
-    public void sleep() { /* ... */ }
-}
+class Eatable(ABC):
+    @abstractmethod
+    def eat(self):
+        pass
 
+class Sleepable(ABC):
+    @abstractmethod
+    def sleep(self):
+        pass
 
-class Robot implements Worker {
-    public void work() { /* ... */ }
-    public void eat() { throw new UnsupportedOperationException(); }
-    public void sleep() { throw new UnsupportedOperationException(); }
-}
+class Human(Workable, Eatable, Sleepable):
+    def work(self):
+        # Implementation
+        pass
+
+    def eat(self):
+        # Implementation
+        pass
+
+    def sleep(self):
+        # Implementation
+        pass
+
+class Robot(Workable):
+    def work(self):
+        # Implementation
+        pass
 ```
-
-
-**Definition:** The Interface Segregation Principle states that clients should not be forced to depend on interfaces they do not use.
-
-
-**Violation:** This code violates ISP because the `Robot` class is forced to implement `eat()` and `sleep()` methods it doesn't need.
-
-
-**Proposed Fix:**
-
-
-```java
-interface Workable {
-    void work();
-}
-
-
-interface Eatable {
-    void eat();
-}
-
-
-interface Sleepable {
-    void sleep();
-}
-
-
-class Human implements Workable, Eatable, Sleepable {
-    public void work() { /* ... */ }
-    public void eat() { /* ... */ }
-    public void sleep() { /* ... */ }
-}
-
-
-class Robot implements Workable {
-    public void work() { /* ... */ }
-}
-```
-
 
 This solution splits the `Worker` interface into smaller, more specific interfaces, allowing classes to implement only the methods they need.
 
+### 5. Dependency Inversion Principle (DIP)
 
-## 5. Dependency Inversion Principle (DIP)
+The Dependency Inversion Principle (DIP) states that high-level modules should not depend on low-level modules. Both should depend on abstractions. Abstractions should not depend on details; details should depend on abstractions[1].
 
+This code violates DIP because the `UserRepository` class (high-level module) directly depends on the `MySQLDatabase` class (low-level module). This creates tight coupling between the classes, making the system less flexible and harder to maintain.
 
-The following code fragment violates the Dependency Inversion Principle:
+To fix this and adhere to DIP, we can introduce an abstraction layer:
 
+```python
+from abc import ABC, abstractmethod
 
-```java
-class LightBulb {
-    public void turnOn() {
-        // Turn on the light bulb
-    }
+class Database(ABC):
+    @abstractmethod
+    def connect(self):
+        pass
 
+    @abstractmethod
+    def execute_query(self, query):
+        pass
 
-    public void turnOff() {
-        // Turn off the light bulb
-    }
-}
+class MySQLDatabase(Database):
+    def connect(self):
+        # Connect to MySQL database
+        pass
 
+    def execute_query(self, query):
+        # Execute SQL query
+        pass
 
-class Switch {
-    private LightBulb bulb;
+class UserRepository:
+    def __init__(self, database: Database):
+        self.database = database
 
+    def save_user(self, user):
+        query = f"INSERT INTO users (name, email) VALUES ('{user.name}', '{user.email}')"
+        self.database.connect()
+        self.database.execute_query(query)
 
-    public Switch() {
-        bulb = new LightBulb();
-    }
-
-
-    public void operate() {
-        // Switch logic to turn bulb on or off
-    }
-}
+class User:
+    def __init__(self, name, email):
+        self.name = name
+        self.email = email
 ```
 
-
-**Definition:** The Dependency Inversion Principle states that high-level modules should not depend on low-level modules. Both should depend on abstractions. Abstractions should not depend on details. Details should depend on abstractions.
-
-
-**Violation:** This code violates DIP because the `Switch` class (high-level module) directly depends on the `LightBulb` class (low-level module).
-
-
-**Proposed Fix:**
-
-
-```java
-interface Switchable {
-    void turnOn();
-    void turnOff();
-}
-
-
-class LightBulb implements Switchable {
-    public void turnOn() {
-        // Turn on the light bulb
-    }
-
-
-    public void turnOff() {
-        // Turn off the light bulb
-    }
-}
-
-
-class Switch {
-    private Switchable device;
-
-
-    public Switch(Switchable device) {
-        this.device = device;
-    }
-
-
-    public void operate() {
-        // Switch logic to turn device on or off
-    }
-}
-```
-
-
-This solution introduces an abstraction (`Switchable` interface) that both the high-level `Switch` and low-level `LightBulb` depend on, adhering to the Dependency Inversion Principle.
-
+This solution introduces an abstract `Database` class that both `UserRepository` and `MySQLDatabase` depend on[1]. Now, `UserRepository` is not tied to a specific database implementation, making it easier to switch databases or mock them for testing[5]. This approach creates a more flexible and maintainable system, adhering to the Dependency Inversion Principle.
 
 Citations:
-[1] https://www.designgurus.io/blog/essential-software-design-principles-you-should-know-before-the-interview
-[2] https://www.scholarhat.com/tutorial/designpatterns/different-types-of-software-design-principles
-[3] https://blog.algomaster.io/p/design-principles
-[4] https://swimm.io/learn/system-design/6-software-design-principles-used-by-successful-engineers
-[5] https://www.spaceo.ca/blog/software-design-principles/
-[6] https://www.reddit.com/r/SoftwareEngineering/comments/1ckfong/what_are_the_core_principles_that_helped_you/
-[7] https://www.freecodecamp.org/news/solid-design-principles-in-software-development/
-[8] https://www.reddit.com/r/cpp_questions/comments/1gyifoz/how_to_learn_about_software_design_principles/
-
-
+[1] https://www.baeldung.com/cs/dip
+[2] https://stackify.com/dependency-inversion-principle/
+[3] https://en.wikipedia.org/wiki/Dependency_inversion_principle
+[4] https://www.youtube.com/watch?v=9oHY5TllWaU
+[5] https://blog.logrocket.com/dependency-inversion-principle/
+[6] https://www.reddit.com/r/learnprogramming/comments/ye18fm/what_exactly_is_dependency_inversion/
