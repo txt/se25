@@ -51,7 +51,9 @@ This cycle emphasizes the importance of constant adaptation and improvement, mir
 ## For this Essay
 Ensure that your proposed solution is software based.
 
+
 To make grading easier, your essay needs the standard essay structure (abstract, introduction, background, ..., discussion, conclusion, references).
+
 
 Try to avoid bullet points where possible. Instead of listing separate ideas, look for synthesis between concepts. Spend time defining things, but spend more time weaving them together to see what sticks.
 
@@ -62,6 +64,7 @@ Work solo. **IMPORTANT**: read [the lecture on ethics](ethics.html) before you s
 ## What to write
 - Using these <a href="https://raw.githubusercontent.com/txt/se20/master/etc/img/12steps.png">7 steps</a> as an outline
 - Address one of the [case studies](https://onlineethics.org/resources?combine=software&field_keywords_target_id=&field_resource_type_target_id=13236)
+
 
 Your answer must cover, at the very least:
 - Who is _hurt_ by the current design?
@@ -78,7 +81,9 @@ Your answer must cover, at the very least:
   - We will not read if less than three pages.
   - We will not read if it is in the wrong format (see below).
 
+
 ## How to Write
+
 
 1. Create an Overleaf account.
 2. Go to [IEEE Official Templates](https://www.overleaf.com/gallery/tagged/ieee-official).
@@ -87,10 +92,12 @@ Your answer must cover, at the very least:
 5. Add your name and email to the list you as an author.
 6. Add these lines before `\begin{document}`:
 
+
    ```latex
    \usepackage[switch]{lineno}
    \linenumbers
    ```
+
 
 7. Write a three to four-page paper.
 8. Click the "Recompile" button.
@@ -116,38 +123,50 @@ Your answer must cover, at the very least:
 |22| TOTAL      | | 
 
 
-
 # QA
+
 
 1. **Does the title of the essay have to be the same as the name of the case study, or can it be something different?**  
    **A:** Yes.
 
+
 2. **Should we follow any specific naming convention for the essay?**  
    **A:** `[your_unity_id]_ethics.pdf` (Note: If you do not follow this naming convention, we won't deduct points, but if you follow it, we will be happy.)
+
 
 3. **What section names should we use in the essay?**  
    **A:** Sections should be titled "The Problem", "Relevant Facts", "Stakeholders", etc.
 
+
 4. **Who else is an author for our essay?**  
    **A:** You should list only your own name as the author since this is a solo essay.
+
 
 5. **In the essay, should all five solutions be software-based ones?**  
    **A:** Yes.
 
+
 6. **Should I use the line number option?**  
    **A:** Yes, check "How to Write", №6.
+
 
 7. **Are you expecting a solution to the technical problem or the ethical dilemma?**  
    **A:** A mix of software engineering and ethical solutions is best.
 
+
 8. **Should our essay mention the list of authors?**  
    **A:** Include your name, but institutional addresses can be ignored.
+
 
 9. **Is "Installing programs without licensing" a valid essay topic?**  
    **A:** Yes.
 
+
 10. **What is the exact deadline for the essay?**  
     **A:** March 21st, 11:25 AM.
 
+
 11. **Can we submit a five-page essay if the fifth page only contains references?**  
     **A:** Yes, that's acceptable.
+
+
