@@ -69,3 +69,179 @@
     - rf_probability - Predicted bug probability using Random Forest model
 
 
+Here are the questions in Markdown format:
+
+
+# Software Design Principles Review Questions
+
+
+## 1. Single Responsibility Principle (SRP)
+
+
+The following code fragment violates the Single Responsibility Principle:
+
+
+```java
+class UserManager {
+    public void createUser(User user) {
+        // Logic to create a user
+    }
+    
+    public void sendWelcomeEmail(User user) {
+        // Logic to send a welcome email
+    }
+    
+    public void generateUserReport() {
+        // Logic to generate a user report
+    }
+}
+```
+
+
+Define the Single Responsibility Principle. Explain how this code violates that principle. Propose a fix that adheres to the SRP.
+
+
+## 2. Open-Closed Principle (OCP)
+
+
+The following code fragment violates the Open-Closed Principle:
+
+
+```java
+class Shape {
+    private String type;
+
+
+    public double calculateArea() {
+        if (type.equals("circle")) {
+            // Calculate circle area
+        } else if (type.equals("square")) {
+            // Calculate square area
+        }
+        return 0;
+    }
+}
+```
+
+
+Define the Open-Closed Principle. Show how this code violates that principle. Propose a fix that adheres to the OCP.
+
+
+## 3. Liskov Substitution Principle (LSP)
+
+
+The following code fragment violates the Liskov Substitution Principle:
+
+
+```java
+class Rectangle {
+    protected int width;
+    protected int height;
+
+
+    public void setWidth(int width) {
+        this.width = width;
+    }
+
+
+    public void setHeight(int height) {
+        this.height = height;
+    }
+
+
+    public int getArea() {
+        return width * height;
+    }
+}
+
+
+class Square extends Rectangle {
+    @Override
+    public void setWidth(int width) {
+        super.setWidth(width);
+        super.setHeight(width);
+    }
+
+
+    @Override
+    public void setHeight(int height) {
+        super.setHeight(height);
+        super.setWidth(height);
+    }
+}
+```
+
+
+Define the Liskov Substitution Principle. Explain how this code violates that principle. Propose a fix that adheres to the LSP.
+
+
+## 4. Interface Segregation Principle (ISP)
+
+
+The following code fragment violates the Interface Segregation Principle:
+
+
+```java
+interface Worker {
+    void work();
+    void eat();
+    void sleep();
+}
+
+
+class Human implements Worker {
+    public void work() { /* ... */ }
+    public void eat() { /* ... */ }
+    public void sleep() { /* ... */ }
+}
+
+
+class Robot implements Worker {
+    public void work() { /* ... */ }
+    public void eat() { throw new UnsupportedOperationException(); }
+    public void sleep() { throw new UnsupportedOperationException(); }
+}
+```
+
+
+Define the Interface Segregation Principle. Show how this code violates that principle. Propose a fix that adheres to the ISP.
+
+
+## 5. Dependency Inversion Principle (DIP)
+
+
+The following code fragment violates the Dependency Inversion Principle:
+
+
+```java
+class LightBulb {
+    public void turnOn() {
+        // Turn on the light bulb
+    }
+
+
+    public void turnOff() {
+        // Turn off the light bulb
+    }
+}
+
+
+class Switch {
+    private LightBulb bulb;
+
+
+    public Switch() {
+        bulb = new LightBulb();
+    }
+
+
+    public void operate() {
+        // Switch logic to turn bulb on or off
+    }
+}
+```
+
+
+Define the Dependency Inversion Principle. Explain how this code violates that principle. Propose a fix that adheres to the DIP.
+
+
