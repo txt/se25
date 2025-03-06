@@ -58,7 +58,7 @@ To make grading easier, your essay needs the standard essay structure (abstract,
 Try to avoid bullet points where possible. Instead of listing separate ideas, look for synthesis between concepts. Spend time defining things, but spend more time weaving them together to see what sticks.
 
 
-Work solo. **IMPORTANT**: read [the lecture on ethics](ethics.html) before you start.
+Work solo. **IMPORTANT**: read [the lecture on ethics](ethics.md) before you start.
 
 
 ## What to write
