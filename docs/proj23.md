@@ -30,7 +30,7 @@
 
 
 - **Project 2 Deadline:** February 26
-- **Project 3 Deadline:** April 16
+- **Project 3 Deadline:** April 15
 
 
 ### Your Task
