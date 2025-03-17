@@ -36,9 +36,9 @@ Sources:
 
 
 ## **Introduction (5 min)**
-- **Purpose of Metrics:** Quantify aspects of software quality, maintainability, and defect prediction.
-- **Traditional Uses:** Predict defects, guide refactoring, and ensure code quality.
-- **Critical Perspective:** Are metrics always reliable? Is more data always better? Today, we contrast the standard view with the rebel view.
+- **Purpose of Metrics:** Quantify aspects of software quality, maintainability, and defect prediction.
+- **Traditional Uses:** Predict defects, guide refactoring, and ensure code quality.
+- **Critical Perspective:** Are metrics always reliable? Is more data always better? Today, we contrast the standard view with the rebel view.
 
 
 ## **Some History: The Evolution of Software Analytics**
@@ -120,25 +120,25 @@ recall = (true positives) / (all defects)
 
 ### **Traditional Software Metrics Principles**
 1. **Metrics are Meaningful and Necessary**  
-   - Standard metrics like cyclomatic complexity, Halstead metrics, and code churn provide insights into software quality.
-   - They help predict defects, prioritize testing efforts, and guide maintenance.
+   - Standard metrics like cyclomatic complexity, Halstead metrics, and code churn provide insights into software quality.
+   - They help predict defects, prioritize testing efforts, and guide maintenance.
 
 
 2. **More Data is Better**  
-   - The assumption: More historical data leads to better models.
-   - Collecting numerous attributes is believed to enhance defect prediction.
+   - The assumption: More historical data leads to better models.
+   - Collecting numerous attributes is believed to enhance defect prediction.
 
 
 3. **Universal Importance of Specific Metrics**  
-   - Certain metrics (e.g., McCabe’s complexity, lines of code) are widely accepted as indicators of software quality.
+   - Certain metrics (e.g., McCabe’s complexity, lines of code) are widely accepted as indicators of software quality.
 
 
 4. **Benchmarking with Metrics**  
-   - Repositories like PROMISE and MSR ensure reproducibility and allow cross-study comparisons.
+   - Repositories like PROMISE and MSR ensure reproducibility and allow cross-study comparisons.
 
 
 5. **Defect Prediction Models Enhance Quality**  
-   - Combining static code analysis with machine learning is thought to improve defect detection and reduce maintenance costs.
+   - Combining static code analysis with machine learning is thought to improve defect detection and reduce maintenance costs.
 
 
 ---
@@ -147,40 +147,40 @@ recall = (true positives) / (all defects)
 ## **The Rebel View (10 min)**
 
 
-> “For SE, the best thing to do with most data is to throw it away.” — Tim Menzies
+> “For SE, the best thing to do with most data is to throw it away.” — Tim Menzies
 
 
 ### **Challenging Traditional Assumptions**
 1. **Irrelevance of Specific Metrics**  
-   - Different projects require different metrics; no universal set exists.
-   - **Menzies’s 1st Law:** "Gather all metrics, then prune irrelevant ones."
-   - **Implication:** Use data-driven selection instead of debating specific metrics.
+   - Different projects require different metrics; no universal set exists.
+   - **Menzies’s 1st Law:** "Gather all metrics, then prune irrelevant ones."
+   - **Implication:** Use data-driven selection instead of debating specific metrics.
 
 
 2. **Combined Importance of Static Code Attributes**  
-   - Individually weak metrics become strong when combined.
-   - **Menzies’s 2nd Law:** "Static code attributes create useful predictors only when used together."
-   - **Implication:** Simple models using multiple weak signals often outperform complex handcrafted models.
+   - Individually weak metrics become strong when combined.
+   - **Menzies’s 2nd Law:** "Static code attributes create useful predictors only when used together."
+   - **Implication:** Simple models using multiple weak signals often outperform complex handcrafted models.
 
 
 3. **Redundancy of Excessive Data**  
-   - Pruning data can improve models.
-   - Power laws and redundancy in software repositories often lead to overfitting on noise.
+   - Pruning data can improve models.
+   - Power laws and redundancy in software repositories often lead to overfitting on noise.
 
 
 4. **Over-Hype of AI and Large Language Models (LLMs)**  
-   - The assumption that bigger models always perform better is flawed.
-   - Many AI-based defect predictors lack comparison to simpler statistical models, indicating methodological failures.
+   - The assumption that bigger models always perform better is flawed.
+   - Many AI-based defect predictors lack comparison to simpler statistical models, indicating methodological failures.
 
 
 5. **Value of Imperfect Data**  
-   - Noisy or "bad" data can still generate useful models.
-   - Dirty data does not equate to useless data.
+   - Noisy or "bad" data can still generate useful models.
+   - Dirty data does not equate to useless data.
 
 
 6. **Simplicity in Addressing SE Problems**  
-   - Simple approaches often outperform complex models.
-   - Overcomplicated AI-driven defect prediction models can often be replaced with simpler techniques like nearest neighbor matching.
+   - Simple approaches often outperform complex models.
+   - Overcomplicated AI-driven defect prediction models can often be replaced with simpler techniques like nearest neighbor matching.
 
 
 ---
@@ -190,29 +190,29 @@ recall = (true positives) / (all defects)
 
 
 ### **Effort Estimation in Waterfall Projects**
-- **Definition:** Predicting the amount of effort required to complete each phase of a project.
+- **Definition:** Predicting the amount of effort required to complete each phase of a project.
 - **Techniques:**
-  - **Top-Down Estimation:** Assessing the overall project and breaking it down into smaller components.
-  - **Bottom-Up Estimation:** Estimating time for each small task and aggregating.
-  - **Use of Models:** Applying models like COCOMO to estimate effort based on project size and complexity.
+  - **Top-Down Estimation:** Assessing the overall project and breaking it down into smaller components.
+  - **Bottom-Up Estimation:** Estimating time for each small task and aggregating.
+  - **Use of Models:** Applying models like COCOMO to estimate effort based on project size and complexity.
 - **Challenges:**
-  - **Rigidity:** Difficulty adapting to changes once the project is underway.
-  - **Uncertainty:** Early estimates may be inaccurate due to unforeseen complexities.
+  - **Rigidity:** Difficulty adapting to changes once the project is underway.
+  - **Uncertainty:** Early estimates may be inaccurate due to unforeseen complexities.
 
 
 ### **Project Health Estimation in Open Source Projects**
-- **Definition:** Assessing the sustainability and vitality of an open-source project.
+- **Definition:** Assessing the sustainability and vitality of an open-source project.
 - **Indicators:**
-  - **Contributor Activity:** Number of active contributors and frequency of contributions.
-  - **Issue Resolution:** Rate at which issues are opened and closed.
-  - **Pull Request Management:** Timeliness and frequency of pull request reviews and merges.
-  - **Community Engagement:** Level of interaction among users and developers.
+  - **Contributor Activity:** Number of active contributors and frequency of contributions.
+  - **Issue Resolution:** Rate at which issues are opened and closed.
+  - **Pull Request Management:** Timeliness and frequency of pull request reviews and merges.
+  - **Community Engagement:** Level of interaction among users and developers.
 - **Techniques:**
-  - **Data Analysis:** Utilizing platforms like GitHub to analyze metrics such as commits, issues, and pull requests.
-  - **Automated Tools:** Employing tools to monitor project metrics and visualize trends.
+  - **Data Analysis:** Utilizing platforms like GitHub to analyze metrics such as commits, issues, and pull requests.
+  - **Automated Tools:** Employing tools to monitor project metrics and visualize trends.
 - **Challenges:**
-  - **Data Overload:** Abundance of data can make it difficult to identify relevant health indicators.
-  - **Dynamic Nature:** Open-source projects can change rapidly, requiring continuous monitoring.
+  - **Data Overload:** Abundance of data can make it difficult to identify relevant health indicators.
+  - **Dynamic Nature:** Open-source projects can change rapidly, requiring continuous monitoring.
 
 
 ![image](https://github.com/user-attachments/assets/bee253c5-8376-44ea-9d1d-b2fa9a908767)
@@ -230,11 +230,11 @@ MRE = MAE / actual
 
 ### **Key Differences:**
 - **Estimation Focus:**
-  - *Waterfall Projects:* Focus on predicting future effort and resources.
-  - *Open Source Projects:* Focus on assessing current health and sustainability.
+  - *Waterfall Projects:* Focus on predicting future effort and resources.
+  - *Open Source Projects:* Focus on assessing current health and sustainability.
 - **Methodology:**
-  - *Waterfall Projects:* Structured, sequential phases with predefined milestones.
-  - *Open Source Projects:* Flexible, community-driven development with continuous integration.
+  - *Waterfall Projects:* Structured, sequential phases with predefined milestones.
+  - *Open Source Projects:* Flexible, community-driven development with continuous integration.
  
 
 
