@@ -67,6 +67,9 @@ Process beats product. Respoundingly. Results from 722,471 commits from 700 Gith
 
 ![image](https://github.com/user-attachments/assets/4f58df96-1983-487c-865c-43094844380f)
 
+recall = (true positives) / (all defects)
+
+
 ### **Key Takeaways**
 - Early software metrics were **simple but useful** in their time.
 - **Modern software analytics** uses **project-specific learning** rather than fixed models.
@@ -154,6 +157,17 @@ Process beats product. Respoundingly. Results from 722,471 commits from 700 Gith
 - **Challenges:**
   - **Data Overload:** Abundance of data can make it difficult to identify relevant health indicators.
   - **Dynamic Nature:** Open-source projects can change rapidly, requiring continuous monitoring.
+
+![image](https://github.com/user-attachments/assets/bee253c5-8376-44ea-9d1d-b2fa9a908767)
+
+
+![image](https://github.com/user-attachments/assets/c55ae997-30ce-43c4-aab6-03d204c21f62)
+
+
+MAE = abs(predicted - actual) 
+
+MRE = MAE / actual
+ 
 
 ### **Key Differences:**
 - **Estimation Focus:**
