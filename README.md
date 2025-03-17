@@ -125,7 +125,8 @@
       <td>Feb10</td>
       <td>
       <a href="https://softengbook.org/chapter5">Design1</a><br>
-      <a href="/docs/design2.md">Design2</a>
+      <a href="/docs/design2.md">Design2</a><br>
+      <a href="/docs/design4.md">Design4</a>
       </td>
       <td>
            Thurs: <a href="docs/hw04.md">Hw4: Script wizard</a>
