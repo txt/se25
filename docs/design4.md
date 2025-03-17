@@ -47,6 +47,26 @@ Sources:
   - **Software quality**
 - **Data-mining techniques** have replaced early hand-crafted rules.
 
+### One Key insight
+
+Process metrics
+
+- who does what, how
+- represent programmer activity
+- generalized across multiple projects/programming languages
+
+Product methods
+
+- what, where
+- represent code structure
+- specific to specific langauges (e.g. "C" has no class hierachies so "depth of inheritance tree" is not a useful metric)
+
+![image](https://github.com/user-attachments/assets/cc4e2423-79e6-48b9-b7ff-6c905a8078b3)
+
+Process beats product. Respoundingly. Results from 722,471 commits from 700 Github projects 
+
+![image](https://github.com/user-attachments/assets/4f58df96-1983-487c-865c-43094844380f)
+
 ### **Key Takeaways**
 - Early software metrics were **simple but useful** in their time.
 - **Modern software analytics** uses **project-specific learning** rather than fixed models.
