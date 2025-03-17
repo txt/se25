@@ -1,7 +1,7 @@
 asdas
 
 
-# **Lecture: Metrics – The Standard View vs. The Rebel View**
+# Deisgn4: Metrics: The Standard View vs. The Rebel View**
 
 Sources: 
 
