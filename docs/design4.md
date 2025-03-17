@@ -33,6 +33,7 @@ Sources:
 - Menzies 2025, Retrospective: Data Mining Static Code Attributes to Learn Defect Predictors, https://arxiv.org/pdf/2501.15662,
 - Xia, Menzies, et al. 2022, _Predicting health indicators for open source projects (using hyperparameter optimization)_
   Empirical SE journal, 2022, https://arxiv.org/pdf/2006.07240
+- Early bird effect https://arxiv.org/pdf/2105.11082
 
 
 ## **Introduction (5 min)**
