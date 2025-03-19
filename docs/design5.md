@@ -31,11 +31,40 @@
   - Technical Debt : bad design choices are dirt that accumulate in the software, slowing down maintenance, 
   - Developer Churn: rate at which old codes are replaced by new ones
   - Issue Resolution Rate : time between issue opened and issue closed
-- **Software Metrics**
-  - Cyclomatic Complexity: internal twists and turns of a function
-  - Halstead Metrics : a measure of reading complexity of the code (computed from number of operators and operands)
-  - Code Churn
+- **Software Metrics, examples**
   - Lines of Code (LOC)
+  - Code Churn : rate of LOC change
+  - Halstead Metrics : a measure of reading complexity of the code (computed from number of operators and operands)
+  - Cyclomatic Complexity: internal twists and turns of a function
+  
+```python
+# sample1 cc=1
+def add_numbers(a, b):
+    """Returns the sum of two numbers."""
+    return a + b
+
+# sample2 cc=7
+def process_data(data):
+    """Processes a list of numbers with multiple conditions."""
+    result = 0
+    for num in data:
+        if num % 2 == 0:
+            result += num
+        elif num % 3 == 0:
+            result -= num
+        elif num % 5 == 0:
+            result *= num
+        else:
+            result /= (num + 1)  # Avoid division by zero
+    
+    if result > 100:
+        return "High"
+    elif result > 50:
+        return "Medium"
+    else:
+        return "Low"
+```
+ 
 - **Code Review Practices**
   - Static Analysis
     - everything you can do without executing the code
@@ -59,8 +88,11 @@
   - Large Language Models (LLMs)
     - Now that's a whole lecture in itself.
   - Random Fores
-    - Build N decision trees, each time using (say) _sqrt(A)_ of the attributes A and   10% of the rows (all picked at random) 
-    - Make a decision by voting across the ensemble
+    - Build, say, N=100 decision trees, each time using (say) _sqrt(A)_ of the attributes A and   10% of the rows (all picked at random) 
+    - Make a decision by voting across the ensemble <br>![image](https://github.com/user-attachments/assets/bd8375a2-5c95-4f30-8cdd-1ed314034047)
+
+   
+      
   - Naïve Bayes :  divide training data into classes, collect stats on each class, when new examples arrive, 
    find the class with most similar values
   - Support Vector Machines (SVMs) : map ra dimensions into a higher dimensional space, search that space for
@@ -80,6 +112,8 @@
 
     If P(Y = 1 | X) ≥ 0.5, predict **Y = 1**,  
     otherwise, predict **Y = 0**.
+
+![image](https://github.com/user-attachments/assets/aff19c34-1a4b-417f-b5e6-c73af20a2d3e)
 
 
 ##  Beyond Traditional Metrics: Lessons from Real-World Software Engineering
