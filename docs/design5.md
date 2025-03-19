@@ -215,27 +215,27 @@ Code reviews are an integral part of software development, ensuring **maintainab
 
 ## **5. Conclusion: Key Takeaways**
 ### **1. Code Review Best Practices**
-✅ Break **God classes** into smaller units.
-✅ Use **automated tools** for defect detection.
+✅ Break **God classes** into smaller units.  
+✅ Use **automated tools** for defect detection.  
 ✅ Refactor **large methods** into modular components.
 
 
 ### **2. Defect Prediction Can Be Done Early**
-✅ The **first 150 commits** predict defects as well as full project history.
-✅ Later project data contains **less useful signal**.
+✅ The **first 150 commits** predict defects as well as full project history.  
+✅ Later project data contains **less useful signal**.  
 ✅ More data ≠ better predictions.
 
 
 ### **3. Process Metrics Are More Useful Than Product Metrics**
-✅ **Team behavior** drives defects more than code complexity.
-✅ **Developer churn and commit frequency** are strong defect indicators.
+✅ **Team behavior** drives defects more than code complexity.  
+✅ **Developer churn and commit frequency** are strong defect indicators.  
 ✅ **Tracking "who changes what" is better than measuring code structure.**
 
 
 ### **4. LLMs Are Overhyped for SE Analytics**
-✅ **Simple models outperform** deep learning for defect prediction.
-✅ **LLMs are best for documentation, not analytics.**
-✅ **Process metrics and lightweight analytics are superior.**
+✅ **Simple models outperform** deep learning for defect prediction.    
+✅ **LLMs are best for documentation, not analytics.**  
+✅ **Process metrics and lightweight analytics are superior.**   
 
 
 ---
