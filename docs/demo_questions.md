@@ -1,7 +1,10 @@
 # Demo Structure & Questions
 
-> This is a list of **possible** questions for the demo. **We will not ask all of them**—these are examples to help you understand what to expect.  
-> **Please note**: Questions will vary based on the project and the flow of the demo.
+> This is a list of possible questions for the demo.  
+> **We will not ask all of them**—these are examples to help you understand what to expect.  
+> The actual questions will depend on the project and the flow of the demo.  
+>  
+> **Please note:** There will actually be *fewer* questions asked during the demo. This list is just to help you prepare for the kinds of topics we might cover.
 
 ---
 
