@@ -23,7 +23,10 @@
 
 
 
-Analysis of response to Quiz Mar 21.
+# Analysis of response to Quiz Mar 21.
+
+![image](https://github.com/user-attachments/assets/3c34b2c0-a61b-4877-9b47-3bebe0f39194)
+
 
 
 ### **Question 1:**  
@@ -90,5 +93,8 @@ Analysis of response to Quiz Mar 21.
 
 #### 📊 Mistake Rate:
 - About **23%** of students (12 out of 52) described general early bug benefits without linking to **analytics implications**.
+
+#### ‼️ Important note:
+- Early bird has been reported by me and mys tudents. It has **not** been confirmed by an independent source.
 
 
