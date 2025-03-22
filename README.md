@@ -141,7 +141,9 @@
     </tr>
     <tr>
       <td>Feb17</td>
-        <td><a href="https://softengbook.org/chapter6">Patterns1</a></td>
+        <td><a href="https://softengbook.org/chapter6">Patterns1</a><br>
+        <td><a href="/docs/patterns3.md">Patterns3</a>
+        </td>
       <td></td>
       <td></td>
       <td></td>
