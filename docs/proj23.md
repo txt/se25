@@ -30,7 +30,7 @@
 
 
 - **Project 2 Deadline:** February 26
-- **Project 3 Deadline:** April 16
+- **Project 3 Deadline:** April 15
 
 
 ### Your Task
@@ -230,6 +230,9 @@ but nevertheless, here is a track record that everyone is contributing a lot)|ev
 - **Column 3**: Self-assessment score (0 = none, 1 = a little, 2 = somewhat, 3 = a lot).
 - At the buttom, show the sum of Column 3.
 
+4. An individual questionnaire about group work. The link will be shared via Discord.
+
+
 
 ## Poster Requirements
 
@@ -294,5 +297,25 @@ Each poster must:
 - Your poster **fails to effectively sell the project**. Specifically:
   - Within the **first 15 seconds** of reading, the poster **does not clearly explain** what the project is about.
   - The poster **does not make a compelling case** for why this technology stack is interesting (e.g., "Select this project to learn about Kubernetes").
+ 
+____________________________
+
+# 📢 Project 3 Updates
+
+## Demo Duration
+- 20 minutes
+
+## Demo Plan
+- We will provide some questions beforehand to guide your demo.
+
+## Group Communication
+- Please use Discord channels for group discussions—this makes it easier for us to track participation and collaboration.
+
+## Grading Adjustments
+- Individual marks will be adjusted based on effort.
+
+## New Deliverable Component
+- An individual questionnaire about group work will be added (link to be shared later).
+
 
 

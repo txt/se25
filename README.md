@@ -123,7 +123,13 @@
     </tr>
     <tr>
       <td>Feb10</td>
-      <td><a href="https://softengbook.org/chapter5">Design1</a></td>
+      <td>
+      <a href="https://softengbook.org/chapter5">Design1</a><br>
+      <a href="/docs/design2.md">Design2</a><br>
+      <a href="/docs/design4.md">Design4</a> (<a
+      href="https://ncsu.zoom.us/rec/share/R1pvnOA677vqrvjZvdTGRZz9Gky3l7q0xF9TLaI0XeTaWvXjl8nVIO1AA6wmXMgt.N6hDzx56zN41D3oJ Passcode: 8Characters!">Video</a>)<br>
+      <a href="/docs/design5.md">Design5</a> 
+      </td>
       <td>
            Thurs: <a href="docs/hw04.md">Hw4: Script wizard</a>
       </td>
@@ -143,7 +149,10 @@
     <tr>
       <td>Feb24</td>
        <td><a href="/docs/ethics.md">Ethics</a></td>
-      <td>Friday. <a href="docs/hw05.md">Hw5: Make my day</a></td>
+      <td>
+          Friday. <a href="docs/hw05.md">Hw5: Make my day</a><br>
+          See also <a href="docs/hw05notes.md">Hw5 Additional Notes </a><br>
+      </td>
       <td>Wed. Proj2: <a href="docs/proj23.md">Extend old code</a></td>
       <td></td>
       <td></td>
