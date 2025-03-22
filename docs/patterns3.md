@@ -21,6 +21,76 @@
 <h1 align="center">:cyclone:&nbsp;CSC510: Software Engineering<br>NC&nbsp;State, Spring&nbsp;'25</h1>
       
 
+# More Patterns
+
+##  Standard Patterns
+
+### ✅ **1. Layered Architecture Pattern**
+**Definition:** A traditional n-tier model (e.g., presentation, business, persistence, database). Each layer has a distinct responsibility.
+**Example:** An eCommerce web app with separate logic for UI, business rules, and data access.
+**Use When:** You want simplicity, separation of concerns, and maintainability—especially good for teams with limited architectural experience.
+**Potential Merge:** Related to Client-Server due to the tiered communication, but distinct in layer enforcement.
+
+
+### ✅ **2. Event-Driven Architecture Pattern**
+**Definition:** Components (event processors) asynchronously communicate through events.
+**Example:** E-commerce sites reacting to user interactions (e.g., order placed → inventory updated → shipping triggered).
+**Use When:** Asynchronous, decoupled, real-time interaction is important.
+**Potential Merge:** Shares traits with Microservices (especially in event orchestration), but is broader in scope.
+
+
+### ✅ **3. Microkernel Architecture Pattern**
+**Definition:** A minimal core system with plug-in modules to add functionality.
+**Example:** A task scheduler where the microkernel handles scheduling, and plug-ins define specific tasks.
+**Use When:** Systems need a stable core and evolving peripheral features.
+**Potential Merge:** Conceptually overlaps with Microservices in terms of modularity, but with a stronger emphasis on a single extensible platform.
+
+
+### ✅ **4. Microservices Architecture Pattern**
+**Definition:** Small, independently deployable services focused on specific business functionality.
+**Example:** Netflix—hundreds of independent services for playback, recommendations, billing, etc.
+**Use When:** You need scalability, decentralized development, or rapid iteration.
+**Potential Merge:** Often paired with Event-Driven and shares modularity with Microkernel.
+
+
+
+### ✅ **5. Space-Based Architecture Pattern**
+**Definition:** Built around the concept of **tuple space** (distributed shared memory). Consists of processing units and a middleware managing data and requests.
+**Example:** Online auction systems that must handle concurrency and high loads.
+**Use When:** You expect high volume, high concurrency, and scaling challenges.
+**Better Name?** Consider **“Distributed Memory Pattern”**, **“Grid-Based Architecture”**, or **“Scalable Cache-Based Architecture”** to better reflect the mechanism and purpose.
+
+
+### ✅ **6. Client-Server Pattern**
+**Definition:** The client requests services from a centralized server.
+**Example:** Email services, web browsers connecting to web servers.
+**Use When:** You need centralized control with distributed access.
+**Potential Merge:** Shares structural similarities with Layered Pattern but focuses on runtime interaction, not strict tier separation.
+
+
+### ✅ **7. Master-Slave Pattern**
+**Definition:** Master divides work among slaves, which execute in parallel and report back.
+**Example:** Database replication, parallel computation (e.g., matrix operations).
+**Use When:** You need high performance via task parallelism.
+**Potential Merge:** Somewhat overlaps with Pipe-Filter in linear processing, but Pipe-Filter is more about data transformation than parallel task delegation.
+
+
+### ✅ **8. Pipe-Filter Pattern**
+**Definition:** Data is transformed sequentially through a chain of filters.
+**Example:** Compilers (lexing → parsing → optimization → code generation).
+**Use When:** You need modular, stream-based data processing (ETL pipelines, Unix shell).
+**Potential Merge:** None directly, though visually and architecturally resembles chained microservices or event flows.
+
+
+### 🧩 Patterns That Could Be Merged or Grouped
+| Merge Suggestion | Why |
+|------------------|-----|
+| **Layered + Client-Server** | Both follow a logical separation of responsibilities and hierarchical communication. |
+| **Microkernel + Microservices** | Both emphasize modularity and extensibility, but Microkernel is platform-centric. |
+| **Microservices + Event-Driven** | Commonly co-used: event-driven infrastructure supports decoupled microservices. |
+| **Pipe-Filter + Master-Slave** | Can resemble each other in some data processing systems, but differ in control flow and purpose. |
+
+Would you like a visual grouping or Venn-style summary of the pattern similarities next?
 
 
 | Name of Pattern        | Agility                                      | Ease of Deployment                                                              | Testability                                                                 | Performance                                                                 | Scalability                                | Ease of Development                                                                 |
@@ -34,9 +104,65 @@
 | Master-Slave Pattern   | LOW - Some tasks are difficult to partition  | HIGH - Slave components makes deployment easy                                   | HIGH - Parallel test execution allows ease of testing                         | HIGH - Division of task makes performance smooth                                 | HIGH - Highly scalable                     | HIGH - Multiple smaller components eases the development process                             |
 | Pipe-Filter Pattern    | HIGH - The parallel processing speeds up time-intensive processes and improves overall throughput | HIGH - Each filter can be deployed separately                                | HIGH - Each component can be tested in isolation                             | LOW - Performance would decrease with each additional filter in the pipeline         | HIGH - Each filter is scalable             | HIGH - Prototyping makes it easy to develop                                                |
 
+## Applying Patterns To  Edge Computing
 
-## Pattern Evolution
 
+### 🌐 **Edge Computing (Definition)**
+
+**Edge computing** is a distributed computing model where **data processing and storage occur close to the physical location** where it's generated — such as on devices, local servers, or edge data centers — instead of relying solely on a central cloud.
+
+Think of edge computing as "bringing the cloud closer to where the action happens.
+
+
+### 🧠 Why It Matters
+
+The goal of edge computing is to:
+- **Reduce latency** (faster response times)
+- **Save bandwidth** (less data sent to the cloud)
+- **Increase reliability** (local fallback when network is slow or offline)
+- **Enable real-time processing** (critical for things like autonomous vehicles, smart cameras, etc.)
+
+
+### 🛠️ Example Use Cases
+| Use Case                | How Edge Helps                                         |
+|-------------------------|--------------------------------------------------------|
+| **Self-driving cars**   | Process sensor data instantly to make driving decisions. |
+| **Smart cameras**       | Analyze video locally for motion or face detection.     |
+| **Retail stores**       | Track inventory and customer behavior in real time.     |
+| **Industrial IoT**      | Monitor and react to factory machinery conditions.      |
+
+
+### 📍 Edge vs. Cloud
+
+| Feature       | Edge Computing                 | Cloud Computing              |
+|---------------|--------------------------------|------------------------------|
+| **Location**  | Near the data source           | Centralized data centers     |
+| **Latency**   | Very low                       | Higher                       |
+| **Reliability** | High (local fallback possible) | Depends on internet         |
+| **Cost**      | Saves on bandwidth costs       | May incur ongoing network costs |
+
+
+### 🔍 Where Edge Computing Fits Among the 8 Patterns
+
+| Pattern               | Can it be used with Edge? | Why / How                                                   |
+|-----------------------|----------------------------|--------------------------------------------------------------|
+| **Layered**           | 🚫 Rarely                  | Typically central-server-based; not edge-optimized.         |
+| **Event-Driven**      | ✅ Absolutely              | Edge nodes can emit/respond to events (e.g., IoT triggers). |
+| **Microkernel**       | 🤏 Occasionally           | Edge plug-ins are possible but less common.                 |
+| **Microservices**     | ✅ Frequently              | Microservices can run at edge nodes for localization.       |
+| **Space-Based**       | ✅ Naturally               | Distributed memory/grid systems are well-suited to the edge.|
+| **Client-Server**     | 🚫 Not directly            | Server is centralized; client is passive.                   |
+| **Master-Slave**      | 🤏 Rarely                 | Edge use is limited unless slaves are deployed edge-side.   |
+| **Pipe-Filter**       | ✅ Sometimes               | Filters could run on edge devices (e.g., streaming pipelines).|
+
+
+### 🔧 Best Fit Patterns for Edge Computing
+
+1. **Space-Based** — because it’s inherently about distributing processing and storage across nodes, which aligns closely with edge/CDN strategies.
+2. **Event-Driven** — since edge devices often react to local events (e.g., sensors, users).
+3. **Microservices** — due to the loosely-coupled nature of services that can be deployed selectively on the edge.
+
+## Some Pattern Evolution
 
 ### 🕰️ **Then: LAMP & MEAN (Classic Layered Architectures)**
 
