@@ -38,6 +38,11 @@
 **Use When:** Asynchronous, decoupled, real-time interaction is important.
 **Potential Merge:** Shares traits with Microservices (especially in event orchestration), but is broader in scope.
 
+- May implement another common pattern called **subject-observer** or **publish-subscribe**.
+  - Loose co-ordination better different parts of the code
+  - Every registered  listener has a loop that goes to some notice board looking for events
+  - All the listeners loop independently.
+  - IF anyone sees anything they like, they react.
 
 ### ✅ **3. Microkernel Architecture Pattern**
 **Definition:** A minimal core system with plug-in modules to add functionality.
@@ -69,8 +74,8 @@
 **Potential Merge:** Shares structural similarities with Layered Pattern but focuses on runtime interaction, not strict tier separation.
 
 
-### ✅ **7. Master-Slave Pattern**
-**Definition:** Master divides work among slaves, which execute in parallel and report back.
+### ✅ **7. Manager-Agent Pattern**
+**Definition:** Manager divides work among agents, which execute in parallel and report back.
 **Example:** Database replication, parallel computation (e.g., matrix operations).
 **Use When:** You need high performance via task parallelism.
 **Potential Merge:** Somewhat overlaps with Pipe-Filter in linear processing, but Pipe-Filter is more about data transformation than parallel task delegation.
@@ -89,7 +94,7 @@
 | **Layered + Client-Server** | Both follow a logical separation of responsibilities and hierarchical communication. |
 | **Microkernel + Microservices** | Both emphasize modularity and extensibility, but Microkernel is platform-centric. |
 | **Microservices + Event-Driven** | Commonly co-used: event-driven infrastructure supports decoupled microservices. |
-| **Pipe-Filter + Master-Slave** | Can resemble each other in some data processing systems, but differ in control flow and purpose. |
+| **Pipe-Filter + Manager-Agent** | Can resemble each other in some data processing systems, but differ in control flow and purpose. |
 
 Would you like a visual grouping or Venn-style summary of the pattern similarities next?
 
@@ -102,7 +107,7 @@ Would you like a visual grouping or Venn-style summary of the pattern similariti
 | Microservices Pattern  | HIGH - Loosely-coupled pattern makes it easy | HIGH - Services are deployed as separate units of software                      | HIGH - Isolation of business functionality supports mocking and makes testing easy | LOW - Distributed nature of the pattern makes it slow                         | HIGH - Highly scalable                     | HIGH - Smaller and isolated scope makes development easy                                  |
 | Spaced-Based Pattern   | HIGH - Small app size makes changes easy     | HIGH - Cloud-based tools allow easy deployment to servers                        | LOW - High user loads in the test environment make it time consuming and expensive | HIGH - In-memory data access and caching mechanism make apps faster            | HIGH - Highly scalable                     | LOW - Sophisticated caching and an in-memory data grid makes it complex to develop         |
 | Client-Server Pattern  | LOW - Changes cannot be done in larger applications | HIGH - Cost-effective UI, data storage, connectivity, and reliable app services make it easy to deploy | HIGH - Easy to test since errors are identified independent of implementation | HIGH - App performance is constant after scaling                              | HIGH - Highly scalable                     | HIGH - Set of shared resources and services makes it easy to develop                       |
-| Master-Slave Pattern   | LOW - Some tasks are difficult to partition  | HIGH - Slave components makes deployment easy                                   | HIGH - Parallel test execution allows ease of testing                         | HIGH - Division of task makes performance smooth                                 | HIGH - Highly scalable                     | HIGH - Multiple smaller components eases the development process                             |
+| Manager-Agent Pattern   | LOW - Some tasks are difficult to partition  | HIGH - Slave components makes deployment easy                                   | HIGH - Parallel test execution allows ease of testing                         | HIGH - Division of task makes performance smooth                                 | HIGH - Highly scalable                     | HIGH - Multiple smaller components eases the development process                             |
 | Pipe-Filter Pattern    | HIGH - The parallel processing speeds up time-intensive processes and improves overall throughput | HIGH - Each filter can be deployed separately                                | HIGH - Each component can be tested in isolation                             | LOW - Performance would decrease with each additional filter in the pipeline         | HIGH - Each filter is scalable             | HIGH - Prototyping makes it easy to develop                                                |
 
 ## Applying Patterns To  Edge Computing
@@ -153,7 +158,7 @@ The goal of edge computing is to:
 | **Microservices**     | ✅ Frequently              | Microservices can run at edge nodes for localization.       |
 | **Space-Based**       | ✅ Naturally               | Distributed memory/grid systems are well-suited to the edge.|
 | **Client-Server**     | 🚫 Not directly            | Server is centralized; client is passive.                   |
-| **Master-Slave**      | 🤏 Rarely                 | Edge use is limited unless slaves are deployed edge-side.   |
+| **Manager-Agent**      | 🤏 Rarely                 | Edge use is limited unless agents are deployed edge-side.   |
 | **Pipe-Filter**       | ✅ Sometimes               | Filters could run on edge devices (e.g., streaming pipelines).|
 
 
@@ -241,5 +246,21 @@ Here are some of  major patterns in practice:
 | LAMP      | Jamstack + Serverless       | From server-rendered to API + static site |
 | MEAN      | Microservices + Serverless  | From monolith to decoupled services       |
 | MVC       | Micro-Frontends             | From unified frontend to modular UI       |
+
+
+---
+
+## ✅ Review Questions 
+
+1. **What are the core responsibilities of the layered architecture pattern, and how does it support separation of concerns?**
+2. **How does the event-driven pattern use publish-subscribe to achieve loose coupling?**
+3. **Compare microkernel and microservices architecture patterns—how are they similar, and how are they different?**
+4. **Which patterns are most suitable for edge computing applications, and why?**
+5. **How does the pipe-filter pattern differ from the manager-agent pattern in terms of control flow and transformation?**
+6. **What role does the space-based pattern play in supporting scalability and performance under heavy load?**
+7. **Which traditional architecture patterns (e.g., LAMP, MEAN) align with the layered approach, and how have they evolved?**
+8. **Why might testing be more difficult in event-driven or space-based systems compared to layered or microkernel architectures?**
+9. **How do hybrid rendering models combine layered and serverless ideas for modern web architectures?**
+
 
 
