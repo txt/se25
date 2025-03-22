@@ -94,4 +94,7 @@
 #### 📊 Mistake Rate:
 - About **23%** of students (12 out of 52) described general early bug benefits without linking to **analytics implications**.
 
+#### ‼️ Important note:
+- Early bird has been reported by me and mys tudents. It has **not** been confirmed by an independent source.
+
 
