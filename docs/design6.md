@@ -23,7 +23,10 @@
 
 
 
-Analysis of response to Quiz Mar 21.
+# Analysis of response to Quiz Mar 21.
+
+![image](https://github.com/user-attachments/assets/3c34b2c0-a61b-4877-9b47-3bebe0f39194)
+
 
 
 ### **Question 1:**  
