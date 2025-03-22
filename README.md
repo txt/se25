@@ -128,7 +128,8 @@
       <a href="/docs/design2.md">Design2</a><br>
       <a href="/docs/design4.md">Design4</a> (<a
       href="https://ncsu.zoom.us/rec/share/R1pvnOA677vqrvjZvdTGRZz9Gky3l7q0xF9TLaI0XeTaWvXjl8nVIO1AA6wmXMgt.N6hDzx56zN41D3oJ Passcode: 8Characters!">Video</a>)<br>
-      <a href="/docs/design5.md">Design5</a> 
+      <a href="/docs/design5.md">Design5</a> <br>
+      <a href="/docs/design6.md">Design6</a>
       </td>
       <td>
            Thurs: <a href="docs/hw04.md">Hw4: Script wizard</a>
