@@ -52,6 +52,7 @@
 **Use When:** You need scalability, decentralized development, or rapid iteration.
 **Potential Merge:** Often paired with Event-Driven and shares modularity with Microkernel.
 
+![image](https://github.com/user-attachments/assets/a1f92b32-4f0e-4bf3-b197-03cc9df4b3ed)
 
 
 ### ✅ **5. Space-Based Architecture Pattern**
