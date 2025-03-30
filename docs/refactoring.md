@@ -24,6 +24,7 @@
 
 # Refactoring Glossary
 
+
 ## Refactoring Techniques
 - Refactoring  
 - Extract Method  
@@ -35,7 +36,6 @@
 - Remove Flag  
 - Replace Conditional with Polymorphism  
 - Remove Dead Code  
-- Self Encapsulate Field *(only mentioned via external link)*
 
 ## Refactoring Practices
 - Refactoring Practice  
@@ -46,13 +46,6 @@
 - Testing  
 - Regression Testing  
 - Unit Testing  
-
-## Historical Background
-- Griswold and Notkin  
-- Opdyke and Johnson  
-- Restructure Tool  
-- Martin Fowler  
-- Kent Beck  
 
 ## Code Smells
 - Code Smells  
