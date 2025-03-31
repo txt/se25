@@ -206,7 +206,10 @@
     </tr>
     <tr>
       <td>Mar31</td>  
-        <td><a href="https://softengbook.org/chapter9">Refactor1</a></td>
+        <td><a href="https://softengbook.org/chapter9">Refactor1</a><br>
+        <a href="/docs/refactor2.md">Refactor2</a><br>
+              <a href="/docs/refactor3.md">Refactor3</a>
+        </td>
       <td></td>
       <td></td>
       <td></td>
