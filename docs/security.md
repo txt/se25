@@ -37,21 +37,21 @@
 
 
 ```
-@misc{nordlayer\_security\_practices,
-    author \= {NordLayer},
-    title \= {Software Development Security Best Practices},
-    year \= {2023},
-    howpublished \= {\\url{https://nordlayer.com/blog/software-development-security-best-practices/}},
-    note \= {Accessed: 2025-01-11} }
+@misc{nordlayer_security_practices,
+    author = {NordLayer},
+    title  = {Software Development Security Best Practices},
+    year   = {2023},
+    howpublished = {url{https://nordlayer.com/blog/software-development-security-best-practices/}},
+    note  = {Accessed: 2025-01-11} }
 
-@article{arxiv\_secure\_supply\_chain,
-    author \= {Anonymous},
-    title \= {S3C2 Summit 2023-11: Industry Secure Supply Chain Summit},
-    year \= {2024},
-    month \= {August},
-    journal \= {arXiv preprint arXiv:2408.16529},
-    url \= {https://arxiv.org/pdf/2408.16529},
-    note \= {Accessed: 2025-01-11} }
+@article{arxiv_secure_supply_chain,
+    author  = {Anonymous},
+    title   = {S3C2 Summit 2023-11: Industry Secure Supply Chain Summit},
+    year    = {2024},
+    month   = {August},
+    journal = {arXiv preprint arXiv:2408.16529},
+    url     = {https://arxiv.org/pdf/2408.16529},
+    note    = {Accessed: 2025-01-11} }
 ```
 
 ## Secure Code Reviews: A Developer's Guide
