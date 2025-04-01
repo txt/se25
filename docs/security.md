@@ -25,6 +25,53 @@
 
 # Security 101
 
+## Glossary (words to watch for)
+
+- Practices
+  - Static Application Security Testing (SAST)
+  - Threat Modeling
+  - Secure Code Review
+  - Dependency Scanning
+  - Code Signing 
+  - Access Control
+  - Security Audits
+  - Secure Programming Language Adoption 
+
+- Tools
+  - SonarQube
+  - Checkmarx
+  - OWASP Threat Dragon
+  - Dependabot
+  - Snyk
+  - GPG
+  - SSH Keys
+  - Terraform
+  - Ansible
+
+- Concepts
+  - CI/CD Pipeline
+  - Design Phase
+  - Peer Review
+  - Third-Party Component Management
+  - Vendor Assessment
+  - Audit Logging
+  - Role-Based Access Control (RBAC)
+  - Security Assessment
+  - Memory Safety
+
+- Metrics
+  - Vulnerabilities Detected
+  - Vulnerabilities Resolved
+  - Codebase Coverage
+  - Frequency of Threat Modeling
+  - Security Incidents
+  - Time to Patch
+  - Unauthorized Access Attempts
+  - Access Control Violations
+  - Security Audit Feedback
+
+
+## Guidelines
 
 | Why | How (Process) | What (Resources) | Metrics |
 | ----- | ----- | ----- | ----- |
