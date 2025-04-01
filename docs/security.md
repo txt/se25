@@ -83,5 +83,14 @@
 - Track security bugs over time to improve processes and prioritize fixes.
 - Balancing Security and Functionality: Security should support, not block, functionality. Work with teams to make protection practical.
 
+## Review Questions
+
+1. What is the primary goal of integrating Static Application Security Testing (SAST) into the CI/CD pipeline?
+2. Name two SAST tools mentioned in the document and describe their general use.
+3. At what stage of the software development lifecycle should threat modeling ideally be performed? Why? 
+4. What is the purpose of conducting secure code reviews during development?
+5. What types of metrics are used to evaluate the effectiveness of SAST?
+6. What internal metrics are suggested for assessing secure coding practices?
+ 
  
 
