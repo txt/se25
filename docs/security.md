@@ -39,3 +39,34 @@
 @misc{nordlayer\_security\_practices, author \= {NordLayer}, title \= {Software Development Security Best Practices}, year \= {2023}, howpublished \= {\\url{https://nordlayer.com/blog/software-development-security-best-practices/}}, note \= {Accessed: 2025-01-11} } @article{arxiv\_secure\_supply\_chain, author \= {Anonymous}, title \= {S3C2 Summit 2023-11: Industry Secure Supply Chain Summit}, year \= {2024}, month \= {August}, journal \= {arXiv preprint arXiv:2408.16529}, url \= {https://arxiv.org/pdf/2408.16529}, note \= {Accessed: 2025-01-11} }
 
 
+## Secure Code Reviews: A Developer's Guide
+
+### Preparing for Secure Code Reviews
+
+1. **Size of the Code Change** – Keep pull requests small and focused to simplify review and reduce the chance of missing issues.
+2. **Documentation** – Include clear descriptions of what changed and why. This helps reviewers follow the logic and spot flaws.
+3. **Testing** – Ensure unit and security tests are in place and passing. Test coverage builds trust in the change.
+4. **Formatting and Linting** – Use automated tools to enforce consistent style and catch basic issues early.
+5. **Static Analysis** – Run static analysis and security scans before review to catch common problems automatically.
+6. **Shift Left** – Integrate security early—during development—not just before deployment.
+
+### 10-Point Checklist for Code Security Flaws
+
+1. **Input Validation Issues** – always validate and sanitize user inputs to prevent injection and malformed data errors.  
+2. **Authentication and Authorization Flaws** – enforce strong authentication and limit access based on roles or permissions.  
+3. **Data Encryption and Secure Communication** – use HTTPS and encrypt sensitive data both in transit and at rest.  
+4. **Exception Handling and Logging** – avoid exposing stack traces or secrets in errors or logs. Secure your logs.  
+5. **Dependency Management** – regularly update third-party libraries and remove unused or risky packages.  
+6. **API and Integration Points** – validate all API input/output, secure API keys, and limit API exposure.  
+7. **CSRF Protections** – protect state-changing actions with CSRF tokens and confirm user intent.  
+8. **Server-Side Code Execution** – avoid executing user-controlled input on the server without strict validation.  
+9. **Business Logic Errors** – review logic flows and edge cases to avoid exploitable behavior.  
+10. **Code Quality and Best Practices** – write clean, modular, and well-documented code to reduce hidden risks.  
+
+## After the review
+
+- Track security bugs over time to improve processes and prioritize fixes.
+- Balancing Security and Functionality: Security should support, not block, functionality. Work with teams to make protection practical.
+
+ 
+
