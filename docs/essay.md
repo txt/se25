@@ -115,7 +115,7 @@ Your answer must cover, at the very least:
 |2 |PROBLEM DEFINITION | +1 if it states the problem and +1 more if does it well; e.g. Situates current problem in broader content|
 |2 | GATHER RELEVANT FACTS | +1 if it gather assess relevant facts and +1 more if does it well; e.g. Extensive literature review |
 |2 | IDENTIFY STAKEHOLDERS | +1 if it identifies the stakeholders and +1 more if does it well; e.g. show how stockholder requirements can be contradictory|
-|5 | LIST OF 5 OPTIONS | +5 if it develops a list of iat least five options |
+|5 | LIST OF 5 SOFTWARE-BASED OPTIONS | +5 if it develops a list of iat least five options |
 |3 | SOFTWARE DESIGN | +2 of some of those options need to includes a redesign for a better version of the software where the better software mitigates some of the issues discussed by the original software. And +1 more if it does it well; e.g. clever design|
 |4 | TESTING | 2 if it tests options using criteria like  harm, publicity, defensibility, reversibility, virtue, colleague, professional, organizational test ([see guidance](https://github.com/txt/se20/blob/master/etc/img/12steps.png)) And 2 more if it does it well; e.g. writes extensively insightful notes on three or more of the tests |
 |2 | CHOICE | +1 if tentative choice and +1  if final Choice |
