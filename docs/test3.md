@@ -1,10 +1,33 @@
-asda
+<p><a name=top> </a>&nbsp;</p>
+<p align=center>
+    <a
+    href="/README.md#top"><img
+    src="https://img.shields.io/badge/Home-%23ff5733?style=for-the-badge&logo=home&logoColor=white"></a> <a
+    href="/docs/syllabus.md#top"><img
+    src="https://img.shields.io/badge/Syllabus-%230055ff?style=for-the-badge&logo=openai&logoColor=white"></a> <a
+    href="https://docs.google.com/spreadsheets/d/1Jlx-BBsvVqmWhW1L9Fz6u18vPSjGXj1i/edit?usp=sharing&ouid=110996670184359055145&rtpof=true&sd=true"><img
+    src="https://img.shields.io/badge/Groups-%23ffd700?style=for-the-badge&logo=users&logoColor=white"></a> <a
+    href="https://moodle-courses2425.wolfware.ncsu.edu/course/view.php?id=7150"><img
+    src="https://img.shields.io/badge/Moodle-%23dc143c?style=for-the-badge&logo=moodle&logoColor=white"></a> <a
+    href="https://discord.gg/whDXzJGP"><img
+    src="https://img.shields.io/badge/Discord-%23008080?style=for-the-badge&logo=discord&logoColor=white"></a> <a
+    href="https://ncsu.hosted.panopto.com/Panopto/Pages/Sessions/List.aspx?folderID=958aa5e8-f99e-441f-a545-b26400dfe515"><img
+    src="https://img.shields.io/badge/Videos-%23ffa500?style=for-the-badge&logo=youtube&logoColor=white"></a> <a
+    href="/LICENSE.md"><img
+    src="https://img.shields.io/badge/(c)%20Tim%20Menzies,%202025-%234b4b4b?style=for-the-badge&logoColor=white"></a>
+    <br>&nbsp;<br>
+    <img width=200 src="/img/banner2.png">
+</p>
+<h1 align="center">:cyclone:&nbsp;CSC510: Software Engineering<br>NC&nbsp;State, Spring&nbsp;'25</h1>
+      
 
 
 
 # Testing
 
+
 ## Glossary
+
 
 - Testing Concepts
   - Testing
@@ -24,11 +47,13 @@ asda
     - Fault
     - Failure
 
+
 - Requirements
   - Functional Requirements
   - Non-Functional Requirements
   - Stakeholders
   - Multi-Stakeholder Systems
+
 
 - Software Quality Attributes ("-ilities")
   - Maintainability
@@ -46,6 +71,7 @@ asda
   - Data Integrity
   - Usability
   - Interoperability
+
 
 - Test Strategies
   - Test-Driven Development (TDD)
@@ -67,6 +93,7 @@ asda
       - Coverage-Guided Fuzzing
       - Example Mining for Grammar Weights
 
+
 - White-Box Testing
   - Statement Coverage
   - Function Coverage
@@ -76,6 +103,7 @@ asda
     - Abstract Syntax Tree (AST)
     - Constraint Solving
 
+
 - Formal Methods
   - Temporal Logic
     - Always ([]), Eventually (<>), Until (U)
@@ -84,6 +112,7 @@ asda
   - CNF (Conjunctive Normal Form)
   - Pycosat
   - DIMACS Format
+
 
 - Product Lines and Feature Models
   - Feature Model
@@ -95,6 +124,7 @@ asda
 
 
 ## Quotes
+
 
 - f u cn rd ths, u cn gt a gd jb n sftwr tstng.<br>
   - Anonymous
@@ -111,7 +141,9 @@ asda
   detective and the murderer.
   - Anon
 
+
 ## Why test?
+
 
 - Check some code
 - Re-check some code (regression testing; has anything new broken  anything old)?
@@ -129,7 +161,9 @@ asda
         - "good" if parents can track their children
         - "good" if students  can maintain their privacy
 
+
 <img width=600px src="tradeoff.jpeg">
+
 
 - Examples non-functional
   - For "maintainability?"
@@ -146,11 +180,15 @@ asda
     Interoperability
   - And the list goes one and on and on
 
+
 <img width=500px  src="https://khalilstemmler.com/img/blog/object-oriented/analysis/non-functional-requirements/non-functional-requirements-map.png">
+
 
 ## V-Diagram
 
+
 <img width=400px  src="v.jpg">
+
 
 - verification = are we building the system right?
 - validation = are we building the right system?
@@ -177,34 +215,46 @@ asda
 
 ## Fault vs Failure
 
+
 **Fault:** as an incorrect step, process, or data definition in a program.
+
 
 - different to **failure** (when something actually goes wrongs)
 - a program may have many faults, but never fail
+
 
 Reliability engineers  propose shipping software once the expected
 number of pre-release faults fall below a certain threshold. This
 ap proach assumes the causal model:
 
+
 pre-release faults →post-release failures
+
 
 Using data from real-world projects, Fenton & Neil report many
 examples of few pre-release faults but many post-release failures.
 
+
 <img src="faultures.png" width=500>
+
 
 To reconcile this anomaly, they expand the above simple causal model
 to incorpo-rate factors like system usage, defect detection, and
 design e!ort.
 
+
 This revised model (shown at right) shows how (e.g.) systems with
 no testing could exhibit few faults but many failures.
 
+
 <img src="net.png" width=500>
+
 
 <img src="whatif.png" width=500>
 
+
 ## Test-drive development
+
 
 - Write tests first (which will instantly fail, since there is no code yet)
 - Then, write code to fix the  failing tests
@@ -229,13 +279,18 @@ no testing could exhibit few faults but many failures.
   - Maybe TDD's "success" was just  that it happened at the same time that everyone stopped doing "C" and started using more
     interactive incremental development tools (e.g. Pyhton)
 
+
 ## Large Test Suites: Test Case Prioriization
+
 
 Regression testing:
 
+
 - Regression testing is re-running functional and non-functional tests to ensure that previously developed and tested software still performs as expected
 
+
 But for very large test suites, cannot retest everything. What to do? Test selectively:
+
 
 - Some input clusters relate to new functionality
   - The Elbaum heuristic from Elbaum, Rothermel, and Penix. 
@@ -245,7 +300,6 @@ But for very large test suites, cannot retest everything. What to do? Test selec
 - For a survey of other ordering heuristics, see  Ling, Xiao, Rishabh Agrawal, and Tim Menzies. [How different is test case prioritization for open and closed source projects?.](https://arxiv.org/pdf/2008.00612)
     IEEE Transactions on Software Engineering 48.7 (2021): 2526-2540.
   - strange to say: good test case orderings are different for open source projects  and in-house projects.
-
 
 
 ## Black-box testing 
@@ -259,7 +313,9 @@ But for very large test suites, cannot retest everything. What to do? Test selec
 - Assumes no internal knowledge of the code
   - e.g. throw random input the code, looking for a core dump
 
+
 ### Smart black box testing: Metamorphic Testing
+
 
   - use domain knowledge. **Metamorphic testing**
     - How to test with an oracle for the specifics of the domain?
@@ -275,7 +331,9 @@ But for very large test suites, cannot retest everything. What to do? Test selec
       - e.g. A wonderful metamorphic testing result:  Z. Q. Zhou, T. H. Tse and M. Witheridge,
         [Metamorphic Robustness Testing: Exposing Hidden Defects in Citation Statistics and Journal Impact Factors](https://www.cs.hku.hk/data/techreps/document/TR-2019-03.pdf) in IEEE Transactions on Software Engineering, doi: 10.1109/TSE.2019.2915065.
 
+
 ### Smart black box testing: Diversity Sampling
+
 
   - **Diversity sampling:** each new test should be far way from the one before
     - e.g. all-pairs testing. No new test can mention any pair  x=v1 and y=v2 seen in prior tests.
@@ -285,6 +343,7 @@ But for very large test suites, cannot retest everything. What to do? Test selec
       produces the following ("0" means "don't care")
     - note that is 68 tests, not  2\*2\*\7\*10 = 570 tests (and for larger input spaces, all-pairs offers even more 
        [dramatic reductions](https://github.com/jaccz/pairwise/blob/main/efficiency.md)).
+
 
 ```lisp
 (ipo '(2 2 2 7 10)) ; ==>
@@ -315,9 +374,12 @@ But for very large test suites, cannot retest everything. What to do? Test selec
  (0 0 0 1 4) (0 0 0 1 3) (0 0 0 1 2))
 ```
 
+
 ### Smart black box testing: Fault Localization
 
+
 <img align=right src="yellow.png" width="250px">
+
 
 - cluster the input space and only sample the "important" parts
 - but what does "importance" mean?
@@ -327,15 +389,20 @@ But for very large test suites, cannot retest everything. What to do? Test selec
     - on each node, keep counters of passes and fails 
     - somehow aggregate those counters into a visualization
 
+
 <img src="tarantula.png" width="600px">
 
+
 For more on test failure localization, , see Jones JA, Harrold MJ, Stasko J. Visualization of test information to assist fault localization. Proceedings of the 24th International Conference on Software Engineering. ACM, Orlando, Florida, 2002; 467–477.
+
 
 - the branch weighting heuristics proposed by Jones et al. have been (exteslively)
   explored by others. For a small sample of that work, see Sarhan, Qusay Idrees, and Árpád Beszédes. "A survey of challenges in spectrum-based software fault localization." IEEE Access 10 (2022): 10618-10639.
 - for a review of other fault localization heuristics, see Zakari, Abubakar, et al. "Multiple fault localization of software programs: A systematic literature review." Information and Software Technology 124 (2020): 106312.
 
+
 ### Smart black box testing: Doodling
+
 
   - doodle a model (at which point your "black-box" becomes kind of a guess at "white-box" reasoning, see below)
     - Read the doc
@@ -344,7 +411,9 @@ For more on test failure localization, , see Jones JA, Harrold MJ, Stasko J. Vis
       - Run you finger over the lines and say "what do i expect to see here" <br> 
       <img width=500 src="drawn.jpg">
 
+
 ### Smart black box testing: Fuzzing
+
 
   - a structured approach to "throw stuff at random" at the program.
   - Barton Miller, University of Wisconsin in 1988.  Throw random cr\*p at a program till it crashed (brute force mutation)
@@ -359,6 +428,7 @@ For more on test failure localization, , see Jones JA, Harrold MJ, Stasko J. Vis
     - Generate from tree
       - Generational fuzzing
 
+
 ```python
 US_PHONE_GRAMMAR = {
      "<start>": ["<phone-number>"],
@@ -369,6 +439,7 @@ US_PHONE_GRAMMAR = {
      "<lead-digit>": ["2", "3", "4", "5", "6", "7", "8", "9"],
      "<digit>": ["0", "1", "2", "3", "4", "5", "6", "7", "8", "9"]
 }
+
 
 [simple_grammar_fuzzer(US_PHONE_GRAMMAR) for i in range(5)]
 ['(692)449-5179',
@@ -394,6 +465,7 @@ def mutate(s):
     # print(mutator)
     return mutator(s)
 
+
 for i in range(10):
     print(repr(mutate("A quick brown fox")))
 
@@ -410,9 +482,11 @@ for i in range(10):
 'A quick brownfox'
 ```
 
+
   - Smart fuzzing #3: coverage:
      - Track parts of the grammar seen so far
      - Fuzz to some new place (fuzzing meets diversity sampling)
+
 
   - Smart fuzzing #4: mining examples to weight crammers:
     - Take a library of good examples
@@ -422,6 +496,7 @@ for i in range(10):
         - If weight = random then generational fuzzing
         - If select to prefer min weights, then coverage fuzzing
       - Recurs into sub tree.
+
 
 ##  Whitebox Testing
 
@@ -544,8 +619,6 @@ Recent experience at Amazon:
       - now economically feasible to build the tools needed to verify them
   - Which means that we have enough information to auto-configure our formal methods
     - and the size of the potential user community and the business value now justifies the cost of formal methods.
-
-
 
 
 ## "Testing" and Product Lines and Formal Methods
@@ -685,22 +758,34 @@ iSure! Here are 10 review questions based on the material in your document, desi
 
 ## 🔍 **Review Questions**
 
+
 1. What is the difference between *verification* and *validation* in the context of the V-Diagram?
+
 
 2. Explain the core steps of Test-Driven Development (TDD) and summarize one reason why its effectiveness is debated.
 
+
 3. List and briefly describe three types of non-functional requirements that can be difficult to test.
+
 
 4. Why might a program with many faults never fail in practice, according to reliability engineering insights?
 
+
 5. How does metamorphic testing help address the oracle problem in black-box testing?
+
 
 6. What is the purpose of diversity sampling in test generation, and how does all-pairs testing achieve this?
 
+
 7. Contrast black-box testing with white-box testing by listing at least two key differences.
+
 
 8. Describe how symbolic execution can improve the efficiency of white-box testing.
 
+
 9. What are some challenges associated with adopting formal methods in industry, and how has Amazon addressed some of them?
 
+
 10. In feature modeling for product lines, what role do theorem provers like Pycosat play, and how can they be used to optimize software installations?
+
+
