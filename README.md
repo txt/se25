@@ -197,7 +197,8 @@
         <td>
           Mon: <a href="https://softengbook.org/chapter8">Testing1</a><br>
           Wed: <a href="/docs/test2.md">Testing2</a><br>
-          Wed: <a href="/docs/test3.md">Testing3</a>
+          Wed: <a href="/docs/test3.md">Testing3</a><br>
+          Wed: <a href="/docs/test5.md">Testing5</a>
         </td>
       <td></td>
       <td></td>
