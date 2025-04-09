@@ -1,12 +1,39 @@
-asdas
+<p><a name=top> </a>&nbsp;</p>
+<p align=center>
+    <a
+    href="/README.md#top"><img
+    src="https://img.shields.io/badge/Home-%23ff5733?style=for-the-badge&logo=home&logoColor=white"></a> <a
+    href="/docs/syllabus.md#top"><img
+    src="https://img.shields.io/badge/Syllabus-%230055ff?style=for-the-badge&logo=openai&logoColor=white"></a> <a
+    href="https://docs.google.com/spreadsheets/d/1Jlx-BBsvVqmWhW1L9Fz6u18vPSjGXj1i/edit?usp=sharing&ouid=110996670184359055145&rtpof=true&sd=true"><img
+    src="https://img.shields.io/badge/Groups-%23ffd700?style=for-the-badge&logo=users&logoColor=white"></a> <a
+    href="https://moodle-courses2425.wolfware.ncsu.edu/course/view.php?id=7150"><img
+    src="https://img.shields.io/badge/Moodle-%23dc143c?style=for-the-badge&logo=moodle&logoColor=white"></a> <a
+    href="https://discord.gg/whDXzJGP"><img
+    src="https://img.shields.io/badge/Discord-%23008080?style=for-the-badge&logo=discord&logoColor=white"></a> <a
+    href="https://ncsu.hosted.panopto.com/Panopto/Pages/Sessions/List.aspx?folderID=958aa5e8-f99e-441f-a545-b26400dfe515"><img
+    src="https://img.shields.io/badge/Videos-%23ffa500?style=for-the-badge&logo=youtube&logoColor=white"></a> <a
+    href="/LICENSE.md"><img
+    src="https://img.shields.io/badge/(c)%20Tim%20Menzies,%202025-%234b4b4b?style=for-the-badge&logoColor=white"></a>
+    <br>&nbsp;<br>
+    <img width=200 src="/img/banner2.png">
+</p>
+<h1 align="center">:cyclone:&nbsp;CSC510: Software Engineering<br>NC&nbsp;State, Spring&nbsp;'25</h1>
+      
+
+
 
 ### Lecture: Better Automated UI Test Case Prioritization (TERMINATOR)
 
+
 Reference: [https://arxiv.org/pdf/1905.07019](https://arxiv.org/pdf/1905.07019)
+
 
 ---
 
+
 #### Section 1: Motivation 
+
 
 * **The Challenge of Modern UI Testing:**
     * Automated User Interface (UI) testing is essential in Continuous Integration (CI)[cite: 665].
@@ -14,7 +41,9 @@ Reference: [https://arxiv.org/pdf/1905.07019](https://arxiv.org/pdf/1905.07019)
         * Example: A single click can invoke dozens of components[cite: 705, 706].
     * Failure in one underlying microservice can cause UI test failure, making tests brittle and hard to debug[cite: 667, 707].
 
+
     * **[Image: Figure 1 from paper showing microservice complexity]** [cite: 705]
+
 
 * **Why Prioritization is Needed:**
     * Automated UI test suites are often *slow*. Example: LexisNexis suite took 3-5 hours (cloud) to 30 hours (local)[cite: 669, 686].
@@ -22,15 +51,20 @@ Reference: [https://arxiv.org/pdf/1905.07019](https://arxiv.org/pdf/1905.07019)
     * Much UI testing is "black box"; source code coverage is often unavailable or impractical to obtain due to the distributed nature[cite: 670, 694, 699].
     * **Goal:** Find failures *earlier* to give faster feedback, using only available "black box" information (test descriptions, execution history)[cite: 669, 670, 697, 712]. This is Test Case Prioritization (TCP).
 
+
 ---
 
+
 #### Section 2: Background Concepts 
+
 
 * **Automated UI Testing:**
     * Simulates user interactions (clicks, input) on the GUI[cite: 743].
     * Often uses frameworks where tests are described in high-level languages (e.g., Gherkin) mapped to code actions[cite: 748].
 
+
     * **[Image: Figure 2 from paper showing UI test, description, code]** [cite: 746]
+
 
 * **Test Case Prioritization (TCP):**
     * Reordering test case execution to maximize some objective, typically finding faults/failures faster[cite: 697, 750].
@@ -38,15 +72,18 @@ Reference: [https://arxiv.org/pdf/1905.07019](https://arxiv.org/pdf/1905.07019)
     * *Reference:* [44] G. Rothermel et al., "Prioritizing test cases for regression testing," IEEE Transactions on Software Engineering, 2001.
     * *Reference:* [15] S. Elbaum et al., "Incorporating varying test costs and fault severities into test case prioritization," ICSE, 2001.
 
+
 * **Black-Box TCP Information Sources:**
     * History: Past fail/pass rates, time since last failure[cite: 771, 772].
     * Cost: Execution time[cite: 773].
     * Test Descriptions: Using NLP techniques[cite: 775].
     * Feedback: Dynamically reordering based on results in the *current* run[cite: 778].
 
+
 * **Total Recall Problem:**
     * An information retrieval task: find (nearly) all relevant items ("positives") in a large set with minimum cost (inspection effort)[cite: 713, 786, 787].
     * Analogy here: Find all *failing* test cases (positives) by *running* as few tests as possible (cost).
+
 
 * **Active Learning:**
     * Machine learning where the algorithm interactively queries a user (or oracle) to label data points[cite: 716, 792].
@@ -55,13 +92,18 @@ Reference: [https://arxiv.org/pdf/1905.07019](https://arxiv.org/pdf/1905.07019)
         * *Uncertainty Sampling:* Query points the model is least certain about (near decision boundary)[cite: 796].
         * *Certainty Sampling:* Query points the model is most certain are positive[cite: 794].
 
+
     * **[Image: Figure 3 from paper showing SVM separating hyperplane]** [cite: 791]
+
 
     * *Reference:* [46] B. Settles, "Active learning," Synthesis Lectures on Artificial Intelligence and Machine Learning, 2012.
 
+
 ---
 
+
 #### Section 3: Technical Details - TERMINATOR 
+
 
 * **Core Idea:** Treat automated UI TCP as a Total Recall problem solved using Active Learning[cite: 713, 785, 957].
 * **Model:** Support Vector Machine (SVM), linear kernel, weighted classes (to handle imbalance)[cite: 715, 810].
@@ -88,23 +130,31 @@ Reference: [https://arxiv.org/pdf/1905.07019](https://arxiv.org/pdf/1905.07019)
         * If `|LR| >= N2`: Use **Certainty Sampling** (pick tests most confidently predicted as failures)[cite: 894].
 * **Evaluation:** Tested on LexisNexis data (54 runs, 2661 tests), comparing 3 TERMINATOR variants (text, history, hybrid features) against 14 other black-box methods + baselines using APFDc[cite: 823, 828, 896].
 
+
 ---
 
+
 #### Section 4: Surprising Messages / Results 
+
 
 * **TERMINATOR Wins:** The hybrid feature version (F3) significantly outperformed all other 14 techniques in finding failures early (APFDc)[cite: 925, 932].
     * It achieved ~75% of the theoretical optimal performance (A2)[cite: 933].
 
+
     * **[Image: Figure 4 from paper showing failure detection curve]** [cite: 937]
         * Example: F3 found 60% of failures when only 20% of test time elapsed, versus ~30% for the next best methods[cite: 930].
+
 
 * **Simpler is Sometimes Better (but not best):** Simple history-based methods (like fail rate, recency) performed better than several more complex methods that used test descriptions or non-active feedback[cite: 927, 928].
 * **Active Learning Matters:** The dynamic adaptation based on feedback via active learning (Uncertainty/Certainty sampling) seems key to TERMINATOR's success over static or simpler feedback methods[cite: 718, 942].
 * **Low Overhead:** Despite the dynamic re-prioritization and model updates, TERMINATOR's computational overhead was negligible (~0.33% of total test suite time), making it practical[cite: 939, 941].
 
+
 ---
 
+
 #### Section 5: Take Home Message 
+
 
 * **Problem:** Prioritizing long-running, black-box automated UI tests is critical for efficient CI/CD but challenging[cite: 953, 959].
 * **Solution:** Framing TCP as a **Total Recall** problem and applying **Active Learning** (like TERMINATOR) is highly effective[cite: 957, 964].
@@ -112,9 +162,11 @@ Reference: [https://arxiv.org/pdf/1905.07019](https://arxiv.org/pdf/1905.07019)
 * **Impact:** Offers significantly faster failure detection compared to prior black-box approaches with minimal computational cost, enabling faster developer feedback and potentially shorter release cycles[cite: 717, 932, 941, 947].
 * **Broader Potential:** The Total Recall / Active Learning approach might be useful for other SE tasks involving costly search/labeling, like defect localization, vulnerability detection, or literature screening[cite: 965].
 
+
 ---
 ,
 #### References (Key Published Works Cited)
+
 
 1.  [44] G. Rothermel, R. H. Untch, C. Chu, and M. J. Harrold. **"Prioritizing test cases for regression testing."** *IEEE Transactions on Software Engineering* 27, no. 10 (2001): 929-948. [cite: 949]
 2.  [15] S. Elbaum, A. Malishevsky, and G. Rothermel. **"Incorporating varying test costs and fault severities into test case prioritization."** In *Proceedings of the 23rd International Conference on Software Engineering (ICSE)*, 2001, pp. 329-338. [cite: 993]
@@ -125,11 +177,15 @@ Reference: [https://arxiv.org/pdf/1905.07019](https://arxiv.org/pdf/1905.07019)
 
 ## Lecture: The Surprising Link Between Issues, Bugs, and Enhancements
 
+
 Reference: [https://arxiv.org/pdf/1710.08736](https://arxiv.org/pdf/1710.08736)
+
 
 ---
 
+
 ### Section 1: Motivation
+
 
 * **The Agile/Multi-Project Challenge:**
     * Modern software development, especially in agile environments and large service organizations, often requires developers to work on *multiple* projects concurrently[cite: 1071, 1088].
@@ -142,9 +198,12 @@ Reference: [https://arxiv.org/pdf/1710.08736](https://arxiv.org/pdf/1710.08736)
     * Building and maintaining defect predictors across many different programming languages and tools used in large organizations is complex and resource-intensive[cite: 1113, 1119, 1120, 1123].
 * **A Simpler Idea:** Can we leverage easily obtainable data, like the *total count of reported issues over time*, to forecast future workload like bugs and enhancements?[cite: 1075, 1118, 1125, 1126]. This requires understanding the connection between these elements[cite: 1070].
 
+
 ---
 
+
 ### Section 2: Background Concepts
+
 
 * **Issue Tracking Systems:**
     * Repositories (e.g., GitHub Issues, Jira, Bugzilla) where stakeholders report problems, suggest improvements, ask questions, etc.[cite: 1298, 1382].
@@ -161,9 +220,12 @@ Reference: [https://arxiv.org/pdf/1710.08736](https://arxiv.org/pdf/1710.08736)
     * Requires checking data properties (stationarity via Dickey-Fuller test, autocorrelation plots for parameter 'p') and potentially transforming data (e.g., differencing, power transforms for normality)[cite: 1237, 1246, 1248, 1250].
         * **[Image: Figure 4 showing an Autocorrelation plot]**
 
+
 ---
 
+
 ### Section 3: Technical Details (Methodology)
+
 
 * **Study Scope:** Analyzed 832 software projects (661 open-source from GitHub, 171 proprietary from IBM)[cite: 1073, 1194, 1224].
 * **Data Collection:**
@@ -184,35 +246,47 @@ Reference: [https://arxiv.org/pdf/1710.08736](https://arxiv.org/pdf/1710.08736)
     3.  Can `issue` trends forecast `bug` and `enhancement` trends? (ARIMA on `issues` to predict `bugs`/`enhancements`) [cite: 1143]
     4.  How does the accuracy of issue-based forecasting compare to using the specific attribute's history? (Compare MAE using Welch's t-test) [cite: 1149]
 
+
 ---
+
 
 ### Section 4: Surprising Messages / Results
 
+
 1.  **Temporal Trends Exist (RQ1):** Yes. Past trends in issue counts, bug counts, and enhancement counts *can* be accurately modeled using ARIMA to predict future counts of the *same* attribute. MAE was generally low[cite: 1132, 1281, 1287].
     * **[Image: Figure 6 showing low MAE for individual attribute forecasts]**
+
 
 2.  **Correlation Exists (RQ2):** Yes. The number of reported issues over time shows a moderate positive correlation with both the number of reported bugs and the number of enhancement requests over time[cite: 1140, 1304, 1327].
     * Correlations were stronger in proprietary projects than in open-source projects[cite: 1141, 1306].
     * **[Image: Figure 7 showing correlation heatmaps]**
 
+
 3.  **Issues Can Forecast Bugs & Enhancements (RQ3):** Yes. Surprisingly, an ARIMA model trained *only* on the time series of total issue counts can produce accurate forecasts for the future number of *bugs* and *enhancements*[cite: 1147, 1319]. MAE remained low[cite: 1316].
     * **[Image: Figure 8 showing low MAE for issue-based forecasts of bugs/enhancements]**
+
 
 4.  **Issue-Based Forecast is Just as Good (RQ4):** Yes. The accuracy (MAE) of forecasting bugs using *only issue history* was statistically *similar* to forecasting bugs using *bug history*. The same held true for enhancements[cite: 1157, 1335, 1338].
     * **[Image: Figure 9 comparing MAE distributions]**
 
+
 ---
 
+
 ### Section 5: Take Home Message
+
 
 * **The Key Finding:** You don't necessarily need detailed, curated historical bug or enhancement data to forecast future workload. The readily available trend of *total reported issues* is a powerful predictor[cite: 1077, 1097, 1100, 1338].
 * **Practical Implication:** Managers can use simple time series forecasting (like ARIMA) on easily collected issue counts to anticipate upcoming bug and enhancement activity with accuracy comparable to more complex methods[cite: 1076, 1340, 1372].
 * **Benefit:** This dramatically reduces the effort needed for prediction – bypassing laborious issue curation and the need for complex, multi-language defect predictors[cite: 1100, 1341, 1342, 1372].
 * **Recommendation:** This approach is highly recommended for practical workload forecasting and resource planning, especially in dynamic, multi-project environments common in agile development and service organizations[cite: 1077, 1364, 1366, 1375].
 
+
 ---
 
+
 ### References (Key Published Works Cited)
+
 
 1.  [8] G. E. P. Box, G. M. Jenkins, G. C. Reinsel, and G. M. Ljung. **Time series analysis: forecasting and control.** John Wiley & Sons, 2015. (The foundational text for ARIMA).
 2.  [2] A. Amin, L. Grunske, and A. Colman. **"An approach to software reliability prediction based on time series modeling."** *Journal of Systems and Software* 86, no. 7 (2013): 1923-1932. (Example of Time Series/ARIMA in SE Reliability).
@@ -224,11 +298,15 @@ Reference: [https://arxiv.org/pdf/1710.08736](https://arxiv.org/pdf/1710.08736)
 
 ## Lecture: Formally Verified Cloud-Scale Authorization (AWS AuthV2)
 
+
 Reference: https://assets.amazon.science/bb/40/22ac44f84f6d8eb625ac9666a00f/formally-verified-cloud-scale-authorization.pdf
+
 
 ---
 
+
 ### Section 1: Motivation
+
 
 * **The Problem:** Evolving critical, large-scale infrastructure like cloud authorization systems is risky.
     * AWS's authorization engine handles over 1 billion requests/second. Changes must *not* break existing behavior (backward compatibility) or introduce security vulnerabilities.
@@ -238,9 +316,12 @@ Reference: https://assets.amazon.science/bb/40/22ac44f84f6d8eb625ac9666a00f/form
     * Gain better understanding through the formal specification itself.
     * Increase development agility: Confidently deploy optimizations and new features, knowing they behave as intended and preserve compatibility.
 
+
 ---
 
+
 ### Section 2: Background Concepts
+
 
 * **Cloud Authorization:** Controls user access to resources (like storage, compute) based on customer-defined policies (rules specifying Allow/Deny). The engine evaluates requests against these policies.
 * **Formal Verification:** Using mathematical methods to prove that a system's implementation adheres to a formal (mathematically precise) specification.
@@ -255,9 +336,12 @@ Reference: https://assets.amazon.science/bb/40/22ac44f84f6d8eb625ac9666a00f/form
 * **Shadow Testing:** Deploying a new system version alongside the live production system. It receives the same production traffic but its responses aren't used (or are only logged). Allows comparison of behavior and performance under real load without user impact.
     * *Reference:* [64, 65] Examples: S. Satyal et al., OTM Conferences, 2018; G. Schermann et al., IEEE Software, 2018.
 
+
 ---
 
+
 ### Section 3: Technical Details (AuthV2 Development Process)
+
 
 * **The Challenge:** AWS wanted to evolve its mature, large-scale Java-based authorization engine (AuthV1) using formal methods.
 * **Approach:** A 4-year effort involving a multi-phase rewrite and verification process:
@@ -276,9 +360,12 @@ Reference: https://assets.amazon.science/bb/40/22ac44f84f6d8eb625ac9666a00f/form
         * Used production profiling data to guide performance optimizations in the Dafny code (which were then re-verified).
 * **Key Decision:** Rewriting in Dafny was deemed more feasible than directly verifying the complex legacy Java codebase of AuthV1.
 
+
 ---
 
+
 ### Section 4: Surprising Messages / Key Results
+
 
 * **Rewrite Beats Verify-Legacy:** For complex, high-scale legacy systems, rewriting in a verification-aware language (like Dafny) and compiling back can be a more practical path to formal verification than trying to verify the existing code directly.
 * **Idiomatic Compilation is Critical:** For verified code to be accepted and maintainable in a production environment, generating readable, debuggable, and performant target code is essential. A custom compiler was needed here.
@@ -287,9 +374,12 @@ Reference: https://assets.amazon.science/bb/40/22ac44f84f6d8eb625ac9666a00f/form
     * **[Image: Figure 3 showing performance improvement histograms]**
 * **Agility Delivered:** The formally verified foundation allows AWS to now make changes and add features to the authorization engine more rapidly and confidently.
 
+
 ---
 
+
 ### Section 5: Take Home Message
+
 
 * Formal verification *is* practical for improving the assurance and evolution of critical, large-scale, legacy software systems.
 * Success hinges on a combination of:
@@ -298,9 +388,12 @@ Reference: https://assets.amazon.science/bb/40/22ac44f84f6d8eb625ac9666a00f/form
     * Rigorous validation (like differential and shadow testing) to ensure the specification itself is correct relative to requirements/legacy behavior.
 * The benefits include not only high correctness assurance but also better system understanding and increased agility for future development.
 
+
 ---
 
+
 ### References (Key Published Works Cited)
+
 
 1.  [20] K. R. M. Leino. **"Dafny: An automatic program verifier for functional correctness."** *Logic for Programming, Artificial Intelligence, and Reasoning (LPAR)*, 2010, pp. 348-370.
 2.  [49] X. Leroy et al. **"CompCert - a formally verified optimizing compiler."** *ERTS 2016: Embedded Real Time Software and Systems*, 2016. (Example of a major verified system).
@@ -311,14 +404,17 @@ Reference: https://assets.amazon.science/bb/40/22ac44f84f6d8eb625ac9666a00f/form
 7.  [64, 65] Papers on **Shadow Testing** (e.g., S. Satyal et al., OTM Conferences, 2018; G. Schermann et al., IEEE Software, 2018).
 
 
-
 ## Lecture: Delta Debugging - Simplifying Failure-Inducing Inputs
+
 
 Reference: https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=10859156
 
+
 ---
 
+
 ### Section 1: Motivation
+
 
 * **The Core Problem:** When a program fails on a specific input, how do you pinpoint *what part* of the input actually caused the failure? [cite: 5]
 * **Why Minimize?** Finding a *minimal* failure-inducing input is crucial for effective debugging:
@@ -330,9 +426,12 @@ Reference: https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=10859156
     * Risk of removing too much (losing the failure) or too little (slow progress)[cite: 21, 22, 23].
 * **The Need:** An *automated*, *general* technique to simplify arbitrary inputs (code, config files, data, etc.) to a minimal failing version[cite: 2, 8, 25].
 
+
 ---
 
+
 ### Section 2: Background Concepts
+
 
 * **Failure-Inducing Input:** Any program input that triggers an undesired behavior (crash, wrong output, hang, etc.)[cite: 2].
 * **Input Reduction:** The process of taking a large failure-inducing input and systematically removing parts to find a smaller (ideally minimal) input that still triggers the *same* failure[cite: 8].
@@ -342,9 +441,12 @@ Reference: https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=10859156
     * Inspired by software versioning (baseline + deltas/changes) [cite: 28, 30] and practical debugging tools (like the DDD debugger Zeller co-created)[cite: 35].
     * Later generalized to work on any set of "changes," including the characters or components of an input[cite: 27, 65, 66].
 
+
 ---
 
+
 ### Section 3: Technical Details - Delta Debugging
+
 
 * **Core Idea:** Apply divide-and-conquer to a set of "deltas" (changes relative to a baseline) to isolate a minimal subset that causes failure[cite: 44, 53]. For input minimization:
     * Baseline = empty input (assumed PASS)[cite: 68].
@@ -369,9 +471,12 @@ Reference: https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=10859156
     * **Result:** In a very short time ("overnight"), they applied Delta Debugging to reduce the complex, crashing SQL queries into minimal failing inputs – often just **one-line queries**[cite: 85, 86].
     * **Impact:** When presented with simple queries that crashed the server, the development team could no longer ignore the bugs ("panicking")[cite: 87]. This powerfully demonstrated DD's ability to make complex failures concrete and understandable[cite: 89].
 
+
 ---
 
+
 ### Section 4: Surprising Messages / Impact
+
 
 * **Simplicity and Power:** Delta Debugging is based on a relatively simple algorithm but provides a powerful, automated way to simplify complex failure scenarios[cite: 60, 61, 89]. The SQL case study exemplifies this practical power[cite: 87, 89].
 * **Broad Applicability:** The "difference minimization" concept extends far beyond program inputs. DD has been applied to:
@@ -385,9 +490,12 @@ Reference: https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=10859156
     * Grammar-guided reduction (e.g., Perses)[cite: 121, 122].
     * Generalizing beyond deletion (e.g., GTR, DDSet, Alhazen/Avicenna)[cite: 123, 127, 130].
 
+
 ---
 
+
 ### Section 5: Take Home Message
+
 
 * Delta Debugging is a fundamental algorithm for **automatically simplifying** failure-inducing inputs (and other kinds of differences).
 * Its primary value lies in making complex failures **understandable and reproducible** by finding a minimal trigger.
@@ -395,9 +503,12 @@ Reference: https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=10859156
 * A robust **test oracle** is essential for practical application.
 * While powerful in its basic form, DD inspired many **syntax and semantics-aware variants** for more efficient handling of structured data. It remains a cornerstone technique in automated debugging and software testing.
 
+
 ---
 
+
 ### References (Key Published Works Cited)
+
 
 1.  [7] A. Zeller and R. Hildebrandt. **"Simplifying and isolating failure-inducing input."** *IEEE Transactions on Software Engineering* 28, no. 2 (2002): 183-200. (The definitive journal version).
 2.  [6] R. Hildebrandt and A. Zeller. **"Simplifying failure-inducing input."** *SIGSOFT Software Engineering Notes* (Proc. ISSTA 2000) 25, no. 5 (2000): 135-145. (Focus on input simplification).
@@ -414,30 +525,40 @@ Reference: https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=10859156
 
 ## Reveiw Questions
 
+
 **Lecture: TERMINATOR**
+
 
 1.  Why is traditional coverage-based Test Case Prioritization often unsuitable for modern automated UI testing, and what alternative information sources does TERMINATOR use?
 2.  Explain the analogy between the "Total Recall Problem" and automated UI test case prioritization. How does TERMINATOR leverage Active Learning concepts (specifically Uncertainty and Certainty Sampling) to address this?
 3.  Describe the "aggressive undersampling" technique used in TERMINATOR. Why is it necessary, and when is it applied during the algorithm's execution?
 4.  What was the most surprising result regarding the performance of TERMINATOR compared to other black-box TCP methods, and what does this suggest about the effectiveness of active learning in this context?
 
+
 **Lecture: Issues, Bugs, and Enhancements**
+
 
 1.  What are the practical challenges of using traditional defect prediction models in large organizations with diverse projects, and how does the paper's proposed approach attempt to overcome these?
 2.  Explain the ARIMA model (AR, I, MA components) and the "rolling window forecast" methodology used in the study. Why was MAE chosen as the evaluation metric over others like RMSE or MMRE?
 3.  Summarize the findings regarding the correlation between issues, bugs, and enhancements in proprietary vs. open-source projects (RQ2).
 4.  What is the key practical implication of the finding that issue-based forecasts are statistically similar to attribute-specific forecasts (RQ4) for software project management?
 
+
 **Lecture: Formally Verified Cloud-Scale Authorization (AuthV2)**
+
 
 1.  Why did the AWS team choose to rewrite the authorization engine in Dafny instead of attempting to directly verify the legacy Java code? Discuss the trade-offs involved in this decision.
 2.  Explain the role and importance of "idiomatic compilation" in the AuthV2 project. Why was the standard Dafny compiler considered insufficient for their production needs?
 3.  Discuss the relationship and distinct roles of formal proof and large-scale testing (differential, shadow) in achieving high assurance for AuthV2. Why was $10^{15}$ samples worth of shadow testing deemed necessary despite having verified code?
 4.  Beyond ensuring correctness (implementation matches specification), what other significant benefits did the adoption of formal verification methods bring to the AuthV2 project according to the paper?
 
+
 **Lecture: Delta Debugging**
+
 
 1.  Explain the core `ddmin` algorithm for input minimization. How does it adapt its strategy (granularity) when initial attempts to remove large input chunks fail, and what does "1-minimal" mean?
 2.  Describe the "Oracle Problem" in Delta Debugging. Why is simply checking if *any* error occurred insufficient for `ddmin`, and what techniques does the paper suggest for creating a more effective oracle?
 3.  Discuss the SQL Server case study presented in the paper. How did Delta Debugging help the testers overcome the challenge posed by the development team, and what did this illustrate about DD's practical value?
 4.  What are the inherent limitations of the basic, syntax-agnostic Delta Debugging algorithm, particularly for structured inputs, and briefly mention some types of refinements developed to address these limitations?
+
+
