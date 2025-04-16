@@ -197,7 +197,7 @@
         <td>
           Mon: <a href="https://softengbook.org/chapter8">Testing1</a><br>
           Wed: <a href="/docs/test2.md">Testing2</a><br>
-          Wed: <a href="/docs/test3.md">Testing3</a><br>
+          Wed: <a href="/docs/test3.md">Testing3</a>(<a href="https://ncsu.zoom.us/rec/share/tEwEczrdJen4Z09xJxkflM0ebwMsaYeDQF7vDNYRnpBHXqZJYfQuTRDEQPpAkfF5.bjePoGpBAovtBOQd">video</a>)<br>
           Wed: <a href="/docs/test4.md">Testing4</a><br>
           Wed: <a href="/docs/test5.md">Testing5</a>
         </td>
