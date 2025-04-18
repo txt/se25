@@ -1,3 +1,30 @@
+- for projects with AI. extensive test suites
+- project: new ideas.  project1: check the posters see what we ahve in side. some of the old project out dated
+  - they dont need a new feature
+  - need to be rewritten
+
+- combine hw 1 + 2
+
+- no hw2 but hw2 refactoring
+
+- for project with AI
+  - need better testing
+
+- need to write somewhere, minimal test cases, test coverage. 
+  - unit tests are fine
+  - but need high level system cases. e.g. some stiry where auto labelling our sentiment, 
+    need semantics compared against a ground truth
+
+- some add things without fixing underlying things
+  - e.g. 
+
+- need to rewuite extensive rewerite AND a najor enhancement.
+
+- we require some improvement
+  - we see a solid description of before and after. 
+
+- students want to see handover meeting
+
 - for project 2 and 3 all programs should be deployed? https://vcl.ncsu.edu/scheduling/index.php?mode=selectauth
 - add to proj 1,2,3 descriptions that milestones that they suggest should be implemented in a next step (for proj 2, 3)
 - each HW should have no less than prewiouse one and add each time (readme, badges, CC, lisences etc) 
