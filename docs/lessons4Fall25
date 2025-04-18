@@ -1,3 +1,44 @@
+# ethics
+- specifiy the case study. 7 questions to anwser
+- give them a paper, ask them to 
+
+homework
+- one for github
+
+proj1: posters, veio of aIs running
+proj2: do some enehacment , dems github reburic 
+proj3: (very fast) do it again, full blown AI, ask testcases and refactorings
+  - generate the code that AI wants you amke
+  - do the diff , but u dont need to g et ir tunning.
+  - not even building
+  - assessing 
+proj4: do proj2 enhacements. like our currnet proj3. 
+
+AI apps
+1. receipes generation <== health regulations
+2. voice recongition, stop and start instruction
+3. sentiment analysis
+4. resume generation <== maybe not
+5. job application <== google chrome extenions. fills in the slots
+6. flash card application <== upload text file, create flash cards. metamoprhic testing
+
+
+- se in the age of LLM
+- starting with an NL document: generating methos
+
+- did it often suggest refactorings (updating old versions).
+
+- if AI then more system testing
+  - lots of testing
+
+- use LLMs for better tesing. in ruby we have methods, 
+
+- use LLMs to conextualize the queiries
+
+if doing prompt engineering, use SE to augmentand contectyua;ize the worl 
+
+
+
 - for projects with AI. extensive test suites
 - project: new ideas.  project1: check the posters see what we ahve in side. some of the old project out dated
   - they dont need a new feature
