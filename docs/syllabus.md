@@ -128,11 +128,11 @@
 - 3 projects
 - 1 mid-session exam
 - 5 homeworks (testing software guru skills)
-- 1 final exam (for those that want to replace the mark on one of their mid-term and homework).
+- 1 final exam (for those who want to replace the mark of their mid-term).
 - 1 essay  on SE ethics. 
 - Exams and essays are done individually. Everything else is done in groups of 3.
   - Important note: while homeworks are done in groups of 3, you will be examined individually
-    about that content. So make sure you understand **all** the homework material.
+    about that content. Make sure you understand **all** the homework material.
 
 
  
