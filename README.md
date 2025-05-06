@@ -22,7 +22,7 @@
       
 
 **About**
->  SE is about **teams**. Teams of people you know that build your software. Teams you dont know that bult the software you are using. Other teams who use and fix your code.  So, its time to learn about teams; about being a team player; about communicating within your team and to other teams;  about being a follower and (when needed) a leader; and about creating and meeting team expectations. Enjoy!
+>  SE is about **teams**. Teams of people you know that build your software. Teams you don't know that built the software you are using. Other teams who use and fix your code.  So, it's time to learn about teams; about being a team player; about communicating within your team and to other teams;  about being a follower and (when needed) a leader; and about creating and meeting team expectations. Enjoy!
 
 **Textbook** freeware, on-line:
 <a href="https://softengbook.org">
@@ -254,8 +254,8 @@
       <td></td>
       <td></td>
       <td></td>
-      <td><p>Final exam is optional. If taken, this  grade will replaces the mid-term grade.</p>
-          <p>Grades for the subjection will be finalized  Friday May 2 (no extensions).</p></td>
+      <td><p>Final exam is optional. If taken, this  grade will replace the mid-term grade.</p>
+          <p>Grades for the subjection will be finalized  Friday, May 2 (no extensions).</p></td>
       <td>25:exam</td>
     </tr>
   </tbody>
